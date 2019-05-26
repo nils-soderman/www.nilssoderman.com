@@ -27,16 +27,16 @@ function ApplySyntaxHighlightOnCodeBlock(CodeBlock) {
 
 function GenerateHTMLSyntaxHighlight(Code) {
     //<span style="color:brown">
-    
+
     Lines = Code.split(/\n/);
-    
+
     Code = "";
     for (var i = 0; i < Lines.length; i++) {
         Line = Lines[i];
         Line = ApplySyntaxHighlightOnLine(Line);
         Code += Line + "\n";
     }
-    
+
     return Code;
 }
 
@@ -74,7 +74,7 @@ function SyntaxSingleWords(Line){
                 if (SplitChars.includes(BeginningChar) && SplitChars.includes(EndChar)){
                     NewLine += EmbedTextInSpan(Char, this.WordHighlight[Char]) + SubString[i+1];
                 }
-                
+
             }
             Line = NewLine
         }
@@ -103,8 +103,8 @@ function SyntaxWithinChar(Line){
             Line = NewLine;
         }
     }
-    
-    
+
+
     return Line;
 }
 
