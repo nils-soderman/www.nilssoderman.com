@@ -1,0 +1,4 @@
+Sitemap: https://nilssoderman.com/sitemap.xml
+
+Disallow: /404.php
+Disallow: /403.php
