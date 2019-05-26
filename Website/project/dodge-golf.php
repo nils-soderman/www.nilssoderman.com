@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-
-  <meta charset="UTF-8">
-  <title>Dodge Golf - Nils Söderman</title>
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Dodge Golf - Nils Söderman</title>
   <link href="https://nilssoderman.com/resources/images/icons/dodge-golf.ico" rel="shortcut icon" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
@@ -55,7 +55,7 @@
 <body>
 
     <?php include('./../resources/includes/header.html'); ?>
-    
+
     <div id="Content">
       <div id="title">
         <h1>Dodge Golf</h1>
