@@ -39,7 +39,7 @@
       margin-top: 20px;
       max-height: 720px;
     }
-
+    
     #menu-item-reel {
         text-decoration: underline;
     }
@@ -51,13 +51,13 @@
 
 <body>
     <?php include('./resources/includes/header.html'); ?>
-
+    
     <div id="Content">
         <div class="videoWrapper">
             <iframe src="https://player.vimeo.com/video/275416541?title=0&byline=0&portrait=0" width="1280" height="720" webkitallowfullscreen="true" mozallowfullscreen="true" allow="fullscreen"></iframe>
         </div>
     </div>
-
+    
     <?php include('./resources/includes/footer.html'); ?>
 
 </body>

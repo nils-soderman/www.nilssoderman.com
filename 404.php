@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+
+<html lang="en">
 <head>
 
   <meta charset="UTF-8">
@@ -8,7 +11,6 @@
   <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
 
   <style>
-
     /* Page Content */
 
     #Content {
@@ -20,23 +22,20 @@
     #error-message {
         text-align: center;
         font-family: 'Press Start 2P', cursive;
+
     }
-    
+
     #error-code {
         font-size:100px;
-
     }
-
 
   </style>
 
 </head>
 
-
 <body>
 
     <?php include('./resources/includes/header.html'); ?>
-
 
     <div id="error-message">
         <h1 id="error-code">404</h1>
@@ -45,5 +44,5 @@
 
     <?php include('./resources/includes/footer.html'); ?>
 
-
 </body>
+</html>

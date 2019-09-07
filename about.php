@@ -1,17 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
 
+<html lang="en">
+
+<head>
   <meta charset="UTF-8">
   <title>Nils Söderman - About</title>
+
   <link href="./favicon.ico" rel="shortcut icon" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+
   <link rel="stylesheet" type="text/css" href="./resources/css/main.css">
-  <meta name="description" content="Nils Söderman">
-  <meta name="keywords" content="nils söderman, nils soderman, animator, animation reel">
+
+  <meta name="description" content="Nils Söderman is currently a junior animator at Hazelight.">
+  <meta name="keywords" content="nils söderman, nils soderman, animator, animation reel, about, rymdnisse">
   <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
-
-
+  
   <style>
 
     #Content {
@@ -29,7 +32,6 @@
       font-family: 'Dosis', sans-serif;
       text-align: center;
       margin-top: 7px;
-
     }
 
     #bio{
@@ -44,8 +46,8 @@
     #about{
       margin: 0 auto;
       max-width: 900px;
-
     }
+
     #about_email {
       font-size: 26px;
     }
@@ -57,7 +59,6 @@
 
     #about_social-media{
       margin-top: 15px;
-
     }
 
     @media (max-width: 998px) {
@@ -82,14 +83,10 @@
     #menu-item-about {
         text-decoration: underline;
     }
-
-    #cv-wrapper{
-
-    }
-
+    
     a {
-       text-decoration: none;
-       color: #1d3780;
+        text-decoration: none;
+        color: #1d3780;
     }
 
     a:hover {
@@ -105,10 +102,10 @@
 
 </head>
 
-
 <body>
 
     <?php include('./resources/includes/header.html'); ?>
+
     <div id="Content">
         <div id = "about">
             <div id="profile-picture">
@@ -124,12 +121,11 @@
             </div>
 
             <div id="bio">
-                <p>
-                    Junior animator at <a href="https://www.hazelight.se" target="_blank">Hazelight</a> and also developer at <a href="https://www.poliigon.com" target="_blank">Poliigon</a> in my spare time.<br>
-
-                </p>
+                <p>Junior animator at <a href="https://www.hazelight.se" target="_blank">Hazelight</a>.<br></p>
             </div>
-        </div>
+        </div>    
     </div>
+
 </body>
+
 </html>
