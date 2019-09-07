@@ -3,12 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <title>Nils Söderman - 403 Forbidden</title>
-  <link href="./favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <link href="https://nilssoderman.com/favicon.ico" rel="shortcut icon" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="./resources/css/main.css">
+  <link rel="stylesheet" type="text/css" href="https://nilssoderman.com/resources/css/main.css">
   <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
 
   <style>
+  
     /* Page Content */
     #Content {
       margin-top: 100px;
@@ -30,7 +31,9 @@
 </head>
 
 <body>
+
     <?php include('./resources/includes/header.html'); ?>
+
     <br/><br/>
     <div id="error-message">
         <h1 id="error-code">403</h1>
@@ -41,4 +44,5 @@
     <?php include('./resources/includes/footer.html'); ?>
 
 </body>
+
 </html>
