@@ -1,6 +1,9 @@
 <!DOCTYPE html>
+<!--
+The source code for this website is avaliable on GitHub:
+https://github.com/nils-soderman/www.nilssoderman.com
+-->
 <html lang="en">
-
 <head>
 
   <meta charset="UTF-8">

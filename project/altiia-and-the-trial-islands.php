@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-
+<!--
+The source code for this website is avaliable on GitHub:
+https://github.com/nils-soderman/www.nilssoderman.com
+-->
 <html lang="en">
-
-
-
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Breakdown of the animations done for the Altiia and the Trial Islands game project. This was a student project made at Futuregames and the game was made in Unity.">
