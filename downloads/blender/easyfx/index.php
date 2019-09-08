@@ -10,32 +10,32 @@ https://github.com/nils-soderman/www.nilssoderman.com
   
   <title>EasyFX Blender Add-on - Rymdnisse</title>
 
-  <link href="./../../resources/images/icons/icon-minecraft-blender-rig.ico" rel="shortcut icon" type="image/x-icon">
+  <link href="./../../../resources/images/icons/icon-minecraft-blender-rig.ico" rel="shortcut icon" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
   
 
-  <link rel="stylesheet" type="text/css" href="./../../resources/css/main.css">
-  <link rel="stylesheet" type="text/css" href="./../../resources/css/download-button.css">
-  <link rel="stylesheet" type="text/css" href="./../../resources/css/pages/downloads/minecraft-blender-rig.css">
+  <link rel="stylesheet" type="text/css" href="./../../../resources/css/main.css">
+  <link rel="stylesheet" type="text/css" href="./../../../resources/css/download-button.css">
+  <link rel="stylesheet" type="text/css" href="./../../../resources/css/pages/downloads/minecraft-blender-rig.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
-  <meta name="description" content="A free Minecraft rig pack for Blender containing Blocks, Items, Mobs and a Character rig fully ready to be animated.">
-  <meta name="keywords" content="minecraft, blender, rig, download, free, render, animation, pack, mob, steve, rymdnisse">
+  <meta name="description" content="EasyFX is a free addon for Blender that allows you to easily add effects to your renders & animations">
+  <meta name="keywords" content="blender, addon, plugin, easyfx, compositor, beginners">
 
 </head>
 
 <body>
-    <?php include('./../../resources/includes/header.html'); ?>
+    <?php include('./../../../resources/includes/header.html'); ?>
 
     <div id="content">
         
 
-        <h1 id="title-blender-rig" >Minecraft Skin Converter</h1>
-        
+        <h1 id="title-blender-rig" >EasyFX</h1>
 
         <div id="promo-art"> 
             <div class="videoWrapper">
-                <img src="./logo-skin-converter.png" />
+                <iframe width="854" height="480" src="https://www.youtube.com/embed/6CNl46d7Pxw?modestbranding=1&iv_load_policy=3&rel=0" frameborder="0" 
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
 
@@ -44,21 +44,21 @@ https://github.com/nils-soderman/www.nilssoderman.com
         <div id="legacy-download-buttons-container">
 
             <div class="download-button-wrapper">
-                <a href="./../../files/blender/EasyFX.zip" target="_blank">
+                <a href="./../../../files/blender/EasyFX.zip" target="_blank">
                     <div class="download-button">
                         <i class="dl-image material-icons">get_app</i>
-                        <span class="dl-text">Minecraft_Skin_Converter.zip</span>
+                        <span class="dl-text">Download EasyFX.zip</span>
                     </div>
                 </a>
             </div>
         <br/><br/><br/>
         <h5 class="dl-title faq-title"></h5>
             <p class="faq-text"></a>
-            </p>
+        </p>
     </div>
 
     <br/><br/>
-    <?php include('./../../resources/includes/footer.html'); ?>
+    <?php include('./../../../resources/includes/footer.html'); ?>
 </body>
 
 </html>
