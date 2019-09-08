@@ -7,5 +7,5 @@ RewriteRule ^(.*)$ $1.html
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
-ErrorDocument 404 /404.php
-ErrorDocument 403 /403.php
+ErrorDocument 404 /error-documents/404.php
+ErrorDocument 403 /error-documents/403.php
