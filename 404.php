@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-
 <html lang="en">
+
 <head>
 
   <meta charset="UTF-8">
   <title>Nils Söderman - 404 Not Found</title>
-  <link href="./favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <link href="https://nilssoderman.com/favicon.ico" rel="shortcut icon" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="./resources/css/main.css">
+  <link rel="stylesheet" type="text/css" href="https://nilssoderman.com/resources/css/main.css">
   <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
 
   <style>
