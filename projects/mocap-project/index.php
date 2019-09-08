@@ -12,9 +12,9 @@ https://github.com/nils-soderman/www.nilssoderman.com
 
   <title>Motion Capture Scene - Nils Söderman</title>
 
-  <link rel="stylesheet" type="text/css" href="./../resources/css/main.css">
+  <link rel="stylesheet" type="text/css" href="./../../resources/css/main.css">
 
-  <link rel="stylesheet" type="text/css" href="./../resources/css/video_wrapper.css">
+  <link rel="stylesheet" type="text/css" href="./../../resources/css/video_wrapper.css">
 
   <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
 
@@ -216,7 +216,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
 
 
 
-    <?php include('./../resources/includes/header.html'); ?>
+    <?php include('./../../resources/includes/header.html'); ?>
 
     <div id="Content">
 
@@ -448,7 +448,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
 
 
 
-  <?php include('./../resources/includes/footer.html'); ?>
+  <?php include('./../../resources/includes/footer.html'); ?>
 
 
 

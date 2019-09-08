@@ -88,13 +88,13 @@ https://github.com/nils-soderman/www.nilssoderman.com
     <div id="Content">
       <div id="posters-content">
 
-          <a class="poster" href="https://nilssoderman.com/project/altiia-and-the-trial-islands"><img src="./../resources/images/poster/Poster_Altiia-and-the-Trial-Islands.jpg" width=256 height=362 alt="Altiia and the Trial Islands"></a>
+          <a class="poster" href="./altiia-and-the-trial-islands"><img src="./../resources/images/poster/Poster_Altiia-and-the-Trial-Islands.jpg" width=256 height=362 alt="Altiia and the Trial Islands"></a>
 
-          <a class="poster" href="https://nilssoderman.com/project/voice-of-the-monolith"><img src="./../resources/images/poster/Poster_Voice-of-the-Monolith.jpg" width=256 height=362 alt="Voice of the Monolith"></a>
+          <a class="poster" href="./voice-of-the-monolith"><img src="./../resources/images/poster/Poster_Voice-of-the-Monolith.jpg" width=256 height=362 alt="Voice of the Monolith"></a>
 
-          <a class="poster" href="https://nilssoderman.com/project/dodge-golf"><img src="./../resources/images/poster/Poster_Dodge-Golf.jpg" width=256 height=362 alt="Dodge Golf"></a>
+          <a class="poster" href="./dodge-golf"><img src="./../resources/images/poster/Poster_Dodge-Golf.jpg" width=256 height=362 alt="Dodge Golf"></a>
 
-  		  <a class="poster" href="https://nilssoderman.com/project/mocap-project"><img src="./../resources/images/poster/Mocap-Scene.jpg" width=256 height=362 alt="UE4 Motion Capture Scene"></a>
+  		  <a class="poster" href="./mocap-project"><img src="./../resources/images/poster/Mocap-Scene.jpg" width=256 height=362 alt="UE4 Motion Capture Scene"></a>
 
       </div>
     </div>

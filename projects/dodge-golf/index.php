@@ -15,9 +15,9 @@ https://github.com/nils-soderman/www.nilssoderman.com
 
   <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
 
-  <link rel="stylesheet" type="text/css" href="./../resources/css/main.css">
+  <link rel="stylesheet" type="text/css" href="./../../resources/css/main.css">
 
-  <link rel="stylesheet" type="text/css" href="./../resources/css/video_wrapper.css">
+  <link rel="stylesheet" type="text/css" href="./../../resources/css/video_wrapper.css">
 
   <meta name="description" content="Dodge Golf is a local party game with up to 4 players. The goal of the game is to obtain the balloon by successfully hitting it with a ball. Once you got the baloon your score will slowly tick up, and at the same time you need to dodge all of the balls coming your way.">
 
@@ -107,7 +107,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
 
 
 
-    <?php include('./../resources/includes/header.html'); ?>
+    <?php include('./../../resources/includes/header.html'); ?>
 
     
 
@@ -153,7 +153,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
 
 
 
-  <?php include('./../resources/includes/footer.html'); ?>
+  <?php include('./../../resources/includes/footer.html'); ?>
 
 
 
