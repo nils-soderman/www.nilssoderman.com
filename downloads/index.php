@@ -22,8 +22,6 @@ https://github.com/nils-soderman/www.nilssoderman.com
     
     <div id="Content">
 
-
-    
     </div>
 
     <?php include('./../resources/includes/footer.html'); ?>
