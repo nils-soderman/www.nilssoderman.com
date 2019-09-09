@@ -14,13 +14,23 @@ https://github.com/nils-soderman/www.nilssoderman.com
   <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="./../resources/css/main.css">
   
+  <style>
+    #menu-item-downloads{
+      text-decoration: underline;
+    }
+  </style>
+
 </head>
+
+
 
 <body>
 
     <?php include('./../resources/includes/header.html'); ?>
     
     <div id="Content">
+        <h1>This page is work in progress...</h1>
+        <a href="./minecraft-blender-rig/"><h2>Minecraft Blender Rig</2></a>
 
     </div>
 
