@@ -7,20 +7,19 @@ https://github.com/nils-soderman/www.nilssoderman.com
 <head>
 
   <meta charset="UTF-8">
-  
   <title>Minecraft Blender Rig Download - Rymdnisse</title>
-
+  <meta name="description" content="A free Minecraft rig pack for Blender containing Blocks, Items, Mobs and a Character rig fully ready to be animated.">
+  <meta name="keywords" content="minecraft, blender, rig, download, free, render, animation, pack, mob, steve, rymdnisse">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
   <link href="./../../resources/images/icons/icon-minecraft-blender-rig.ico" rel="shortcut icon" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
-  
-
   <link rel="stylesheet" type="text/css" href="./../../resources/css/main.css">
   <link rel="stylesheet" type="text/css" href="./../../resources/css/download-button.css">
   <link rel="stylesheet" type="text/css" href="./../../resources/css/pages/downloads/minecraft-blender-rig.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
-  <meta name="description" content="A free Minecraft rig pack for Blender containing Blocks, Items, Mobs and a Character rig fully ready to be animated.">
-  <meta name="keywords" content="minecraft, blender, rig, download, free, render, animation, pack, mob, steve, rymdnisse">
+  
 
 </head>
 
@@ -30,12 +29,12 @@ https://github.com/nils-soderman/www.nilssoderman.com
     <div id="content">
         
 
-        <h1 id="title-blender-rig" hidden>Minecraft Blender Rig</h1>
+        <h2 id="title-blender-rig" hidden>Minecraft Blender Rig</h2>
         <img id="blender-rig-logo" src="./../../resources/images/image/minecraft-blender-rig.png" alt="Minecraft Blender Rig">
 
         <div id="promo-art"> 
             <div class="videoWrapper">
-                <img src="./../../resources/images/image/minecraft-blender-rig-image.jpg" />
+                <img src="./../../resources/images/image/minecraft-blender-rig-image.jpg" alt="Blender Minecraft Rig Pack"/>
             </div>
         </div>
 

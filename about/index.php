@@ -7,14 +7,13 @@ https://github.com/nils-soderman/www.nilssoderman.com
 <head>
   <meta charset="UTF-8">
   <title>Nils Söderman - About</title>
+  <meta name="description" content="Nils Söderman is currently a junior animator at Hazelight.">
+  <meta name="keywords" content="nils söderman, nils soderman, animator, animation reel, about, rymdnisse">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link href="./../favicon.ico" rel="shortcut icon" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
-
   <link rel="stylesheet" type="text/css" href="./../resources/css/main.css">
-
-  <meta name="description" content="Nils Söderman is currently a junior animator at Hazelight.">
-  <meta name="keywords" content="nils söderman, nils soderman, animator, animation reel, about, rymdnisse">
   <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
   
   <style>

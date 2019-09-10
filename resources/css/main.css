@@ -16,16 +16,16 @@ body {
 
 
 .header {
-  /*background-color: #33ffff;*/
+  white-space:nowrap;
   margin-top: 0px;
   width:100%;
   height:150px;
   margin: auto;
-  max-width: 1280
+  max-width: 1280px;
+  border-bottom: 1px solid #cccccc;
 }
 
 .title {
-  /*background-color: #33ff11;*/
   width:350px;
   height:100px;
   float:left;
@@ -56,7 +56,8 @@ body {
   float:right;
   margin-top: 100px;
   margin-right: 0px;
-  width:430px;
+  width: 430px;
+  text-align: right;
   color: #3a3a3a;
 }
 
@@ -78,26 +79,6 @@ body {
 
 #active {
   text-decoration: underline;
-}
-
-
-@media (max-width: 866px) {
-
-  .menu {
-    float:left;
-  }
-
-  .title{
-    float:left;
-    margin-top: 5px;
-    height: 10px;
-  }
-
-  .menu-item {
-    margin-left: 0px;
-    margin-right: 20px;
-  }
-
 }
 
 
@@ -162,4 +143,72 @@ body {
 
 .icon:active{
   opacity: 0.5;
+}
+
+
+
+
+
+@media (max-width: 882px) {
+
+  .header{
+    height: 165px;
+  }
+
+  .menu {
+    text-align:left;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .title{
+    float:left;
+    margin-top: 5px;
+  }
+
+  .menu-item {
+    margin-left: 0px;
+    margin-right: 20px;
+  }
+
+}
+
+
+@media (max-width: 500px) {
+
+  .header{
+    height: 140px;
+  }
+
+  .menu{
+    width: 100%;
+    text-align:center;
+    margin-top: 0px;
+  }
+  
+  .menu-item {
+    font-size: 23px;
+    margin-right: 17px;
+  }
+
+  .title{
+    width: 100%;
+  }
+
+  #name{
+    width: 100%;
+    text-align: center;
+    font-size: 42px;
+  }
+  
+  #position{
+    text-align: center;
+    font-size: 22px;
+    margin-top:30px;
+  }
+
+  #footer-content{
+    margin-top:45px;
+  }
+
 }

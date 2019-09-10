@@ -8,6 +8,8 @@ https://github.com/nils-soderman/www.nilssoderman.com
 
   <meta charset="UTF-8">
   <title>Nils Söderman - 404 Not Found</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
   <link href="https://nilssoderman.com/favicon.ico" rel="shortcut icon" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="https://nilssoderman.com/resources/css/main.css">

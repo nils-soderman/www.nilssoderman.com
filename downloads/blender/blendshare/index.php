@@ -7,20 +7,19 @@ https://github.com/nils-soderman/www.nilssoderman.com
 <head>
 
   <meta charset="UTF-8">
-  
   <title>Blendshare Blender Add-on - Rymdnisse</title>
+  <meta name="description" content="Blendshare is a free blender addon that allows you to easily upload renders & screenshots to Imgur, Dropbox, Google Drive & Twitter.">
+  <meta name="keywords" content="blender, addon, plugin, Blendshare, imgur, dropbox, google drive, screenshot, gif, twitter, upload">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link href="./../../../resources/images/icons/icon-minecraft-blender-rig.ico" rel="shortcut icon" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
-  
-
   <link rel="stylesheet" type="text/css" href="./../../../resources/css/main.css">
   <link rel="stylesheet" type="text/css" href="./../../../resources/css/download-button.css">
   <link rel="stylesheet" type="text/css" href="./../../../resources/css/pages/downloads/minecraft-blender-rig.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
-  <meta name="description" content="Blendshare is a free blender addon that allows you to easily upload renders & screenshots to Imgur, Dropbox, Google Drive & Twitter.">
-  <meta name="keywords" content="blender, addon, plugin, Blendshare, imgur, dropbox, google drive, screenshot, gif, twitter, upload">
+  
 
 </head>
 

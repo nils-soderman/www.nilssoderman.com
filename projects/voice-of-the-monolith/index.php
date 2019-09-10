@@ -9,6 +9,10 @@ https://github.com/nils-soderman/www.nilssoderman.com
 
   <meta charset="UTF-8">
   <title>Nils Söderman - Voice of the Monolith</title>
+  <meta name="description" content="In Voice of the Monolith, you play as a child gifted with immense strength, which aids you as you explore the small island village where the Monolith now towers over empty ruins.">
+  <meta name="keywords" content="nils soderman, future games, game, student project, student game, mystery">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link href="https://nilssoderman.com/resources/images/icons/voice-of-the-monolith.ico" rel="shortcut icon" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
@@ -20,7 +24,6 @@ https://github.com/nils-soderman/www.nilssoderman.com
   <style>
 
     /* Page Content */
-
     #Content {
       margin-top: 20px;
     }
@@ -72,7 +75,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
           <p>
             Eleven years ago, the Monolith landed on Earth, and it became clear that humanity is not alone in the universe. But for eleven years, it has remained a mystery, yielding no clues to its origin or purpos.<br>
             <br>
-In Voice of the Monolith, you play as a child gifted with immense strength, which aids you as you explore the small island village where the Monolith now towers over empty ruins. Who you are, and why you exist, is as much of a mystery as the alien artefact - all you know is that the Monolith calls to you. And perhaps, if you pay attention, the village may tell you something of what has transpired...
+            In Voice of the Monolith, you play as a child gifted with immense strength, which aids you as you explore the small island village where the Monolith now towers over empty ruins. Who you are, and why you exist, is as much of a mystery as the alien artefact - all you know is that the Monolith calls to you. And perhaps, if you pay attention, the village may tell you something of what has transpired...
             <br><br>
             This is a 5 week student project done at Futuregames with a team of 10 people. Our task was to create a game with environmental storytelling with destruction, telling a story without any use of dialogue or text. My main responsibilities was animation and rigging, but I also did FX and optimization work such as setting up LODs & making lightmaps.<br>
             <br>

@@ -4,9 +4,23 @@ The source code for this website is avaliable on GitHub:
 https://github.com/nils-soderman/www.nilssoderman.com
 -->
 <html lang="en">
-<head>   <meta charset="UTF-8">   <meta name="description" content="Breakdown of the animations done for the Altiia and the Trial Islands game project. This was a student project made at Futuregames and the game was made in Unity.">   <meta name="keywords" content="unity animation example, game animation breakdown, futuregames, free open world game, student game">   <title>Altiia and The Trial Islands - Nils Söderman</title>
-   <link rel="stylesheet" type="text/css" href="./../../resources/css/main.css">   <link rel="stylesheet" type="text/css" href="./../../resources/css/video_wrapper.css">   <link rel="stylesheet" type="text/css" href="./../../resources/css/download-button.css">   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-   <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">   <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">   <link href="https://nilssoderman.com/resources/images/icons/altiia-and-the-trial-islands-icon.ico" rel="shortcut icon" type="image/x-icon">   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<head>   
+    <meta charset="UTF-8">
+    <title>Altiia and The Trial Islands - Nils Söderman</title>
+    <meta name="description" content="Breakdown of the animations done for the Altiia and the Trial Islands game project. This was a student project made at Futuregames and the game was made in Unity.">   
+    <meta name="keywords" content="unity animation example, game animation breakdown, futuregames, free open world game, student game">   
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" type="text/css" href="./../../resources/css/main.css">  
+    <link rel="stylesheet" type="text/css" href="./../../resources/css/video_wrapper.css">   
+    <link rel="stylesheet" type="text/css" href="./../../resources/css/download-button.css">  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">   
+    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">   
+    <link href="https://nilssoderman.com/resources/images/icons/altiia-and-the-trial-islands-icon.ico" rel="shortcut icon" type="image/x-icon">   
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
    <style>
 
    /* Page Content */

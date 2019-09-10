@@ -9,9 +9,13 @@ https://github.com/nils-soderman/www.nilssoderman.com
   <meta charset="UTF-8">
   
   <title>Minecraft Skin Converter - Rymdnisse</title>
-
+  <meta name="description" content="Minecraft Skin Converter is a free tool that allows you to convert your 1.7 minecraft skins to the new 1.8 format.">
+  <meta name="keywords" content="minecraft, skin, 1.8, converter, 1.7, update, convert, free, download">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
   <link href="./../../resources/images/icons/icon-minecraft-blender-rig.ico" rel="shortcut icon" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+  
   
 
   <link rel="stylesheet" type="text/css" href="./../../resources/css/main.css">
@@ -19,8 +23,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
   <link rel="stylesheet" type="text/css" href="./../../resources/css/pages/downloads/minecraft-blender-rig.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
-  <meta name="description" content="Minecraft Skin Converter is a free tool that allows you to convert your 1.7 minecraft skins to the new 1.8 format.">
-  <meta name="keywords" content="minecraft, skin, 1.8, converter, 1.7, update, convert, free, download">
+  
 
 </head>
 

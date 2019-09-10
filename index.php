@@ -8,11 +8,16 @@ https://github.com/nils-soderman/www.nilssoderman.com
 
   <meta charset="UTF-8">
   <title>Nils Söderman - Animation Reel</title>
+  <meta name="description" content="Nils Söderman's animation reel.">
+  <meta name="keywords" content="nils söderman, nils soderman, animator, animation reel, motion capture, future games">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
   <link href="./favicon.ico" rel="shortcut icon" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="./resources/css/main.css">
-  <meta name="description" content="Nils Söderman's animation reel.">
-  <meta name="keywords" content="nils söderman, nils soderman, animator, animation reel, motion capture, future games">
+
+
   <style>
 
     .videoWrapper {
