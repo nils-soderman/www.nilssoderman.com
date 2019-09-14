@@ -76,8 +76,17 @@ https://github.com/nils-soderman/www.nilssoderman.com
 
     @media (max-width: 685px) {
       #bio {
-        width: 70%;
+        width: 90%;
         margin-left: 10px;
+        text-align:center;
+      }
+      #profile-picture{
+        width: fit-content;
+        margin: 0 auto;
+        float: none;
+      }
+      #Content {
+        margin-top: 30px;
       }
     }
 
