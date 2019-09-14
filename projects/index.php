@@ -13,7 +13,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
   
   <link href="./../favicon.ico" rel="shortcut icon" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="./../resources/css/main.css">
+  <link rel="stylesheet" type="text/css" href="./../resources/css/main.min.css">
   
 
   <style>

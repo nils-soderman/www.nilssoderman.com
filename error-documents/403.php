@@ -11,7 +11,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
   
   <link href="https://nilssoderman.com/favicon.ico" rel="shortcut icon" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="https://nilssoderman.com/resources/css/main.css">
+  <link rel="stylesheet" type="text/css" href="https://nilssoderman.com/resources/css/main.min.css">
   <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
 
   <style>

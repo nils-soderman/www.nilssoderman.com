@@ -17,7 +17,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
   <link href="https://nilssoderman.com/resources/images/icons/voice-of-the-monolith.ico" rel="shortcut icon" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="./../../resources/css/main.css">
+  <link rel="stylesheet" type="text/css" href="./../../resources/css/main.min.css">
   <link rel="stylesheet" type="text/css" href="./../../resources/css/video_wrapper.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   

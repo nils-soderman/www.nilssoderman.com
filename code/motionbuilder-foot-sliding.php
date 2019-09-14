@@ -13,7 +13,7 @@
   <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="./../resources/css/main.css">
+  <link rel="stylesheet" type="text/css" href="./../resources/css/main.min.css">
   <link rel="stylesheet" type="text/css" href="./../resources/css/download-button.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   

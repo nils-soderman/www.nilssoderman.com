@@ -15,7 +15,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
   <link href="https://nilssoderman.com/resources/images/icons/dodge-golf.ico" rel="shortcut icon" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="./../../resources/css/main.css">
+  <link rel="stylesheet" type="text/css" href="./../../resources/css/main.min.css">
   <link rel="stylesheet" type="text/css" href="./../../resources/css/video_wrapper.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
