@@ -72,7 +72,6 @@ https://github.com/nils-soderman/www.nilssoderman.com
                     $url =  file_get_contents("./../../resources/scripts/pages/downloads/minecraft-blender-rig-bss-url.txt"); 
                     echo ' <a href="' . $url . '" target="_blank">';
                 ?>
-               <!-- <a href="https://www.dropbox.com/s/zfaxf03vyaa1t1p/Cycles_Minecraft_Rig%20BSS%20Edit%20V5.5.zip?dl=1" target="_blank">-->
                     <div class="download-button">
                         <i class="dl-image material-icons">get_app</i>
                         <span class="dl-text">Download Cycles Minecraft Rig BSS Edit</span>

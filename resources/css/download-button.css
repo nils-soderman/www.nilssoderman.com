@@ -15,7 +15,6 @@
     background-image: linear-gradient( to top, #5aabd6, #90c9e8);
     text-align:center;
     color:#105378;
-    margin-right: 15px;
 }
 
 .download-button:hover{
@@ -60,4 +59,5 @@
     font-family: 'PT Sans', Arial, Helvetica, sans-serif;
     font-size:15px;
     font-weight:700;
+    width: fit-content;
 }
