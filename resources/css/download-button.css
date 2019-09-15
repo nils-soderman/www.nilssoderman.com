@@ -15,6 +15,9 @@
     background-image: linear-gradient( to top, #5aabd6, #90c9e8);
     text-align:center;
     color:#105378;
+    display: inline-block;
+    white-space: nowrap;
+    
 }
 
 .download-button:hover{
@@ -52,12 +55,11 @@
 }
 
 .dl-text{
-    float:left;
     margin-left:10px;
     margin-right: 20px;
     margin-top:15px;
     font-family: 'PT Sans', Arial, Helvetica, sans-serif;
     font-size:15px;
     font-weight:700;
-    width: fit-content;
+    display: inline-block;
 }

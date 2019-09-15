@@ -64,7 +64,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
         </div>
         <div class="clear"></div>
 
-        <h4 class="dl-title dl-version">BSS Edit <i>(latest version)</i>:</h4>
+        <h4 class="dl-title dl-version">BSS Edit:</h4>
 
         <div id="boxscape">
             <div class="download-button-wrapper">
@@ -89,7 +89,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
 
 
     <?php include('./../../resources/includes/footer.html'); ?>
-    <script src="./../../resources/scripts/pages/downloads/minecraft-blender-rig.js"></script>
+    <!--<script src="./../../resources/scripts/pages/downloads/minecraft-blender-rig.js"></script>-->
 </body>
 
 </html>

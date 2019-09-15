@@ -91,9 +91,10 @@
     border-radius: 1px;
 }
 
-@media (min-width: 960px){
-    .videoWrapper {
-        padding-bottom: 480px;
+@media (max-width: 882px) {
+    #blender-rig-logo{
+        width: 90%;
+        margin-top: 25px;
     }
-}
 
+}
