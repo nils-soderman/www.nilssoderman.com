@@ -93,20 +93,6 @@ https://github.com/nils-soderman/www.nilssoderman.com
     #menu-item-about {
         text-decoration: underline;
     }
-    
-    a {
-        text-decoration: none;
-        color: #1d3780;
-    }
-
-    a:hover {
-        text-decoration: underline;
-        color: #4c6abd;
-    }
-
-    a:active {
-        color: #5f74af;
-    }
 
   </style>
 

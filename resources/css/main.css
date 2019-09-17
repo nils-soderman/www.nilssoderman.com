@@ -10,7 +10,20 @@ body {
   z-index: -1;
 }
 
+/* Urls */
+a {
+  text-decoration: none;
+  color: #314c96;
+}
 
+a:hover{
+  text-decoration: underline;
+  color:#627ecc;
+}
+
+a:active{
+  color: #869dde;
+}
 
 /* Menu Content */
 
@@ -83,7 +96,7 @@ body {
 
 
 .menu-item:hover {
-  -webkit-transition: color .15s; /* For Safari 3.1 to 6.0 */
+  -webkit-transition: color .15s;
   transition: color .15s;
   text-decoration: underline;
   color: #4d4d4d;
@@ -116,11 +129,6 @@ body {
 
 #email {
   font-size: 30px;
-
-}
-
-#phone {
-  font-size: 18px;
 
 }
 
@@ -212,3 +220,4 @@ body {
   }
 
 }
+
