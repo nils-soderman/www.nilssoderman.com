@@ -29,7 +29,9 @@ https://github.com/nils-soderman/www.nilssoderman.com
 
     <div id="content">
 
-        <h1 id="title-blender-rig">EasyFX</h1>
+        <h1 id="title-blender-rig" hidden>EasyFX</h1>
+        <img id="blender-rig-logo" src="./easyfx-logo.png" alt="EasyFX">
+        
 
         <div id="promo-art"> 
             <div class="videoWrapper">
