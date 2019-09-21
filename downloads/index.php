@@ -7,13 +7,14 @@ https://github.com/nils-soderman/www.nilssoderman.com
 <head>
   <meta charset="UTF-8">
   <title>Nils Söderman - Downloads</title>
-  <meta name="description" content="Here are some the games and other projects I've worked on recently. Altiia and the Trial Islands, Voice of the Monolith, Dodge Golf and more.">
-  <meta name="keywords" content="game project, future games, future games stockholm, student games">
+  <meta name="description" content="A collection of free downloads I've made over the past few years. Containing Blender Rigs, Scripts & more.">
+  <meta name="keywords" content="downloads, free, minecraft, blender, rig, software, animation, tool, tools, addon, script">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link href="./../favicon.ico" rel="shortcut icon" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="./../resources/css/main.min.css">
+  <link rel="stylesheet" type="text/css" href="./../resources/css/pages/downloads/downloads.min.css">
   
   <style>
     #menu-item-downloads{
@@ -24,20 +25,40 @@ https://github.com/nils-soderman/www.nilssoderman.com
 </head>
 
 
-
 <body>
 
     <?php include('./../resources/includes/header.html'); ?>
     
-    <div id="Content">
-      <br/><br/>
-        <h1>This page is a work in progress...</h1>
-        <br/>
-        <a href="./minecraft-blender-rig/"><h2>Minecraft Blender Rig</h2></a>
+    <div id="content">
+      <div id="page-content">
+          <div class="dl-item">
+            <div class="dl-img">
+              <a href="./minecraft-blender-rig/">
+                <img src="./minecraft-blender-rig/minecraft-blender-rig-thumbnail.jpg" alt="Minecraft Blender Rig Pack" width="320px" height="150">
+              </a>
+            </div>
+            <div class="dl-text">
+              <a href="./minecraft-blender-rig/">
+                <h2 class="dl-title">Minecraft Blender Rig</h2>
+              </a>
+              <p class="dl-description">A free Minecraft rig pack for Blender. Containing most Blocks, Items & Mobs from the Game, as well as a character rig.</p>
+            </div>
+          </div>
 
-        <br/>
-        <a href="./blender/easyfx/"><h2>EasyFX</h2></a>
-        <br/><br/><br/>
+          <div class="dl-item">
+            <div class="dl-img">
+              <a href="./blender/easyfx/">
+                <img src="./blender/easyfx/easyfx-thumbnail.jpg" alt="EasyFX" width="320px" height="150">
+              </a>
+            </div>
+            <div class="dl-text">
+              <a href="./blender/easyfx/">
+                <h2 class="dl-title">EasyFX</h2>
+              </a>
+              <p class="dl-description">A free Blender add-on which allows you to easily apply effects to your renders & animations.</p>
+            </div>
+          </div>
+      </div>
     </div>
 
     <?php include('./../resources/includes/footer.html'); ?>

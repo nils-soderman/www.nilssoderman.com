@@ -110,6 +110,16 @@ a:active{
     margin-top: 20px;
 }
 
+#content{
+  margin: 50px auto 75px auto;
+  max-width: 1280px;  
+}
+
+#page-content{
+  margin: 100px auto 75px auto;
+  max-width: 850px;  
+}
+
 /* Footer Content */
 .footer{
   max-width: 1280px;

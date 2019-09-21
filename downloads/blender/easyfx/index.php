@@ -13,7 +13,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
   <meta name="keywords" content="blender, addon, plugin, easyfx, compositor, beginners">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link href="./../../../resources/images/icons/icon-minecraft-blender-rig.ico" rel="shortcut icon" type="image/x-icon">
+  <link href="./favicon.ico" rel="shortcut icon" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="./../../../resources/css/main.min.css">
   <link rel="stylesheet" type="text/css" href="./../../../resources/css/download-button.css">
@@ -28,9 +28,8 @@ https://github.com/nils-soderman/www.nilssoderman.com
     <?php include('./../../../resources/includes/header.html'); ?>
 
     <div id="content">
-        
 
-        <h1 id="title-blender-rig" >EasyFX</h1>
+        <h1 id="title-blender-rig">EasyFX</h1>
 
         <div id="promo-art"> 
             <div class="videoWrapper">
