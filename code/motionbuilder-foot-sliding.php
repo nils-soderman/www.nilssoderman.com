@@ -66,8 +66,8 @@
     <div id="Content">       
 
         <div id="title">
-            <h2>MotionBuilder Feet Sliding Script</h2>
-            <h3>Laungage: Python</h3>
+            <h1>MotionBuilder Feet Sliding Script</h1>
+            <h2>Laungage: Python</h2>
         </div>
 
         <div class="code-block">

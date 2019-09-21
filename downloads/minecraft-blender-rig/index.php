@@ -34,7 +34,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
     <div id="content">
         
 
-        <h2 id="title-blender-rig" hidden>Minecraft Blender Rig</h2>
+        <h1 id="title-blender-rig" hidden>Minecraft Blender Rig</h1>
         <img id="blender-rig-logo" src="./../../resources/images/image/minecraft-blender-rig.png" alt="Minecraft Blender Rig">
 
         <div id="promo-art"> 
@@ -43,9 +43,9 @@ https://github.com/nils-soderman/www.nilssoderman.com
             </div>
         </div>
 
-        <h3 class="dl-title" id="dl-main-title">Free Download:</h3>
+        <h2 class="dl-title" id="dl-main-title">Free Download:</h2>
 
-        <h4 class="dl-title dl-version">Legacy Versions:</h4>
+        <h3 class="dl-title dl-version">Legacy Versions:</h3>
         <div id="legacy-download-buttons-container">
 
             <div class="download-button-wrapper">
@@ -69,7 +69,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
         </div>
         <div class="clear"></div>
 
-        <h4 class="dl-title dl-version">BSS Edit:</h4>
+        <h3 class="dl-title dl-version">BSS Edit:</h3>
 
         <div id="boxscape">
             <div class="download-button-wrapper">
@@ -89,13 +89,13 @@ https://github.com/nils-soderman/www.nilssoderman.com
             <a href="https://www.boxscapestudios.tk/downloads" target="_blank">Boxscape Studios download page</a>
         </div>
 
-        <h5 class="dl-title faq-title">What is the BSS Edit?</h5>
+        <h4 class="dl-title faq-title">What is the BSS Edit?</h4>
             <p class="faq-text">Back in 2017 I handed over future development of this rig pack to Boxscape Studios.<br>
             Since then they have done an absolutely fantastic job at keeping the rig pack up to date and adding a bunch of cool new things.<br>
             You can visit them at Boxscape Studios: <a href="https://www.boxscapestudios.tk" target="_blank">Website</a>, <a href="https://twitter.com/BoxscapeStudios" target="_blank">Twitter</a>
             </p>
 
-        <h5 class="dl-title faq-title">Does this rig work with Blender 2.8?</h5>
+        <h4 class="dl-title faq-title">Does this rig work with Blender 2.8?</h4>
         <p class="faq-text">Yes. Both the Cycles version and the BSS Edit works in Blender 2.8 and above.<br>
         The Internal version will no longer work as the internal render engine has been removed from Blender 2.8.
         </p>
@@ -103,7 +103,6 @@ https://github.com/nils-soderman/www.nilssoderman.com
 
 
     <?php include('./../../resources/includes/footer.html'); ?>
-    <!--<script src="./../../resources/scripts/pages/downloads/minecraft-blender-rig.js"></script>-->
 </body>
 
 </html>

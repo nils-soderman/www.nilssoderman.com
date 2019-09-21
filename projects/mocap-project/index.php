@@ -51,6 +51,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
 
     .smallTitle{
       font-family: 'Titillium Web', sans-serif;
+      font-size: 20px;
       margin-top:0px;
       margin-left:20px;
     }
@@ -133,7 +134,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
           </p>    
 
          <div class="video-section">
-             <div class="phone-title"><h3 class="smallTitle">Raw Mocap Data</h3></div>
+             <div class="phone-title"><h2 class="smallTitle">Raw Mocap Data</h2></div>
              <div class="smallvid">
                 <video autoplay loop muted controls>
                     <source src="https://nilssoderman.com/resources/videos/mocap-project/raw-data.mp4" />
@@ -141,7 +142,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
              </div>
 
              <div class="video-desc">
-                 <h3 class="smallTitle">Raw Mocap Data</h3>
+                 <h2 class="smallTitle">Raw Mocap Data</h2>
                  <p>
                     As I wasn't able to record any mocap data myself I searched through the internet + our school server and was able to find a few takes which inspired this idea.<br>
                     I then took these takes, applied them to the rigs and arranged them in Motionbuilder's story tool. I also matched the takes to make sure they were somewhat correctly placed in the world.
@@ -152,14 +153,14 @@ https://github.com/nils-soderman/www.nilssoderman.com
          <br><br>
 
          <div class="video-section">
-             <div class="phone-title"><h3 class="smallTitle">Blending Clips</h3></div>
+             <div class="phone-title"><h2 class="smallTitle">Blending Clips</h2></div>
              <div class="smallvid">
                 <video autoplay loop muted controls>
                     <source src="https://nilssoderman.com/resources/videos/mocap-project/blending-clips.mp4" />
                 </video>
              </div>
              <div class="video-desc">
-                <h3 class="smallTitle">Blending Clips</h3>
+                <h2 class="smallTitle">Blending Clips</h2>
                 <p>
                     Then it was time to start blending the clips together.
                     Here I was mostly looking at the timing while also trying to get the blends to look as good as possible, or at least to a state were I can work with them.<br>
@@ -171,14 +172,14 @@ https://github.com/nils-soderman/www.nilssoderman.com
 
         <br><br>
          <div class="video-section">
-             <div class="phone-title"><h3 class="smallTitle">Correction Pass</h3></div>
+             <div class="phone-title"><h2 class="smallTitle">Correction Pass</h2></div>
              <div class="smallvid">
                 <video autoplay loop muted controls>
                     <source src="https://nilssoderman.com/resources/videos/mocap-project/correction-pass.mp4" />
                 </video>
              </div>
              <div class="video-desc">
-                <h3 class="smallTitle">Correction Pass</h3>
+                <h2 class="smallTitle">Correction Pass</h2>
                 <p>
                     Once I had blends that was working I plotted everything down to the control rigs. I then started correcting some poses & movments to be closer to what I was after.<br>
                     I also began fixing most of the footsliding, to make this proccess easier I wrote a simple script (<a class="text-url" target="_blank" href="https://nilssoderman.com/code/motionbuilder-foot-sliding">Feet_Sliding.py</a>)
@@ -191,7 +192,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
         <br><br>
 
          <div class="video-section">
-             <div class="phone-title"><h3 class="smallTitle">Polish + Rendering</h3></div>
+             <div class="phone-title"><h2 class="smallTitle">Polish + Rendering</h2></div>
              <div class="smallvid">
                 <video autoplay loop muted controls>
                     <source src="https://nilssoderman.com/resources/videos/mocap-project/polish.mp4" />
@@ -199,7 +200,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
              </div>
 
              <div class="video-desc">
-                 <h3 class="smallTitle">Polish + Rendering</h3>
+                 <h2 class="smallTitle">Polish + Rendering</h2>
                  <p>
                     Here I made smaller tweaks, removing any pops & cleaned up some of the arcs. I also animated the hair, bag & the phone.<br>
                     For the hair I made a simple rig setup where I constrained some markers together, and the phone was just constrained to his hand until the end where I turned off the constraint &

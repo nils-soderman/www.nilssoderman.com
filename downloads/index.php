@@ -6,7 +6,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Nils Söderman - Projects</title>
+  <title>Nils Söderman - Downloads</title>
   <meta name="description" content="Here are some the games and other projects I've worked on recently. Altiia and the Trial Islands, Voice of the Monolith, Dodge Golf and more.">
   <meta name="keywords" content="game project, future games, future games stockholm, student games">
   <meta name="viewport" content="width=device-width, initial-scale=1">

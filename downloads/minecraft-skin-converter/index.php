@@ -42,7 +42,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
             </div>
         </div>
 
-        <h3 class="dl-title" id="dl-main-title">Free Download:</h3>
+        <h2 class="dl-title" id="dl-main-title">Free Download:</h2>
 
         <div id="legacy-download-buttons-container">
 
@@ -55,7 +55,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
                 </a>
             </div>
         <br/><br/><br/>
-        <h5 class="dl-title faq-title"></h5>
+        <h3 class="dl-title faq-title"></h3>
             <p class="faq-text"></a>
             </p>
     </div>
