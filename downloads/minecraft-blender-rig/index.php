@@ -8,14 +8,14 @@ https://github.com/nils-soderman/www.nilssoderman.com
 
     <meta charset="UTF-8">
     <title>Minecraft Blender Rig Download - Rymdnisse</title>
-    <meta name="description" content="A free Minecraft rig pack for Blender containing Blocks, Items, Mobs and a Character rig fully ready to be animated."></meta>
-    <meta name="keywords" content="minecraft, blender, rig, download, free, render, animation, pack, mob, steve, rymdnisse"></meta>
-    <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+    <meta name="description" content="A free Minecraft rig pack for Blender containing Blocks, Items, Mobs and a Character rig fully ready to be animated.">
+    <meta name="keywords" content="minecraft, blender, rig, download, free, render, animation, pack, mob, steve, rymdnisse">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta name="og:title" content="Minecraft Blender Rig Pack - Download"></meta>
-    <meta name="og:description" content="A free Minecraft rig pack for Blender containing Blocks, Items, Mobs and a Character rig fully ready to be animated."></meta>
-    <meta name="og:image" content="https://nilssoderman.com/resources/images/image/minecraft-blender-rig-image.jpg"></meta>
-    <meta name="twitter:card" content="summary"></meta>
+    <meta name="og:title" content="Minecraft Blender Rig Pack - Download">
+    <meta name="og:description" content="A free Minecraft rig pack for Blender containing Blocks, Items, Mobs and a Character rig fully ready to be animated.">
+    <meta name="og:image" content="https://nilssoderman.com/resources/images/image/minecraft-blender-rig-image.jpg">
+    <meta name="twitter:card" content="summary">
 
     <link href="./../../resources/images/icons/icon-minecraft-blender-rig.ico" rel="shortcut icon" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">

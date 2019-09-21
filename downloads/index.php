@@ -34,7 +34,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
           <div class="dl-item">
             <div class="dl-img">
               <a href="./minecraft-blender-rig/">
-                <img src="./minecraft-blender-rig/minecraft-blender-rig-thumbnail.jpg" alt="Minecraft Blender Rig Pack" width="320px" height="150">
+                <img src="./minecraft-blender-rig/minecraft-blender-rig-thumbnail.jpg" alt="Minecraft Blender Rig Pack" width="320" height="150">
               </a>
             </div>
             <div class="dl-text">
@@ -48,7 +48,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
           <div class="dl-item">
             <div class="dl-img">
               <a href="./blender/easyfx/">
-                <img src="./blender/easyfx/easyfx-thumbnail.jpg" alt="EasyFX" width="320px" height="150">
+                <img src="./blender/easyfx/easyfx-thumbnail.jpg" alt="EasyFX" width="320" height="150">
               </a>
             </div>
             <div class="dl-text">

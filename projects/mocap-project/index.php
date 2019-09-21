@@ -18,7 +18,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
   <link rel="stylesheet" type="text/css" href="./../../resources/css/video_wrapper.css">
   <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
-  <link href="./../favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <link href="./../../favicon.ico" rel="shortcut icon" type="image/x-icon">
 
   <style>
 
@@ -120,7 +120,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
       </div>
 
       <div class="videoWrapper">
-        <iframe src="https://player.vimeo.com/video/266885742?title=0&byline=0&portrait=0" width="1280" height="720" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <iframe src="https://player.vimeo.com/video/266885742?title=0&byline=0&portrait=0" width="1280" height="720" allowfullscreen></iframe>
       </div>
 
       <div id="description">

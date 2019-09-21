@@ -35,31 +35,28 @@ https://github.com/nils-soderman/www.nilssoderman.com
 
         <div id="promo-art"> 
             <div class="videoWrapper">
-                <iframe width="854" height="480" src="https://www.youtube.com/embed/6CNl46d7Pxw?modestbranding=1&iv_load_policy=3&rel=0" frameborder="0" 
+                <iframe width="854" height="480" src="https://www.youtube.com/embed/6CNl46d7Pxw?modestbranding=1&iv_load_policy=3&rel=0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
 
         <h2 class="dl-title" id="dl-main-title">Free Download:</h2>
 
-        <div id="legacy-download-buttons-container">
-
-            <div class="download-button-wrapper">
-                <a href="./../../../files/blender/EasyFX.zip" target="_blank">
-                    <div class="download-button">
-                        <i class="dl-image material-icons">get_app</i>
-                        <span class="dl-text">Download EasyFX.zip</span>
-                    </div>
-                </a>
-            </div>
+        <div class="download-button-wrapper">
+            <a href="./../../../files/blender/EasyFX.zip" target="_blank">
+                <div class="download-button">
+                    <i class="dl-image material-icons">get_app</i>
+                    <span class="dl-text">Download EasyFX.zip</span>
+                </div>
+            </a>
+        </div>
         <br/><br/><br/>
         <h4 class="dl-title faq-title"></h4>
-            <p class="faq-text"></a>
-        </p>
+        <p class="faq-text"></p>
+
     </div>
 
     <br/><br/>
     <?php include('./../../../resources/includes/footer.html'); ?>
 </body>
-
 </html>

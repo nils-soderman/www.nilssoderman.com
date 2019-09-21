@@ -79,7 +79,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
             This is a student project made on FutureGames over the course of two weeks. We were a team of 9 people and our criteria was to create a party game for 2-4 players, combining two different sports.<br>
           </p>
         </div>
-      </div
+        </div>
     </div>
 
   <?php include('./../../resources/includes/footer.html'); ?>
