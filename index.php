@@ -13,6 +13,15 @@ https://github.com/nils-soderman/www.nilssoderman.com
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
+  <meta name="og:title" content="Nils Söderman - Animation Reel"></meta>
+  <meta name="og:description" content="Nils Söderman's animation reel"></meta>
+  <meta name="twitter:site" content="@nilssoderman"></meta>
+  <meta name="og:image" content="https://nilssoderman.com/resources/videos/reel/nils-soderman-animation-reel-2018-thumbnail.jpg"></meta>
+  <meta name="twitter:player" content="https://nilssoderman.com/resources/videos/reel/nils-soderman-animation-reel-2018.mp4"></meta>
+  <meta name="twitter:card" content="player"></meta>
+  <meta name="twitter:player:width" content="1280"></meta>
+  <meta name="twitter:player:height" content="720"></meta>
+
   <link href="./favicon.ico" rel="shortcut icon" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="./resources/css/main.min.css">
