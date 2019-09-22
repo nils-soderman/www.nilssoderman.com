@@ -38,7 +38,6 @@ https://github.com/nils-soderman/www.nilssoderman.com
       text-align: center;
       font-size: 20px;
       font-family: 'Bangers';
-      color: #1a1a1a;
     }
 
     #description{

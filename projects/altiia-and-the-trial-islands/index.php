@@ -34,7 +34,6 @@ https://github.com/nils-soderman/www.nilssoderman.com
         text-align: center;
         font-size: 20px;
         font-family: 'Cinzel', serif;
-        color: #1a1a1a;
     }
 
    #description{     
