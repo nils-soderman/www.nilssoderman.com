@@ -37,8 +37,9 @@ function ReadFromFile($filename){
 }
 
 // Write to file
-function WriteToFile($filename, $content, $bJson = false){
-    if ($bJson){
+function WriteToFile($filename, $content){
+    $fileext = end(explode(".", $filename));
+    if ($fileext == "json"){
         $content = json_encode($content);
     }
     file_put_contents($filename, $content);
