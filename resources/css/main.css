@@ -1,3 +1,7 @@
+/* - - - - - - -  - - - - */
+/*     Generic Objects    */
+/* - - - - - - -  - - - - */
+
 body {
   background-color: #e3e3e3;
   margin:0px;
@@ -10,7 +14,6 @@ body {
   z-index: -1;
 }
 
-/* Urls */
 a {
   text-decoration: none;
   color: #314c96;
@@ -25,7 +28,42 @@ a:active{
   color: #869dde;
 }
 
-/* Menu Content */
+/* - - - - - - -  - - - - */
+/*     Generic Classes    */
+/* - - - - - - -  - - - - */
+
+.undraggable{
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+
+/* - - - - - - -  - - */
+/*     Generic IDs    */
+/* - - - - - - -  - - */
+
+#Content {
+  /* DEPRECATED: Use content instead a none capital c */
+  margin-top: 20px;
+}
+
+#content{
+  margin: 50px auto 75px auto;
+  max-width: 1280px;  
+}
+
+#page-content{
+  margin: 100px auto 75px auto;
+  max-width: 850px;  
+}
+
+
+/* - - - - - - - */
+/*     Header    */
+/* - - - - - - - */
 
 
 .header {
@@ -64,6 +102,9 @@ a:active{
   position:relative;
   margin-top: 45px;
 }
+
+
+/*     Menu    */
 
 .menu {
   float:right;
@@ -106,21 +147,12 @@ a:active{
   color: #737373;
 }
 
-#Content {
-    margin-top: 20px;
-}
 
-#content{
-  margin: 50px auto 75px auto;
-  max-width: 1280px;  
-}
 
-#page-content{
-  margin: 100px auto 75px auto;
-  max-width: 850px;  
-}
+/* - - - - - - - */
+/*     Footer    */
+/* - - - - - - - */
 
-/* Footer Content */
 .footer{
   max-width: 1280px;
   height: 150px;
@@ -162,16 +194,12 @@ a:active{
   opacity: 0.5;
 }
 
-.undraggable{
-  user-drag: none; 
-  user-select: none;
-  -moz-user-select: none;
-  -webkit-user-drag: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-}
 
 
+
+/* - - - - - - - */
+/*     Tablet    */
+/* - - - - - - - */
 
 @media (max-width: 882px) {
 
@@ -197,6 +225,12 @@ a:active{
 
 }
 
+
+
+
+/* - - - - - - - */
+/*     Moblie    */
+/* - - - - - - - */
 
 @media (max-width: 500px) {
 
@@ -235,10 +269,18 @@ a:active{
     margin-top:45px;
   }
 
+  #page-content{
+    margin: 0;
+  }
+
 }
 
 
-/* Dark Mode */
+
+
+/* - - - - - - -  - -*/
+/*     Dark Mode     */
+/* - - - - - - - - - */
 
 @media (prefers-color-scheme: dark) {
 
