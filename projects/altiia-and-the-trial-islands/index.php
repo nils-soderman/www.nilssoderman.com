@@ -181,18 +181,6 @@ https://github.com/nils-soderman/www.nilssoderman.com
        font-style: italic;
    }
    
-   .text-url{
-       color:#001349;
-       text-decoration:none;
-   }
-   .text-url:hover{
-       text-decoration:underline;
-       color:#273c76;
-   }
-   .text-url:active{
-       color:#4d66b0;
-   }
-   
    #animation-player-wrapper{
        background-color:#333233;
        font-family: arial;

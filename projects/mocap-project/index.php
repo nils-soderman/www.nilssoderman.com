@@ -93,20 +93,6 @@ https://github.com/nils-soderman/www.nilssoderman.com
 
      }
 
-    .text-url{
-      color:#001349;
-      text-decoration:none;
-    }
-
-    .text-url:hover{
-        text-decoration:underline;
-        color:#273c76;
-    }
-
-    .text-url:active{
-        color:#4d66b0;
-    }
-
   </style>
 
 </head>
