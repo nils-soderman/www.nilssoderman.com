@@ -23,7 +23,7 @@ foreach($nodes as $node) {
     };
 }
 
-WriteToFile("./../../resources/scripts/pages/downloads/minecraft-blender-rig-bss-url.txt", $DownloadUrl);
+WriteToFile("./../../../resources/scripts/pages/downloads/minecraft-blender-rig-bss-url.txt", $DownloadUrl);
 
 echo "<br><b>URL found:</b> " . $DownloadUrl;
 
