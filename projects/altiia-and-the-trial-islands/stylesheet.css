@@ -1,0 +1,141 @@
+#unity-player{
+    max-width: 894px;
+    margin: 0 auto 0 auto;
+    
+}
+
+#unity-player-header{
+    max-height: 38px;
+}
+
+#unity-player-header img {
+    width: 100%;
+    height: auto;
+}
+
+
+#unity-player-content{
+    width: 100%;
+    display: flex;
+}
+
+#unity-player-animation-list{
+    margin: 0;
+    background-color: #b4b4b4;
+    flex-grow: 179;
+}
+
+.unity-clip-label{
+    font-size: 13px;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.unity-clip-label img{
+    margin-right:5px;
+    margin-left:10px;
+}
+
+input:checked + .unity-clip-label {
+    background-color: #3e7de7;
+}
+
+#unity-player-video-wrapper{
+    flex-grow: 715;
+    max-width: 716px;
+    background-color: #333233;
+}
+
+#unity-player-timeline-wrapper{
+    background-image: linear-gradient(#494949, #646464);
+    height: 25px;
+}
+
+#unity-player-playbutton-wrapper{
+    height: 100%;
+    width: fit-content;
+    float: left;
+}
+
+#unity-player-playbutton{
+    margin-top: 0;
+    height: 100%;
+    display: block;
+}
+
+#unity-player-timeline{
+    height: 100%;
+    margin-left: 42px;
+}
+
+
+
+
+
+#unity-player-video{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+/* Slider */
+
+#unity-player-timeline input {
+    -webkit-appearance: none; /* Hides the slider so that custom slider can be made */
+    width: 100%; /* Specific width is required for Firefox. */
+    height: 100%;
+    margin: 0;
+    background: transparent; /* Otherwise white in Chrome */
+    position: relative;
+    cursor: pointer;
+}
+  
+input[type=range]::-webkit-slider-thumb {
+-webkit-appearance: none;
+}
+
+input[type=range]:focus {
+outline: none; /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
+}
+
+input[type=range]::-ms-track {
+width: 100%;
+cursor: pointer;
+
+/* Hides the slider so custom styles can be added */
+background: transparent; 
+border-color: transparent;
+color: transparent;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 25px;
+    width: 2px;
+    background: #ffffff;
+    cursor: pointer;
+  }
+  
+  /* All the same stuff for Firefox */
+  input[type=range]::-moz-range-thumb {
+    height: 25px;
+    width: 2px;
+    background: #ffffff;
+    cursor: pointer;
+  }
+  
+  /* All the same stuff for IE */
+  input[type=range]::-ms-thumb {
+    height: 25px;
+    width: 2px;
+    background: #ffffff;
+    cursor: pointer;
+  }

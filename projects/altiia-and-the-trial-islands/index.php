@@ -14,7 +14,8 @@ https://github.com/nils-soderman/www.nilssoderman.com
     
     <link rel="stylesheet" type="text/css" href="./../../resources/css/main.min.css">  
     <link rel="stylesheet" type="text/css" href="./../../resources/css/video_wrapper.css">   
-    <link rel="stylesheet" type="text/css" href="./../../resources/css/download-button.css">  
+    <link rel="stylesheet" type="text/css" href="./../../resources/css/download-button.css">
+    <link rel="stylesheet" type="text/css" href="./stylesheet.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">   
     <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">   
@@ -200,13 +201,13 @@ https://github.com/nils-soderman/www.nilssoderman.com
        -ms-user-select: none;
        user-select: none;
    }
-   
+/*
    #animation-list{
        float:left;
        background-color:#c2c2c2;
        width:150px;
        height:449px;
-   }
+   }*/
    
    #play-button {
        position:absolute;
@@ -322,18 +323,16 @@ https://github.com/nils-soderman/www.nilssoderman.com
    #timeline_drag{
        width:2px;
        height:20px;
-       position:absolute;
+       position:relative;
+       background-color: white;
    }
-   #timeline_drag:hover{
-       cursor:pointer;
-   }
+
    #timeline{
        position:absolute;
        height:20px;
        width:683px;
-       opacity:.5;
        margin-left:183px;
-       margin-top:-21px;
+       margin-top:-26px;
    }
    
    .unity-player-image{
@@ -392,112 +391,101 @@ https://github.com/nils-soderman/www.nilssoderman.com
      </p>
        
        <h2 class="subtitle">Animations</h2>
-       
-       <div id="animation-player-wrapper">
-           
-           <div id="player-popup"><p>Click to view a clip</p> <div class="arrow-right"></div></div>
-           
-           <div id="animation-list">
-               <h3 id="animation-title" >Walk</h3>
-               <img class="unity-player-image" src="https://nilssoderman.com/resources/images/image/unity-player-project.png" alt="Video Clips"/>
+
+        <div id="unity-player">
+        
+            <div id="unity-player-header">
+                <img class="unity-player-image" src="./images/unity-player-header.jpg" alt="Video Clips"/>
+            </div>
+
+            <div id="unity-player-content">
+
+                <div id="unity-player-animation-list">
+
+                    <input type="radio" name="animation" value="Walk" id="Walk" onclick="AnimationChanged(this)" checked>
+                    <label class="unity-clip-label" for="Walk"><img src="https://nilssoderman.com/resources/images/icons/animation-clip.png" alt="Clip" />Walk</label>
+
+                    <input type="radio" name="animation" value="Running" id="Running" onclick="AnimationChanged(this)" >
+                    <label class="unity-clip-label" for="Running"><img src="https://nilssoderman.com/resources/images/icons/animation-clip.png" alt="Play" />Running</label>
+
+                    <input type="radio" name="animation" value="Running_Left" id="Running_Left" onclick="AnimationChanged(this)">
+                    <label class="unity-clip-label" for="Running_Left"><img src="https://nilssoderman.com/resources/images/icons/animation-clip.png" alt="Play" />Running_Left</label>
+                    
+                    <input type="radio" name="animation" value="Running_Right" id="Running_Right" onclick="AnimationChanged(this)">
+                    <label class="unity-clip-label" for="Running_Right"><img src="https://nilssoderman.com/resources/images/icons/animation-clip.png" alt="Play" />Running_Right</label>
+                    
+                    <input type="radio" name="animation" value="Jump" id="Jump" onclick="AnimationChanged(this)">
+                    <label class="unity-clip-label" for="Jump"><img src="https://nilssoderman.com/resources/images/icons/animation-clip.png" alt="Play" />Jump</label>
+                    
+                    <input type="radio" name="animation" value="Doubble_Jump" id="Doubble_Jump" onclick="AnimationChanged(this)">
+                    <label class="unity-clip-label" for="Doubble_Jump"><img src="https://nilssoderman.com/resources/images/icons/animation-clip.png" alt="Play" />Doubble_Jump</label>
+                    
+                    <input type="radio" name="animation" value="Pole_Vault" id="Pole_Vault" onclick="AnimationChanged(this)">
+                    <label class="unity-clip-label" for="Pole_Vault"><img src="https://nilssoderman.com/resources/images/icons/animation-clip.png" alt="Play" />Pole_Vault</label>
+                    
+                    <input type="radio" name="animation" value="Landing" id="Landing" onclick="AnimationChanged(this)">
+                    <label class="unity-clip-label" for="Landing"><img src="https://nilssoderman.com/resources/images/icons/animation-clip.png" alt="Play" />Landing</label>
+                    
+                    <input type="radio" name="animation" value="Roll" id="Roll" onclick="AnimationChanged(this)">
+                    <label class="unity-clip-label" for="Roll"><img src="https://nilssoderman.com/resources/images/icons/animation-clip.png" alt="Play" />Roll</label>
+                    
+                    <input type="radio" name="animation" value="Falling" id="Falling" onclick="AnimationChanged(this)">
+                    <label class="unity-clip-label" for="Falling"><img src="https://nilssoderman.com/resources/images/icons/animation-clip.png" alt="Play" />Falling</label>
+                    
+                    <input type="radio" name="animation" value="Falling_Fast" id="Falling_Fast" onclick="AnimationChanged(this)">
+                    <label class="unity-clip-label" for="Falling_Fast"><img src="https://nilssoderman.com/resources/images/icons/animation-clip.png" alt="Play" />Falling_Fast</label>
+                    
+                    <input type="radio" name="animation" value="Falling_Airboost" id="Falling_Airboost" onclick="AnimationChanged(this)">
+                    <label class="unity-clip-label" for="Falling_Airboost"><img src="https://nilssoderman.com/resources/images/icons/animation-clip.png" alt="Play" />Falling_Airboost</label>
+                    
+                    <input type="radio" name="animation" value="Falling_Airboost_Fast" id="Falling_Airboost_Fast" onclick="AnimationChanged(this)">
+                    <label class="unity-clip-label" for="Falling_Airboost_Fast"><img src="https://nilssoderman.com/resources/images/icons/animation-clip.png" alt="Play" />Falling_Airboost_Fas</label>
+                    
+                    <input type="radio" name="animation" value="Hanggliding" id="Hanggliding" onclick="AnimationChanged(this)">
+                    <label class="unity-clip-label" for="Hanggliding"><img src="https://nilssoderman.com/resources/images/icons/animation-clip.png" alt="Play" />Hanggliding</label>
+                    
+                    <input type="radio" name="animation" value="Hanggliding_Left" id="Hanggliding_Left" onclick="AnimationChanged(this)">
+                    <label class="unity-clip-label" for="Hanggliding_Left"><img src="https://nilssoderman.com/resources/images/icons/animation-clip.png" alt="Play" />Hanggliding_Left</label>
+                    
+                    <input type="radio" name="animation" value="Hanggliding_Right" id="Hanggliding_Right" onclick="AnimationChanged(this)">
+                    <label class="unity-clip-label" for="Hanggliding_Right"><img src="https://nilssoderman.com/resources/images/icons/animation-clip.png" alt="Play" />Hanggliding_Right</label>
+                    
+                    <input type="radio" name="animation" value="Hanggliding_Boost" id="Hanggliding_Boost" onclick="AnimationChanged(this)">
+                    <label class="unity-clip-label" for="Hanggliding_Boost"><img  src="https://nilssoderman.com/resources/images/icons/animation-clip.png" alt="Play" />Hanggliding_Boost</label>
+                    
+                    <input type="radio" name="animation" value="Glider_Expand" id="Glider_Expand" onclick="AnimationChanged(this)">
+                    <label class="unity-clip-label" for="Glider_Expand"><img src="https://nilssoderman.com/resources/images/icons/animation-clip.png" alt="Play" />Glider_Expand</label>
+                    
+                    <input type="radio" name="animation" value="Glider_Idle" id="Glider_Idle" onclick="AnimationChanged(this)">
+                    <label class="unity-clip-label" for="Glider_Idle"><img src="https://nilssoderman.com/resources/images/icons/animation-clip.png" alt="Play" />Glider_Idle</label>
+                    
+                    <input type="radio" name="animation" value="Glider_Retract" id="Glider_Retract" onclick="AnimationChanged(this)">
+                    <label class="unity-clip-label" for="Glider_Retract"><img src="https://nilssoderman.com/resources/images/icons/animation-clip.png" alt="Play" />Glider_Retract</label>
+                    
+                </div>
+
+                <div id="unity-player-video-wrapper">
+                    <div id="unity-player-timeline-wrapper">
+                        <div id="unity-player-playbutton-wrapper">
+                            <button id="unity-player-playbutton" onclick="TogglePlayVideo()">Play</button>
+                        </div>
+                        <div id="unity-player-timeline">
+                            <input type="range" id="unity-player-timeline-input" min="0" max="100" oninput="SetVideoFrame(this.value)" onchange="SetVideoFrame(this.value)">
+                        </div>
+                    </div>
+                    <div id="unity-player-video-holder">
+                        <video id="unity-player-video" loop muted>
+                            <source id="unity-player-video-src" src="https://nilssoderman.com/resources/videos/altiia-and-the-trial-islands/Walk.mp4">
+                        </video>
+                    </div>
+                </div>
+                
+            </div>
 
 
-               <input type="radio" name="animation" value="Walk" id="Walk" checked>
-               <label class="input-label" for="Walk"><img class="anim-clip-i" src="https://nilssoderman.com/resources/images/icons/animation-clip.png" alt="Play"/>Walk<span style="margin-right:94px;"></span></label>
-               <br>
-               
-               <input type="radio" name="animation" value="Running" id="Running">
-               <label class="input-label" for="Running"><img class="anim-clip-i" src="https://nilssoderman.com/resources/images/icons/animation-clip.png" alt="Play"/>Running<span style="margin-right:74px;"></span></label>
-               <br>
-               
-               <input type="radio" name="animation" value="Running_Left" id="Running_Left">
-               <label class="input-label" for="Running_Left"><img class="anim-clip-i" src="https://nilssoderman.com/resources/images/icons/animation-clip.png" alt="Play"/>Running_Left<span style="margin-right:45px;"></span></label>
-               <br>
-               
-               <input type="radio" name="animation" value="Running_Right" id="Running_Right">
-               <label class="input-label" for="Running_Right"><img class="anim-clip-i" src="https://nilssoderman.com/resources/images/icons/animation-clip.png" alt="Play"/>Running_Right<span style="margin-right:36px;"></span></label>
-               <br>
-               
-               <input type="radio" name="animation" value="Jump" id="Jump">
-               <label class="input-label" for="Jump"><img class="anim-clip-i" src="https://nilssoderman.com/resources/images/icons/animation-clip.png" alt="Play"/>Jump<span style="margin-right:91px;"></span></label>
-               <br>
-               
-               <input type="radio" name="animation" value="Doubble_Jump" id="Doubble_Jump">
-               <label class="input-label" for="Doubble_Jump"><img class="anim-clip-i" src="https://nilssoderman.com/resources/images/icons/animation-clip.png" alt="Play"/>Doubble_Jump<span style="margin-right:35px;"></span></label>
-               <br>
-               
-               <input type="radio" name="animation" value="Pole_Vault" id="Pole_Vault">
-               <label class="input-label" for="Pole_Vault"><img class="anim-clip-i" src="https://nilssoderman.com/resources/images/icons/animation-clip.png" alt="Play"/>Pole_Vault<span style="margin-right:61px;"></span></label>
-               <br>
-               
-               <input type="radio" name="animation" value="Landing" id="Landing">
-               <label class="input-label" for="Landing"><img class="anim-clip-i" src="https://nilssoderman.com/resources/images/icons/animation-clip.png" alt="Play"/>Landing<span style="margin-right:76px;"></span></label>
-               <br>
-               
-               <input type="radio" name="animation" value="Roll" id="Roll">
-               <label class="input-label" for="Roll"><img class="anim-clip-i" src="https://nilssoderman.com/resources/images/icons/animation-clip.png" alt="Play"/>Roll<span style="margin-right:100px;"></span></label>
-               <br>
-               
-               <input type="radio" name="animation" value="Falling" id="Falling">
-               <label class="input-label" for="Falling"><img class="anim-clip-i" src="https://nilssoderman.com/resources/images/icons/animation-clip.png" alt="Play" />Falling<span style="margin-right:84px;"></span></label>
-               <br>
-               
-               <input type="radio" name="animation" value="Falling_Fast" id="Falling_Fast">
-               <label class="input-label" for="Falling_Fast"><img class="anim-clip-i" src="https://nilssoderman.com/resources/images/icons/animation-clip.png" alt="Play" />Falling_Fast<span style="margin-right:52px;"></span></label>
-               <br>
-               
-               <input type="radio" name="animation" value="Falling_Airboost" id="Falling_Airboost">
-               <label class="input-label" for="Falling_Airboost"><img class="anim-clip-i" src="https://nilssoderman.com/resources/images/icons/animation-clip.png" alt="Play" />Falling_Airboost<span style="margin-right:29px;"></span></label>
-               <br>
-               
-               <input type="radio" name="animation" value="Falling_Airboost_Fast" id="Falling_Airboost_Fast">
-               <label class="input-label" for="Falling_Airboost_Fast"><img class="anim-clip-i" src="https://nilssoderman.com/resources/images/icons/animation-clip.png" alt="Play" />Falling_Airboost_Fas<span style="margin-right:0px;"></span></label>
-               <br>
-               
-               <input type="radio" name="animation" value="Hanggliding" id="Hanggliding">
-               <label class="input-label" for="Hanggliding"><img class="anim-clip-i" src="https://nilssoderman.com/resources/images/icons/animation-clip.png" alt="Play" />Hanggliding<span style="margin-right:54px;"></span></label>
-               <br>
-               
-               <input type="radio" name="animation" value="Hanggliding_Left" id="Hanggliding_Left">
-               <label class="input-label" for="Hanggliding_Left"><img class="anim-clip-i" src="https://nilssoderman.com/resources/images/icons/animation-clip.png" alt="Play" />Hanggliding_Left<span style="margin-right:25px;"></span></label>
-               <br>
-               
-               <input type="radio" name="animation" value="Hanggliding_Right" id="Hanggliding_Right">
-               <label class="input-label" for="Hanggliding_Right"><img class="anim-clip-i" src="https://nilssoderman.com/resources/images/icons/animation-clip.png" alt="Play" />Hanggliding_Right<span style="margin-right:16px;"></span></label>
-               <br>
-               
-               <input type="radio" name="animation" value="Hanggliding_Boost" id="Hanggliding_Boost">
-               <label class="input-label" for="Hanggliding_Boost"><img class="anim-clip-i" src="https://nilssoderman.com/resources/images/icons/animation-clip.png" alt="Play" />Hanggliding_Boost<span style="margin-right:13px;"></span></label>
-               <br>
-               
-               <input type="radio" name="animation" value="Glider_Expand" id="Glider_Expand">
-               <label class="input-label" for="Glider_Expand"><img class="anim-clip-i" src="https://nilssoderman.com/resources/images/icons/animation-clip.png" alt="Play" />Glider_Expand<span style="margin-right:37px;"></span></label>
-               <br>
-               
-               <input type="radio" name="animation" value="Glider_Idle" id="Glider_Idle">
-               <label class="input-label" for="Glider_Idle"><img class="anim-clip-i" src="https://nilssoderman.com/resources/images/icons/animation-clip.png" alt="Play" />Glider_Idle<span style="margin-right:60px;"></span></label>
-               <br>
-               
-               <input type="radio" name="animation" value="Glider_Retract" id="Glider_Retract">
-               <label class="input-label" for="Glider_Retract"><img class="anim-clip-i" src="https://nilssoderman.com/resources/images/icons/animation-clip.png" alt="Play" />Glider_Retract<span style="margin-right:39px;"></span></label>
-               <br>
-                   
-           </div>
-           <div id="unity-player">
-               <img class="border-right-unityp unity-player-image" src="https://nilssoderman.com/resources/images/image/unity-player-ui.png" alt="Player"/>
-               <div id="timeline">
-                   <div id="timeline_drag"></div>
-               </div>
-               <div id="play-button" onclick="playPause()">
-                   <img id="pause-button" class="unity-player-image" src="https://nilssoderman.com/resources/images/image/unity-player-pause.jpg" alt="Pause" />
-               </div>
-               <video width="713" id="animation-video" class="border-right-unityp" loop muted>
-               </video>
-           </div>
-           
-       </div>
-       
-       
+        </div>
+
+        <br/><br/><br/>       
        
        <img class="center-content" id="img-tree" src="https://nilssoderman.com/resources/images/image/altiia-and-the-trial-islands-animtree.png" style="width:80%;" alt="Unity animation tree"/>
        <br>
@@ -665,7 +653,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
 
 
 
-
+<script src="./unity-videoplayer.js"></script>
 <script>
    
    
@@ -679,53 +667,6 @@ https://github.com/nils-soderman/www.nilssoderman.com
                document.getElementById('trailer').style.display = "block";
            }
        }
-   }
-   
-   var video = document.getElementById("animation-video");
-   function playPause() { 
-       if (video.paused) {
-           video.play();
-           document.getElementById('pause-button').style.display = "block";
-   }
-       else {
-           video.pause(); 
-           document.getElementById('pause-button').style.display = "none";
-       }
-   } 
-   
-   var radios = document.getElementsByName("animation");
-   var source = document.createElement('source');
-   var previousSel = "Walk"
-   source.setAttribute('src', 'https://nilssoderman.com/resources/videos/altiia-and-the-trial-islands/Walk.mp4');
-   video.appendChild(source);
-   video.play()
-   
-   for (i = 0; i < radios.length; i++) {
-        radios[i].onclick = function() {
-            if (this.value != previousSel){
-                previousSel = this.value
-                var videoURL = "https://nilssoderman.com/resources/videos/altiia-and-the-trial-islands/"+this.value+".mp4"
-                source.setAttribute('src', videoURL);
-                video.load();
-                video.play();
-                document.getElementById('pause-button').style.display = "block";
-                document.getElementById("animation-title").innerHTML = this.value;
-                document.getElementById("player-popup").style.display = "none";
-            }
-           
-        }
-   }
-   
-   
-   
-   
-   //timeline
-   dragElement(document.getElementById("timeline_drag"));
-   var timeline = document.getElementById('timeline'),
-   duration = video.duration
-   
-   function dragElement(elmnt) {
-       
    }
    
    
