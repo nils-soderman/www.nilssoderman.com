@@ -14,7 +14,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
     
     <link rel="stylesheet" type="text/css" href="./../../resources/css/main.min.css">  
     <link rel="stylesheet" type="text/css" href="./../../resources/css/video_wrapper.css">   
-    <link rel="stylesheet" type="text/css" href="./../../resources/css/download-button.css">
+    <link rel="stylesheet" type="text/css" href="./../../resources/css/download-button.min.css">
     <link rel="stylesheet" type="text/css" href="./stylesheet.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">   
@@ -439,7 +439,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
                     <label class="unity-clip-label" for="Falling_Airboost"><img src="https://nilssoderman.com/resources/images/icons/animation-clip.png" alt="Play" />Falling_Airboost</label>
                     
                     <input type="radio" name="animation" value="Falling_Airboost_Fast" id="Falling_Airboost_Fast" onclick="AnimationChanged(this)">
-                    <label class="unity-clip-label" for="Falling_Airboost_Fast"><img src="https://nilssoderman.com/resources/images/icons/animation-clip.png" alt="Play" />Falling_Airboost_Fas</label>
+                    <label class="unity-clip-label" for="Falling_Airboost_Fast"><img src="https://nilssoderman.com/resources/images/icons/animation-clip.png" alt="Play" />Falling_Airboost_Fast</label>
                     
                     <input type="radio" name="animation" value="Hanggliding" id="Hanggliding" onclick="AnimationChanged(this)">
                     <label class="unity-clip-label" for="Hanggliding"><img src="https://nilssoderman.com/resources/images/icons/animation-clip.png" alt="Play" />Hanggliding</label>

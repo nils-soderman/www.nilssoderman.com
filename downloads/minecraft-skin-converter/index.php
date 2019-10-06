@@ -38,7 +38,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
 
         <div id="promo-art"> 
             <div class="videoWrapper">
-                <img src="./logo-skin-converter.png" />
+                <img src="./logo-skin-converter.png" alt="Minecraft 1.8 Character Skin Converter"/>
             </div>
         </div>
 
@@ -62,6 +62,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
 
     <br/><br/>
     <?php include('./../../resources/includes/footer.html'); ?>
+    <script src="./skin-converter.js"></script>
 </body>
 
 </html>

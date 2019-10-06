@@ -29,7 +29,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
 
     <div id="content">
 
-        <h1 id="title-blender-rig" hidden>EasyFX</h1>
+        
         <img id="blender-rig-logo" src="./easyfx-logo.png" alt="EasyFX">
         
 
@@ -40,6 +40,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
             </div>
         </div>
 
+        <h1 id="title-blender-rig" class="dl-title">EasyFX</h1>
         <h2 class="dl-title" id="dl-main-title">Free Download:</h2>
 
         <div class="download-button-wrapper">

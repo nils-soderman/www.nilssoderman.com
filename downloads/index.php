@@ -41,7 +41,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
               <a href="./minecraft-blender-rig/">
                 <h2 class="dl-title">Minecraft Blender Rig</h2>
               </a>
-              <p class="dl-description">A free Minecraft rig pack for Blender. Containing most Blocks, Items & Mobs from the Game, as well as a character rig.</p>
+              <p class="dl-description">A free Minecraft rig pack for Blender. Containing most Blocks, Items & Mobs from the game, as well as a character rig.</p>
             </div>
           </div>
 

@@ -33,8 +33,6 @@ https://github.com/nils-soderman/www.nilssoderman.com
 
     <div id="content">
         
-
-        <h1 id="title-blender-rig" hidden>Minecraft Blender Rig</h1>
         <img id="blender-rig-logo" src="./../../resources/images/image/minecraft-blender-rig.png" alt="Minecraft Blender Rig">
 
         <div id="promo-art"> 
@@ -43,7 +41,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
             </div>
         </div>
 
-        <h2 class="dl-title" id="dl-main-title">Free Download:</h2>
+        <h1 id="title-blender-rig" class="dl-title">Minecraft Blender Rig </h1><h2 class="dl-title" id="dl-main-title"> Free Download:</h2>
 
         <h3 class="dl-title dl-version">Legacy Versions:</h3>
         <div id="legacy-download-buttons-container">

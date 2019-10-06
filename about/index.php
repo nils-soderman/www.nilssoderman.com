@@ -7,7 +7,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
 <head>
   <meta charset="UTF-8">
   <title>Nils Söderman - About</title>
-  <meta name="description" content="Nils Söderman is currently a junior animator at Hazelight.">
+  <meta name="description" content="Nils Söderman is currently a junior animator working at Hazelight.">
   <meta name="keywords" content="nils söderman, nils soderman, animator, animation reel, about, rymdnisse">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -121,6 +121,33 @@ https://github.com/nils-soderman/www.nilssoderman.com
             </div>
         </div>    
     </div>
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Person",
+    "familyName": "Söderman",
+    "givenName": "Nils",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Hazelight Studios"
+    },
+    "alumniOf": {
+      "@type": "Organization",
+      "name": "FutureGames"
+    },
+    "jobTitle": "Animator",
+    "image": "https://nilssoderman.com/resources/images/nils_soderman.png",
+    "gender": "http://schema.org/Male",
+    "sameAs": ["https://twitter.com/nilssoderman","https://www.linkedin.com/in/nilssoderman/","https://www.youtube.com/rymdnisse"],
+    "nationality": {
+      "@type": "Country",
+      "name": "Sweden"
+    },
+    "url": "https://nilssoderman.com",
+    "birthDate": "1996-06-04"
+  }
+</script>
 
 </body>
 
