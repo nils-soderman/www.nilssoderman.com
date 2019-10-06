@@ -7,7 +7,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
 <head>
   <meta charset="UTF-8">
   <title>Dodge Golf - Nils Söderman</title>
-  <meta name="description" content="Dodge Golf is a local party game with up to 4 players. The goal of the game is to obtain the balloon by successfully hitting it with a ball. Once you got the baloon your score will slowly tick up, and at the same time you need to dodge all of the balls coming your way.">
+  <meta name="description" content="Dodge Golf is a local party game with up to 4 players. The goal of the game is to obtain the balloon by successfully hitting it with a ball.">
   <meta name="keywords" content="nils söderman, future games, dodge golf, party game, multiplayer game">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
