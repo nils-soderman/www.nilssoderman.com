@@ -73,7 +73,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
       <div id="description">
         <div id="project-description">
           <p>
-            Eleven years ago, the Monolith landed on Earth, and it became clear that humanity is not alone in the universe. But for eleven years, it has remained a mystery, yielding no clues to its origin or purpos.<br>
+            Eleven years ago, the Monolith landed on Earth, and it became clear that humanity is not alone in the universe. But for eleven years, it has remained a mystery, yielding no clues to its origin or purpose.<br>
             <br>
             In Voice of the Monolith, you play as a child gifted with immense strength, which aids you as you explore the small island village where the Monolith now towers over empty ruins. Who you are, and why you exist, is as much of a mystery as the alien artefact - all you know is that the Monolith calls to you. And perhaps, if you pay attention, the village may tell you something of what has transpired...
             <br><br>

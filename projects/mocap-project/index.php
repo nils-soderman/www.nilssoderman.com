@@ -166,8 +166,8 @@ https://github.com/nils-soderman/www.nilssoderman.com
              <div class="video-desc">
                 <h2 class="smallTitle">Correction Pass</h2>
                 <p>
-                    Once I had blends that was working I plotted everything down to the control rigs. I then started correcting some poses & movments to be closer to what I was after.<br>
-                    I also began fixing most of the footsliding, to make this proccess easier I wrote a simple script (<a class="text-url" target="_blank" href="https://nilssoderman.com/code/motionbuilder-foot-sliding">Feet_Sliding.py</a>)
+                    Once I had blends that was working I plotted everything down to the control rigs. I then started correcting some poses & movements to be closer to what I was after.<br>
+                    I also began fixing most of the footsliding, to make this process easier I wrote a simple script (<a class="text-url" target="_blank" href="https://nilssoderman.com/code/motionbuilder-foot-sliding">Feet_Sliding.py</a>)
                     to copy the position from the previous frame and paste it on the current frame.
                     All footsliding was corrected on it's own layer so I later could turn down the weight of that layer in order still keep some of the original rotation in the feet, not giving them a dead feeling.
                 </p>

@@ -73,7 +73,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
         <div id="project-description">
           <p>
             Dodge Golf is a local party game with up to 4 players. The goal of the game is to obtain the balloon by successfully hitting it with a ball.<br>
-            Once you got the baloon your score will slowly tick up, and at the same time you need to dodge all of the balls coming your way.<br>
+            Once you got the balloon your score will slowly tick up, and at the same time you need to dodge all of the balls coming your way.<br>
             <br>
             This is a student project made on FutureGames over the course of two weeks. We were a team of 9 people and our criteria was to create a party game for 2-4 players, combining two different sports.<br>
           </p>
