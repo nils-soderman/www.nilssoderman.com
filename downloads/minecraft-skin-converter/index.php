@@ -14,14 +14,10 @@ https://github.com/nils-soderman/www.nilssoderman.com
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link href="./../../resources/images/icons/icon-minecraft-blender-rig.ico" rel="shortcut icon" type="image/x-icon">
-  <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
   
-  
-
   <link rel="stylesheet" type="text/css" href="./../../resources/css/main.min.css">
-  <link rel="stylesheet" type="text/css" href="./../../resources/css/download-button.css">
+  <link rel="stylesheet" type="text/css" href="./../../resources/css/download-button.min.css">
   <link rel="stylesheet" type="text/css" href="./../../resources/css/pages/downloads/minecraft-blender-rig.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
   
 
@@ -49,7 +45,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
             <div class="download-button-wrapper">
                 <a href="./../../files/minecraft/Minecraft_1.8_Skin_Converter.zip" target="_blank">
                     <div class="download-button">
-                        <i class="dl-image material-icons">get_app</i>
+                        <i class="dl-image">get_app</i>
                         <span class="dl-text">Minecraft_Skin_Converter.zip</span>
                     </div>
                 </a>

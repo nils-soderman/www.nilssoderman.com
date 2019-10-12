@@ -14,13 +14,10 @@ https://github.com/nils-soderman/www.nilssoderman.com
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link href="./favicon.ico" rel="shortcut icon" type="image/x-icon">
-  <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="./../../../resources/css/main.min.css">
   <link rel="stylesheet" type="text/css" href="./../../../resources/css/download-button.css">
   <link rel="stylesheet" type="text/css" href="./../../../resources/css/pages/downloads/minecraft-blender-rig.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
-  
 
 </head>
 
@@ -30,8 +27,9 @@ https://github.com/nils-soderman/www.nilssoderman.com
     <div id="content">
 
         
-        <img id="blender-rig-logo" src="./easyfx-logo.png" alt="EasyFX">
-        
+        <h1>
+            <img id="blender-rig-logo" src="./easyfx-logo.png" alt="EasyFX">
+        </h1>
 
         <div id="promo-art"> 
             <div class="videoWrapper">
@@ -39,8 +37,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
-
-        <h1 id="title-blender-rig" class="dl-title">EasyFX</h1>
+        
         <h2 class="dl-title" id="dl-main-title">Free Download:</h2>
 
         <div class="download-button-wrapper">
@@ -51,6 +48,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
                 </div>
             </a>
         </div>
+
         <br/><br/><br/>
         <h4 class="dl-title faq-title"></h4>
         <p class="faq-text"></p>

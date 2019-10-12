@@ -18,13 +18,9 @@ https://github.com/nils-soderman/www.nilssoderman.com
     <meta name="twitter:card" content="summary">
 
     <link href="./../../resources/images/icons/icon-minecraft-blender-rig.ico" rel="shortcut icon" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./../../resources/css/main.min.css">
     <link rel="stylesheet" type="text/css" href="./../../resources/css/download-button.min.css">
     <link rel="stylesheet" type="text/css" href="./../../resources/css/pages/downloads/minecraft-blender-rig.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
-  
 
 </head>
 
@@ -33,7 +29,9 @@ https://github.com/nils-soderman/www.nilssoderman.com
 
     <div id="content">
         
-        <img id="blender-rig-logo" src="./../../resources/images/image/minecraft-blender-rig.png" alt="Minecraft Blender Rig">
+        <h1>
+            <img id="blender-rig-logo" src="./../../resources/images/image/minecraft-blender-rig.png" alt="Minecraft Blender Rig">
+        </h1>
 
         <div id="promo-art"> 
             <div class="videoWrapper">
@@ -41,7 +39,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
             </div>
         </div>
 
-        <h1 id="title-blender-rig" class="dl-title">Minecraft Blender Rig </h1><h2 class="dl-title" id="dl-main-title"> Free Download:</h2>
+        <h2 class="dl-title" id="dl-main-title"> Free Download:</h2>
 
         <h3 class="dl-title dl-version">Legacy Versions:</h3>
         <div id="legacy-download-buttons-container">
@@ -49,7 +47,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
             <div class="download-button-wrapper">
                 <a href="./../../files/minecraft/Cycles_Minecraft_Rig.zip" target="_blank">
                     <div class="download-button">
-                        <i class="dl-image material-icons">get_app</i>
+                        <i class="dl-image">get_app</i>
                         <span class="dl-text">Download Cycles Minecraft Rig</span>
                     </div>
                 </a>
@@ -58,7 +56,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
             <div class="download-button-wrapper">
                 <a href="./../../files/minecraft/Blender_Minecraft_Rig.zip" target="_blank">
                     <div class="download-button">
-                        <i class="dl-image material-icons">get_app</i>
+                        <i class="dl-image">get_app</i>
                         <span class="dl-text">Download Internal Minecraft Rig</span>
                     </div>
                 </a>
@@ -76,7 +74,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
                     echo ' <a href="' . $url . '" target="_blank">';
                 ?>
                     <div class="download-button">
-                        <i class="dl-image material-icons">get_app</i>
+                        <i class="dl-image">get_app</i>
                         <span class="dl-text">Download Cycles Minecraft Rig BSS Edit</span>
                     </div>
                 </a>
@@ -98,7 +96,6 @@ https://github.com/nils-soderman/www.nilssoderman.com
         The Internal version will no longer work as the internal render engine has been removed from Blender 2.8.
         </p>
     </div>
-
 
     <?php include('./../../resources/includes/footer.html'); ?>
 </body>

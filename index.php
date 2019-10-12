@@ -23,7 +23,6 @@ https://github.com/nils-soderman/www.nilssoderman.com
   <meta name="twitter:site" content="@nilssoderman">
 
   <link href="./favicon.ico" rel="shortcut icon" type="image/x-icon">
-  <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="./resources/css/main.min.css">
 
 

@@ -1,3 +1,7 @@
+#menu-item-downloads{
+    text-decoration: underline;
+}
+
 .dl-item{
     clear: both;
     height: fit-content;

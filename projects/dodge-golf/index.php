@@ -13,15 +13,29 @@ https://github.com/nils-soderman/www.nilssoderman.com
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link href="https://nilssoderman.com/resources/images/icons/dodge-golf.ico" rel="shortcut icon" type="image/x-icon">
-  <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="./../../resources/css/main.min.css">
   <link rel="stylesheet" type="text/css" href="./../../resources/css/video_wrapper.css">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
   <style>
 
     /* Page Content */
+    @font-face {
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0b.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+
+    @font-face {
+      font-family: 'Bangers';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: local('Bangers Regular'), local('Bangers-Regular'), url(https://fonts.gstatic.com/s/bangers/v12/FeVQS0BTqb0h60ACH55Q2A.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
 
     #Content {
       margin-top: 20px;

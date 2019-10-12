@@ -10,45 +10,39 @@ https://github.com/nils-soderman/www.nilssoderman.com
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link href="https://nilssoderman.com/favicon.ico" rel="shortcut icon" type="image/x-icon">
-  <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="https://nilssoderman.com/resources/css/main.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
 
   <style>
-  
-    /* Page Content */
-    #Content {
-      margin-top: 100px;
-      height: 325px;
-      max-height: 720px;
+    @font-face {
+      font-family: 'Press Start 2P';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: local('Press Start 2P Regular'), local('PressStart2P-Regular'), url(https://fonts.gstatic.com/s/pressstart2p/v8/e3t4euO8T-267oIAQAu6jDQyK3nVivM.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
     }
-
     #error-message {
         text-align: center;
         font-family: 'Press Start 2P', cursive;
+        line-height: 150%;
+        margin: 200px 0 150px 0;
     }
-
-    #error-code {
-        font-size:80px;
+    h1{
+        font-size:100px;
     }
-
   </style>
-
 </head>
 
 <body>
 
     <?php include('./../resources/includes/header.html'); ?>
 
-    <br/><br/>
     <div id="error-message">
-        <h1 id="error-code">403</h1>
-        <p id="message">Forbidden, You do not have permission to access the requested url on this server.</p>
+        <h1>403</h1>
+        <p>Forbidden, You do not have permission to access the requested url on this server.</p>
     </div>
-    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
     <?php include('./../resources/includes/footer.html'); ?>
 
 </body>
-
 </html>

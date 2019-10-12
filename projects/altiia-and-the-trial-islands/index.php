@@ -16,11 +16,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
     <link rel="stylesheet" type="text/css" href="./../../resources/css/video_wrapper.css">   
     <link rel="stylesheet" type="text/css" href="./../../resources/css/download-button.min.css">
     <link rel="stylesheet" type="text/css" href="./stylesheet.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">   
-    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">   
-    <link href="https://nilssoderman.com/resources/images/icons/altiia-and-the-trial-islands-icon.ico" rel="shortcut icon" type="image/x-icon">   
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://nilssoderman.com/resources/images/icons/altiia-and-the-trial-islands-icon.ico" rel="shortcut icon" type="image/x-icon">
 
    <style>
 
@@ -29,20 +25,9 @@ https://github.com/nils-soderman/www.nilssoderman.com
        margin-top: 35px;     
        font-size: 18px;   
     }
-    #title {
-        margin-top: 50px;
-        margin-bottom: 20px; 
-        text-align: center;
-        font-size: 20px;
-        font-family: 'Cinzel', serif;
-    }
 
-   #description{     
-       font-family: 'Open Sans', sans-serif;     
-       max-width: 1280px;     
-       margin: 0 auto;     
-       margin-bottom: 100px;   
-    }
+
+
    
    #menu-item-projects {       
        text-decoration:underline;   
@@ -102,12 +87,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
    #img-rig{
        float:left;
    }
-   
-   .subtitle{
-       font-family: 'Cinzel', serif;
-       font-size:36px;
-       text-align:center;
-   }
+
    
    #rig-features-list{
        float:left;
@@ -123,59 +103,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
        text-decoration:underline;
    }
    
-   .popup{
-       display:none;
-       position:fixed;
-       top:0px;
-       left:0px;
-       height:100%;
-       width:100%;
-   }
-   
-   .center-content{
-       display: block;
-       margin-left: auto;
-       margin-right: auto;
-       text-align:center;
-   }
-   
-   .popup-background{
-       -webkit-transition: all 2s; /* Safari */
-       transition: all 2s;
-       position:absolute;
-       top:0;
-       width:100%;
-       height:100%;
-       background-color:#000000;
-       opacity:.75;
-       z-index:2;
-   }
-   
-   .popup-content{
-       height:50%;
-       position:absolute;
-       top: 40%;
-       left:50%;
-       z-index:5;
-   }
-   .popup-content2{
-       position:relative;
-       top:-50%;
-       left: -50%;
-       color:#fff;
-       text-align:center;
-   }
-   .popup-content2 p{
-       background-color:rgba(0,0,0,.7);
-       border-radius:5px;
-       font-family: 'Open Sans', sans-serif;
-   }
-   
-   .popup-image{
-       z-index:5;
-       border-radius: 3px;
-       margin-bottom:15px;
-   }
+
    
    .cursive{
        font-style: italic;
@@ -201,13 +129,6 @@ https://github.com/nils-soderman/www.nilssoderman.com
        -ms-user-select: none;
        user-select: none;
    }
-/*
-   #animation-list{
-       float:left;
-       background-color:#c2c2c2;
-       width:150px;
-       height:449px;
-   }*/
    
    #play-button {
        position:absolute;
@@ -336,8 +257,6 @@ https://github.com/nils-soderman/www.nilssoderman.com
    }
    
    .unity-player-image{
-
-
        user-select: none;
        -moz-user-select: none;
        -webkit-user-drag: none;
@@ -370,7 +289,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
        <div class="download-button-wrapper">
            <a href="https://tobias-nylin.itch.io/altiia-and-the-trial-islands" target="_blank">
                <div class="download-button">
-                   <i class="dl-image material-icons">get_app</i>
+                   <i class="dl-image">get_app</i>
                    <span class="dl-text">
                        Download the game at itch.io
                    </span>
