@@ -6,16 +6,14 @@ https://github.com/nils-soderman/www.nilssoderman.com
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Nils Söderman - About</title>
-  <meta name="description" content="Nils Söderman is an animator working in the video game industry, He is currently working on Hazelight's next game TBA. Previously he has also worked as a developer for Poliigon.">
+  <title>Nils Söderman Animator - About Me</title>
+  <meta name="description" content="Nils is an animator working in the video game industry, He is currently working on Hazelight's next game TBA. Previously he has also worked as a developer for Poliigon.">
   <meta name="keywords" content="nils söderman, nils soderman, animator, animation reel, about, rymdnisse">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link href="./../favicon.ico" rel="shortcut icon" type="image/x-icon">
-  <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="./../resources/css/main.min.css">
   <link rel="stylesheet" type="text/css" href="./about.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
 
 </head>
 
@@ -25,15 +23,15 @@ https://github.com/nils-soderman/www.nilssoderman.com
 
     <div id="content">
         <div id = "about">
-            <div id="profile-picture">
-              <img class="undraggable" src="./../resources/images/nils_soderman.png" width=300 alt="Nils Soderman">
+            <div id="profile">
+              <img class="undraggable" id="profile-picture" src="./../resources/images/nils_soderman.png" width="300" height="300" alt="Nils Soderman">
               <div id="contact">
                 <div id="about_email">contact@nilssoderman.com</div>
                 <div id="about_phone"></div>
                 <div id="about_social-media">
-                  <a class="icon" href="https://www.linkedin.com/in/nilssoderman/" target="_blank" title="LinkedIn"><img class="undraggable" src="./../resources/images/linkedin-icon.png" width=32 alt="LinkedIn: nilssoderman"></a>
-                  <a class="icon" href="https://github.com/nils-soderman" target="_blank" title="GitHub"><img class="undraggable" src="./../resources/images/icons/github-icon-32x.png" width=32 alt="GitHub: nils-soderman"></a>
-                  <a class="icon" href="https://twitter.com/nilssoderman" target="_blank" title="Twitter"><img class="undraggable" src="./../resources/images/twitter-icon.png" width=32 alt="Twitter: @nilssoderman"></a>
+                  <a class="icon" href="https://www.linkedin.com/in/nilssoderman/" target="_blank" title="LinkedIn"><img class="undraggable" src="./../resources/images/linkedin-icon.png" width="32" height="32" alt="LinkedIn: nilssoderman"></a>
+                  <a class="icon" href="https://github.com/nils-soderman" target="_blank" title="GitHub"><img class="undraggable" src="./../resources/images/icons/github-icon-32x.png" width="32" height="32" alt="GitHub: nils-soderman"></a>
+                  <a class="icon" href="https://twitter.com/nilssoderman" target="_blank" title="Twitter"><img class="undraggable" src="./../resources/images/twitter-icon.png" width="32" height="32" alt="Twitter: @nilssoderman"></a>
                   
                 </div>
               </div>
@@ -41,11 +39,11 @@ https://github.com/nils-soderman/www.nilssoderman.com
 
             <div id="about-text">
               <div id="bio">
-                  <p>Hi, I'm an animator with a love for video games. I've always liked the technical challanges that comes with creating animations for a game, trying to come up with smart solutions on how animations can be implemented into a game engine.</p>
+                  <p>Hi, I'm an animator with a love for video games. I've always liked the technical challenges that comes with creating animations for a game, trying to come up with smart solutions on how animations can be implemented into a game engine.</p>
               </div>
 
               <div id="work-experience">
-                <h2>Work Experience</h2>
+                <h2>Work experience</h2>
                 <ul>
 
                   <li>
@@ -79,7 +77,14 @@ https://github.com/nils-soderman/www.nilssoderman.com
                     <p class="description">Classes: Animation Basics, Body Mechanics, Advanced Body Mechanics & Introduction to Acting.</p>
                   </li>
 
+                  <li>
+                    <h3 class="company-title"><a href="https://www.his.se/Utbildning/hitta-utbildning/vara-program/Dataspelsutveckling/Dataspelsutveckling-grafik/" target="_blank">University of Skövde</a></h3>
+                    <div class="date">(2015 – 2016)</div>
+                    <p class="description">Studied Game development - Graphics. However I only studied here for about half a year before I began studying at AnimationMentor instead.</p>
+                  </li>
+
                 </ul>
+                <br/><br/><br/>
               </div>
             </div>
 

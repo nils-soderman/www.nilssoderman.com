@@ -85,11 +85,20 @@ a:active{
   margin-top: 40px;
 }
 
+
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/dosis/v14/HhyJU5sn9vOmLxNkIwRSjTVNWLEJN7Ml2xME.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  font-display: swap;
+}
+
 #name {
   font-size: 60px;
   margin-top: 0px;
   font-family: 'Dosis', sans-serif;
-  font-weight: lighter;
   color: #3a3a3a;
   height: 20px;
 
@@ -99,7 +108,7 @@ a:active{
   font-size: 30px;
   font-family: 'Dosis', sans-serif;
   color:#3a3a3a;
-  font-weight:lighter;
+  /*font-weight:lighter;*/
   position:relative;
   margin-top: 45px;
 }
@@ -286,7 +295,7 @@ a:active{
 @media (prefers-color-scheme: dark) {
 
   body{
-    background-color: #232323;
+    background-color: #202023;
     color:#d7d8d3;
   }
 
