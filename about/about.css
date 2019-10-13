@@ -125,5 +125,9 @@ h2 {
     #profile-picture {
         content:url("./../resources/images/nils-soderman-darkmode.png");
     }
+
+    h2 {
+        border-bottom-color: #2d2d2d;
+    }
     
 }

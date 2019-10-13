@@ -6,18 +6,26 @@ https://github.com/nils-soderman/www.nilssoderman.com
 <html lang="en">
 <head>
 
-  <meta charset="UTF-8">
-  
-  <title>EasyFX Blender Add-on - Rymdnisse</title>
-  <meta name="description" content="EasyFX is a free addon for Blender that allows you to easily add effects to your renders & animations">
-  <meta name="keywords" content="blender, addon, plugin, easyfx, compositor, beginners">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
 
-  <link href="./favicon.ico" rel="shortcut icon" type="image/x-icon">
-  <link rel="stylesheet" type="text/css" href="./../../../resources/css/main.min.css">
-  <link rel="stylesheet" type="text/css" href="./../../../resources/css/download-button.css">
-  <link rel="stylesheet" type="text/css" href="./../../../resources/css/pages/downloads/minecraft-blender-rig.css">
+    <title>EasyFX Blender Add-on - Rymdnisse</title>
+    <meta name="description" content="EasyFX is a free addon for Blender that allows you to easily add effects to your renders & animations">
+    <meta name="keywords" content="blender, addon, plugin, easyfx, compositor, beginners">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link href="./favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="./../../../resources/css/main.min.css">
+    <link rel="stylesheet" type="text/css" href="./../../../resources/css/download-button.css">
+    <link rel="stylesheet" type="text/css" href="./../../../resources/css/pages/downloads/minecraft-blender-rig.css">
+
+    <style>
+    @media (prefers-color-scheme: dark){
+        #blender-rig-logo{
+            filter:invert(100%);
+            opacity:.8;
+        }
+    }
+    </style>
 
 </head>
 
@@ -49,9 +57,12 @@ https://github.com/nils-soderman/www.nilssoderman.com
             </a>
         </div>
 
-        <br/><br/><br/>
-        <h4 class="dl-title faq-title"></h4>
-        <p class="faq-text"></p>
+        <br/>
+        <h4 class="dl-title faq-title">What does this add-on do?</h4>
+        <p class="faq-text">EasyFX allows you to easily add effects to your renders & animations directly from the image editor. The add-on will automatically build your compositing node tree.</p>
+
+        <h4 class="dl-title faq-title">Does this work with Blender 2.8?</h4>
+        <p class="faq-text">Unfortunately this add-on was developed before 2.8 was released, and it has not been updated to work with the latest versions of Blender.</p>
 
     </div>
 

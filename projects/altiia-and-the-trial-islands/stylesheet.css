@@ -126,6 +126,7 @@
     margin: 0;
     background-color: #b4b4b4;
     flex-grow: 179;
+    max-width: 178px;
 }
 
 .unity-clip-label{

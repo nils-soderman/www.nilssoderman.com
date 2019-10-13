@@ -43,7 +43,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
         <div id="legacy-download-buttons-container">
 
             <div class="download-button-wrapper">
-                <a href="./../../files/minecraft/Minecraft_1.8_Skin_Converter.zip" target="_blank">
+                <a href="./../../files/minecraft/Minecraft_1.8_Skin_Converter.zip" target="_blank" download>
                     <div class="download-button">
                         <i class="dl-image">get_app</i>
                         <span class="dl-text">Minecraft_Skin_Converter.zip</span>

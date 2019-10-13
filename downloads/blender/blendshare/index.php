@@ -41,7 +41,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
         <div id="legacy-download-buttons-container">
 
             <div class="download-button-wrapper">
-                <a href="./../../../files/blender/Blendshare.zip" target="_blank">
+                <a href="./../../../files/blender/Blendshare.zip" target="_blank" download>
                     <div class="download-button">
                         <i class="dl-image material-icons">get_app</i>
                         <span class="dl-text">Download Blendshare.zip</span>

@@ -47,7 +47,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
                 <ul>
 
                   <li>
-                    <h3 class="company-title"><a href="https://www.hazelight.se" target="_blank">Hazelight</a></h3>
+                    <h3 class="company-title"><a href="https://www.hazelight.se" target="_blank">Hazelight Studios</a></h3>
                     <div class="date">(2018 - present)</div>
                     <p class="description">Animator</p>
                   </li>
