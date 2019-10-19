@@ -71,7 +71,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
             <div class="download-button-wrapper">
                 <?php 
                     $url =  file_get_contents("./../../resources/scripts/pages/downloads/minecraft-blender-rig-bss-url.txt"); 
-                    echo ' <a href="' . $url . '" target="_blank">';
+                    echo ' <a href="' . $url . '" target="_blank" rel="noopener" download>';
                 ?>
                     <div class="download-button">
                         <i class="dl-image">get_app</i>
@@ -82,13 +82,13 @@ https://github.com/nils-soderman/www.nilssoderman.com
         </div>
 
         <div id="bss-dl-page">
-            <a href="https://www.boxscapestudios.tk/downloads" target="_blank">Boxscape Studios download page</a>
+            <a href="https://www.boxscapestudios.tk/downloads" target="_blank" rel="noopener">Boxscape Studios download page</a>
         </div>
 
         <h4 class="dl-title faq-title">What is the BSS Edit?</h4>
             <p class="faq-text">Back in 2017 I handed over future development of this rig pack to Boxscape Studios.<br>
             Since then they have done an absolutely fantastic job at keeping the rig pack up to date and adding a bunch of cool new things.<br>
-            You can visit them at Boxscape Studios: <a href="https://www.boxscapestudios.tk" target="_blank">Website</a>, <a href="https://twitter.com/BoxscapeStudios" target="_blank">Twitter</a>
+            You can visit them at Boxscape Studios: <a href="https://www.boxscapestudios.tk" target="_blank" rel="noopener">Website</a>, <a href="https://twitter.com/BoxscapeStudios" target="_blank" rel="noopener">Twitter</a>
             </p>
 
         <h4 class="dl-title faq-title">Does this rig work with Blender 2.8?</h4>

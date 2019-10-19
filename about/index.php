@@ -29,9 +29,9 @@ https://github.com/nils-soderman/www.nilssoderman.com
                 <div id="about_email">contact@nilssoderman.com</div>
                 <div id="about_phone"></div>
                 <div id="about_social-media">
-                  <a class="icon" href="https://www.linkedin.com/in/nilssoderman/" target="_blank" title="LinkedIn"><img class="undraggable" src="./../resources/images/linkedin-icon.png" width="32" height="32" alt="LinkedIn: nilssoderman"></a>
-                  <a class="icon" href="https://github.com/nils-soderman" target="_blank" title="GitHub"><img class="undraggable" src="./../resources/images/icons/github-icon-32x.png" width="32" height="32" alt="GitHub: nils-soderman"></a>
-                  <a class="icon" href="https://twitter.com/nilssoderman" target="_blank" title="Twitter"><img class="undraggable" src="./../resources/images/twitter-icon.png" width="32" height="32" alt="Twitter: @nilssoderman"></a>
+                  <a class="icon" href="https://www.linkedin.com/in/nilssoderman/" target="_blank" title="LinkedIn" rel="noopener"><img class="undraggable" src="./../resources/images/linkedin-icon.png" width="32" height="32" alt="LinkedIn: nilssoderman"></a>
+                  <a class="icon" href="https://github.com/nils-soderman" target="_blank" title="GitHub" rel="noopener"><img class="undraggable" src="./../resources/images/icons/github-icon-32x.png" width="32" height="32" alt="GitHub: nils-soderman"></a>
+                  <a class="icon" href="https://twitter.com/nilssoderman" target="_blank" title="Twitter" rel="noopener"><img class="undraggable" src="./../resources/images/twitter-icon.png" width="32" height="32" alt="Twitter: @nilssoderman"></a>
                   
                 </div>
               </div>
@@ -47,13 +47,13 @@ https://github.com/nils-soderman/www.nilssoderman.com
                 <ul>
 
                   <li>
-                    <h3 class="company-title"><a href="https://www.hazelight.se" target="_blank">Hazelight Studios</a></h3>
+                    <h3 class="company-title"><a href="https://www.hazelight.se" target="_blank" rel="noopener">Hazelight Studios</a></h3>
                     <div class="date">(2018 - present)</div>
                     <p class="description">Animator</p>
                   </li>
 
                   <li>
-                    <h3 class="company-title"><a href="https://www.poliigon.com" target="_blank">Poliigon</a></h3>
+                    <h3 class="company-title"><a href="https://www.poliigon.com" target="_blank" rel="noopener">Poliigon</a></h3>
                     <div class="date">(2016 - 2019)</div>
                     <p class="description">Developer - Responsible for writing pipeline scripts/tools for a wide range of different DCCs such as Maya, 3ds Max, Cinema 4D & Blender. As well as general automation tools for Photoshop & Windows.</p>
                   </li>
@@ -66,19 +66,19 @@ https://github.com/nils-soderman/www.nilssoderman.com
                 <ul>
 
                   <li>
-                    <h3 class="company-title"><a href="http://futuregames.se" target="_blank">FutureGames</a></h3>
+                    <h3 class="company-title"><a href="http://futuregames.se" target="_blank" rel="noopener">FutureGames</a></h3>
                     <div class="date">(2017 – 2019)</div>
                     <p class="description">3D Artist</p>
                   </li>
 
                   <li>
-                    <h3 class="company-title"><a href="https://www.animationmentor.com" target="_blank">AnimationMentor</a></h3>
+                    <h3 class="company-title"><a href="https://www.animationmentor.com" target="_blank" rel="noopener">AnimationMentor</a></h3>
                     <div class="date">(2016 – 2017)</div>
                     <p class="description">Classes: Animation Basics, Body Mechanics, Advanced Body Mechanics & Introduction to Acting.</p>
                   </li>
 
                   <li>
-                    <h3 class="company-title"><a href="https://www.his.se/Utbildning/hitta-utbildning/vara-program/Dataspelsutveckling/Dataspelsutveckling-grafik/" target="_blank">University of Skövde</a></h3>
+                    <h3 class="company-title"><a href="https://www.his.se/Utbildning/hitta-utbildning/vara-program/Dataspelsutveckling/Dataspelsutveckling-grafik/" target="_blank" rel="noopener">University of Skövde</a></h3>
                     <div class="date">(2015 – 2016)</div>
                     <p class="description">Studied Game development - Graphics. However I only studied here for about half a year before I began studying at AnimationMentor instead.</p>
                   </li>

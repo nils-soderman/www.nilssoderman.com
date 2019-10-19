@@ -71,7 +71,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
     
     <div id="Content">
         <div class="videoWrapper">
-            <iframe src="https://player.vimeo.com/video/275416541?title=0&byline=0&portrait=0" width="1280" height="720" allow="fullscreen"></iframe>
+            <iframe src="https://player.vimeo.com/video/275416541?title=0&byline=0&portrait=0" width="1280" height="720" allow="fullscreen" title="Nils Söderman - Animation Reel 2018"></iframe>
         </div>
     </div>
     
