@@ -11,6 +11,7 @@
 }
 
 
+
 .dl-img{
     float:left;
     width: fit-content;
@@ -25,11 +26,6 @@
     opacity: 0.6;
 }
 
-.dl-text{
-    display: flow-root;
-    width: fit-content;
-}
-
 .dl-title{
     margin:0 0 0 20px;
 }
@@ -38,9 +34,15 @@
     margin:15px 0 0 20px;
 }
 
+.dl-text{
+/*    display: flow-root;
+    width: fit-content; */
+    float: left;
+    width: 60%;
+}
 
 /* Tablet */
-@media (max-width: 882px) {
+@media (max-width: 992px) {
     .dl-img{
         width: 100%;
     }

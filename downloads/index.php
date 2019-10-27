@@ -24,6 +24,8 @@ https://github.com/nils-soderman/www.nilssoderman.com
     
     <div id="content">
       <div id="page-content">
+
+
           <div class="dl-item">
             <div class="dl-img">
               <a href="./minecraft-blender-rig/">
@@ -40,6 +42,20 @@ https://github.com/nils-soderman/www.nilssoderman.com
 
           <div class="dl-item">
             <div class="dl-img">
+              <a href="./motionbuilder/bertil-rig/">
+                <img src="./motionbuilder/bertil-rig/bertil-motionbuilder-rig-thumbnail.jpg" alt="Bertil MotionBuilder Rig" width="320" height="150" class="undraggable">
+              </a>
+            </div>
+            <div class="dl-text">
+              <a href="./motionbuilder/bertil-rig/">
+                <h2 class="dl-title">Bertil MotionBuilder Rig</h2>
+              </a>
+              <p class="dl-description">Bertil is a free simple ball with legs type of rig for MotionBuilder, utilizing HumanIK. Perfect for people who are new to MotionBuilder and just wants to get familiar with the layout and try out some simple keyframe animation.</p>
+            </div>
+          </div>
+
+          <div class="dl-item">
+            <div class="dl-img">
               <a href="./blender/easyfx/">
                 <img src="./blender/easyfx/easyfx-thumbnail.jpg" alt="EasyFX" width="320" height="150" class="undraggable">
               </a>
@@ -51,6 +67,8 @@ https://github.com/nils-soderman/www.nilssoderman.com
               <p class="dl-description">A free Blender add-on which allows you to easily apply effects to your renders & animations.</p>
             </div>
           </div>
+
+
       </div>
     </div>
 
