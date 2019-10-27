@@ -35,8 +35,6 @@
 }
 
 .dl-text{
-/*    display: flow-root;
-    width: fit-content; */
     float: left;
     width: 60%;
 }
