@@ -386,7 +386,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
                 <div id="unity-player-video-wrapper">
                     <div id="unity-player-timeline-wrapper">
                         <div id="unity-player-playbutton-wrapper">
-                            <button id="unity-player-playbutton" onclick="TogglePlayVideo()">Play</button>
+                            <button id="unity-player-playbutton" onclick="TogglePlayVideo()"></button>
                         </div>
                         <div id="unity-player-timeline">
                             <input type="range" id="unity-player-timeline-input" min="0" max="100" oninput="SetVideoFrame(this.value)" onchange="SetVideoFrame(this.value)">

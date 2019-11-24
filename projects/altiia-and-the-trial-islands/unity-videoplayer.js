@@ -6,7 +6,8 @@ EIdNames = {
     PauseBtn:       "pause-button",
     Timeline:       "timeline",
     TimeSlider:     "timeline_drag",
-    TimeSliderInput:"unity-player-timeline-input"
+    TimeSliderInput:"unity-player-timeline-input",
+    PlayButton:     "unity-player-playbutton"
 }
 
 class VideoPlayerClass{
@@ -33,6 +34,7 @@ class VideoPlayerClass{
         this.Video.play();
         this._bIsPlaying = true;
         this.Timer = setInterval(this._TickUpdate.bind(this), 1000/this.FPS);
+        SetButtonBackgroundImg("https://nilssoderman.com/resources/images/image/unity-player-pause.jpg");
         //document.getElementById(EIdNames.PauseBtn).style = "";
     }
 
@@ -40,6 +42,7 @@ class VideoPlayerClass{
         this.Video.pause();
         this._bIsPlaying = false;
         clearInterval(this.Timer);
+        SetButtonBackgroundImg("https://nilssoderman.com/resources/images/image/unity-player-play.jpg");
     }
 
     TogglePlay(){
@@ -110,6 +113,10 @@ function SetVideoFrame(Frame){
     UnityVideoPlayer.SetCurrentFrame(Frame);
 }
 
+function SetButtonBackgroundImg(src){
+    const ButtonElement = document.getElementById(EIdNames.PlayButton);
+    ButtonElement.style.background = "url(" + src + ")";
+}
 
 function main(){
     var VideoElement = document.getElementById(EIdNames.VideoElement);
