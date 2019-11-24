@@ -70,7 +70,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
         <div id="boxscape">
             <div class="download-button-wrapper">
                 <?php 
-                    $url =  file_get_contents("./../../resources/scripts/pages/downloads/minecraft-blender-rig-bss-url.txt"); 
+                    $url =  file_get_contents("./bss-edit-url.txt"); 
                     echo ' <a href="' . $url . '" target="_blank" rel="noopener" download>';
                 ?>
                     <div class="download-button">
