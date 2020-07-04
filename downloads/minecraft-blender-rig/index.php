@@ -81,14 +81,17 @@ https://github.com/nils-soderman/www.nilssoderman.com
             </div>
         </div>
 
-        <div id="bss-dl-page">
-            <a href="https://www.boxscapestudios.tk/downloads" target="_blank" rel="noopener">Boxscape Studios download page</a>
-        </div>
+        <h4 class="dl-title faq-title">Description:</h4>
+            <p class="faq-text"> In this rig you'll find a complete set with all of the things you'll need to get started creating your own 
+            minecraft animations, thumbnails or renders. The rig contains characters, blocks, mobs, items and more!
+            </p>
+
+
 
         <h4 class="dl-title faq-title">What is the BSS Edit?</h4>
             <p class="faq-text">Back in 2017 I handed over future development of this rig pack to Boxscape Studios.<br>
             Since then they have done an absolutely fantastic job at keeping the rig pack up to date and adding a bunch of cool new things.<br>
-            You can visit them at Boxscape Studios: <a href="https://www.boxscapestudios.tk" target="_blank" rel="noopener">Website</a>, <a href="https://twitter.com/BoxscapeStudios" target="_blank" rel="noopener">Twitter</a>
+            You can visit them at Boxscape Studios: <a href="https://sites.google.com/view/boxscape-studios/downloads" target="_blank" rel="noopener">Website</a>, <a href="https://twitter.com/BoxscapeStudios" target="_blank" rel="noopener">Twitter</a>
             </p>
 
         <h4 class="dl-title faq-title">Does this rig work with Blender 2.8?</h4>

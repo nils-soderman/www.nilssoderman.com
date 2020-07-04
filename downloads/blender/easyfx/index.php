@@ -8,7 +8,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
 
 <meta charset="UTF-8">
 
-    <title>EasyFX Blender Add-on - Rymdnisse</title>
+    <title>EasyFX Blender Add-on - Downloads</title>
     <meta name="description" content="EasyFX is a free addon for Blender that allows you to easily add effects to your renders & animations">
     <meta name="keywords" content="blender, addon, plugin, easyfx, compositor, beginners">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -46,23 +46,32 @@ https://github.com/nils-soderman/www.nilssoderman.com
             </div>
         </div>
         
-        <h2 class="dl-title" id="dl-main-title">Free Download:</h2>
+        <h2 class="dl-title" id="dl-main-title">Official 2.79 Version:</h2>
 
         <div class="download-button-wrapper">
             <a href="./../../../files/blender/EasyFX.zip" target="_blank">
                 <div class="download-button">
                     <i class="dl-image material-icons">get_app</i>
-                    <span class="dl-text">Download EasyFX.zip</span>
+                    <span class="dl-text">Download EasyFX for 2.79</span>
                 </div>
             </a>
         </div>
 
-        <br/>
+        <br>
+        <h2 class="dl-title" id="dl-main-title">Unofficial 2.8 Port:</h2>
+        <div class="download-button-wrapper">
+            <a href="https://github.com/DoubleZZ/EasyFX-2.8/archive/master.zip" target="_blank">
+                <div class="download-button">
+                    <i class="dl-image material-icons">get_app</i>
+                    <span class="dl-text">Download EasyFX for 2.8</span>
+                </div>
+            </a>
+        </div>
+        
+        <p>This port for Blender 2.8x was created by DoubleZZ, you can find the github repository <a href="https://github.com/DoubleZZ/EasyFX-2.8", target="_blank">here</a>.</p>
+
         <h4 class="dl-title faq-title">What does this add-on do?</h4>
         <p class="faq-text">EasyFX allows you to easily add effects to your renders & animations directly from the image editor. The add-on will automatically build your compositing node tree.</p>
-
-        <h4 class="dl-title faq-title">Does this work with Blender 2.8?</h4>
-        <p class="faq-text">Unfortunately this add-on was developed before 2.8 was released, and it has not been updated to work with the latest versions of Blender.</p>
 
     </div>
 
