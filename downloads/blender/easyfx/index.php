@@ -34,7 +34,6 @@ https://github.com/nils-soderman/www.nilssoderman.com
 
     <div id="content">
 
-        
         <h1>
             <img id="blender-rig-logo" src="./easyfx-logo.png" alt="EasyFX">
         </h1>
@@ -46,7 +45,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
             </div>
         </div>
         
-        <h2 class="dl-title" id="dl-main-title">Official 2.79 Version:</h2>
+        <h2 class="dl-title dl-version">Official 2.79 Version:</h2>
 
         <div class="download-button-wrapper">
             <a href="./../../../files/blender/EasyFX.zip" target="_blank">
@@ -58,7 +57,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
         </div>
 
         <br>
-        <h2 class="dl-title" id="dl-main-title">Unofficial 2.8 Port:</h2>
+        <h2 class="dl-title dl-version">Unofficial 2.8 Port:</h2>
         <div class="download-button-wrapper">
             <a href="https://github.com/DoubleZZ/EasyFX-2.8/archive/master.zip" target="_blank">
                 <div class="download-button">
@@ -68,8 +67,9 @@ https://github.com/nils-soderman/www.nilssoderman.com
             </a>
         </div>
         
-        <p>This port for Blender 2.8x was created by DoubleZZ, you can find the github repository <a href="https://github.com/DoubleZZ/EasyFX-2.8", target="_blank">here</a>.</p>
+        <p>This port for Blender 2.8x was created by DoubleZZ, you can find the github repository <a href="https://github.com/DoubleZZ/EasyFX-2.8" target="_blank">here</a>.</p>
 
+        <br>
         <h4 class="dl-title faq-title">What does this add-on do?</h4>
         <p class="faq-text">EasyFX allows you to easily add effects to your renders & animations directly from the image editor. The add-on will automatically build your compositing node tree.</p>
 
