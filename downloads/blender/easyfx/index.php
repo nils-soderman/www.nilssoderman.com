@@ -13,6 +13,11 @@ https://github.com/nils-soderman/www.nilssoderman.com
     <meta name="keywords" content="blender, addon, plugin, easyfx, compositor, beginners">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <meta name="og:title" content="Blender Add-on: EasyFX - Download">
+    <meta name="og:description" content="EasyFX is a free addon for Blender that allows you to easily add effects to your renders & animations">
+    <meta name="og:image" content="https://nilssoderman.com/downloads/blender/easyfx/easyfx-thumbnail.jpg">
+    <meta name="twitter:card" content="summary">
+
     <link href="./favicon.ico" rel="shortcut icon" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="./../../../resources/css/main.min.css">
     <link rel="stylesheet" type="text/css" href="./../../../resources/css/download-button.css">
