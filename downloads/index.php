@@ -25,7 +25,6 @@ https://github.com/nils-soderman/www.nilssoderman.com
     <div id="content">
       <div id="page-content">
 
-
           <div class="dl-item">
             <div class="dl-img">
               <a href="./minecraft-blender-rig/">
@@ -40,6 +39,8 @@ https://github.com/nils-soderman/www.nilssoderman.com
             </div>
           </div>
 
+          <div class="item-break"></div>
+
           <div class="dl-item">
             <div class="dl-img">
               <a href="./motionbuilder/bertil-rig/">
@@ -53,6 +54,8 @@ https://github.com/nils-soderman/www.nilssoderman.com
               <p class="dl-description">Bertil is a free simple ball with legs type of rig for MotionBuilder, utilizing HumanIK. Perfect for people who are new to MotionBuilder and just wants to get familiar with the layout and try out some simple keyframe animation.</p>
             </div>
           </div>
+
+          <div class="item-break"></div>
 
           <div class="dl-item">
             <div class="dl-img">
