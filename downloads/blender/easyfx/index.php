@@ -74,13 +74,11 @@ https://github.com/nils-soderman/www.nilssoderman.com
         
         <p>This port for Blender 2.8x was created by DoubleZZ, you can find the github repository <a href="https://github.com/DoubleZZ/EasyFX-2.8" target="_blank">here</a>.</p>
 
-        <br>
         <h4 class="dl-title faq-title">What does this add-on do?</h4>
         <p class="faq-text">EasyFX allows you to easily add effects to your renders & animations directly from the image editor. The add-on will automatically build your compositing node tree.</p>
 
     </div>
 
-    <br/><br/>
     <?php include('./../../../resources/includes/footer.html'); ?>
 </body>
 </html>
