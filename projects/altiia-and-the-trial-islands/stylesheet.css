@@ -142,6 +142,10 @@
     margin-left:10px;
 }
 
+.unity-clip-label:hover {
+    background-color: #93b1e4;
+}
+
 input:checked + .unity-clip-label {
     background-color: #3e7de7;
 }
