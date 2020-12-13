@@ -16,7 +16,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
     <link rel="stylesheet" type="text/css" href="./../../resources/css/video_wrapper.css">   
     <link rel="stylesheet" type="text/css" href="./../../resources/css/download-button.min.css">
     <link rel="stylesheet" type="text/css" href="./stylesheet.min.css">
-    <link href="https://nilssoderman.com/resources/images/icons/altiia-and-the-trial-islands-icon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="https://nilssoderman.com/resources/images/icons/it-takes-two-icon.ico" rel="shortcut icon" type="image/x-icon">
 </head>
 
 
@@ -27,17 +27,17 @@ https://github.com/nils-soderman/www.nilssoderman.com
     <div id="Content">
 
       <div id="title">
-        <h1>It Takes Two</h1>
+        <h1 hidden>It Takes Two</h1>
       </div>
 
       <div class="videoWrapper">
-        <iframe width="1280" height="720" src="https://www.youtube.com/embed/blwlcwlAXwA?rel=0&amp;showinfo=0" allowfullscreen></iframe>
+        <iframe width="1280" height="720" src="https://www.youtube.com/embed/ohClxMmNLQQ?rel=0&amp;showinfo=0" allowfullscreen></iframe>
       </div>
 
       <div id="description">
         <div id="project-description">
             <p>
-                Comming 2021...            
+                
             </p>
         </div>
         </div>

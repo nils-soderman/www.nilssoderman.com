@@ -143,7 +143,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
         <div id="posters-scrollbox">
           <div id="posters">
             <div id="poster-empty-space"></div>
-            <a class="poster" href=""><img src="./../resources/images/poster/poster-it-takes-two.jpg" width=256 height=362 alt="It Takes Two - Hazelight"></a>
+            <a class="poster" href="./it-takes-two/"><img src="./../resources/images/poster/poster-it-takes-two.jpg" width=256 height=362 alt="It Takes Two - Hazelight"></a>
             <a class="poster" href="./altiia-and-the-trial-islands/"><img src="./../resources/images/poster/Poster_Altiia-and-the-Trial-Islands.jpg" width=256 height=362 alt="Altiia and the Trial Islands"></a>
             <a class="poster" href="./voice-of-the-monolith/"><img src="./../resources/images/poster/Poster_Voice-of-the-Monolith.jpg" width=256 height=362 alt="Voice of the Monolith"></a>
             <a class="poster" href="./dodge-golf/"><img src="./../resources/images/poster/Poster_Dodge-Golf.jpg" width=256 height=362 alt="Dodge Golf"></a>
