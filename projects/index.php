@@ -125,8 +125,15 @@ https://github.com/nils-soderman/www.nilssoderman.com
       .posters-border-fade{
         width: 10px;
       }
-
-
+    }
+    @media (prefers-color-scheme: dark) {
+      .fade-right{
+        background: linear-gradient(to left, #202023, #20202300 100%);
+      }
+      
+      .fade-left{
+        background: linear-gradient(to right, #202023, #20202300 100%);
+      }
     }
     
 
@@ -136,7 +143,8 @@ https://github.com/nils-soderman/www.nilssoderman.com
 <body>
 
     <?php include('./../resources/includes/header.html'); ?>
-    
+
+
     <div id="content">
       <div id="posters-content">
         <div class="posters-border-fade fade-left"></div>
