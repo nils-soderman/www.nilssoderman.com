@@ -66,6 +66,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
       position:absolute;
       top:0;
       z-index:2;
+      display:none;
     }
 
     .fade-right{
@@ -126,13 +127,22 @@ https://github.com/nils-soderman/www.nilssoderman.com
         width: 10px;
       }
     }
+
+    @media (max-width: 1350px)
+    {
+      .posters-border-fade{
+        display:inherit;
+      }
+
+    }
+
     @media (prefers-color-scheme: dark) {
       .fade-right{
-        background: linear-gradient(to left, #202023, #20202300 100%);
+        background: linear-gradient(to left, #1d1f1f, #1d1f1f00 100%);
       }
       
       .fade-left{
-        background: linear-gradient(to right, #202023, #20202300 100%);
+        background: linear-gradient(to right, #1d1f1f, #1d1f1f00 100%);
       }
     }
     

@@ -17,6 +17,13 @@ https://github.com/nils-soderman/www.nilssoderman.com
     <link rel="stylesheet" type="text/css" href="./../../resources/css/download-button.min.css">
     <link rel="stylesheet" type="text/css" href="./stylesheet.min.css">
     <link href="https://nilssoderman.com/resources/images/icons/it-takes-two-icon.ico" rel="shortcut icon" type="image/x-icon">
+
+  <style>
+    #menu-item-projects {
+      text-decoration:underline;
+    }
+  </style>
+  
 </head>
 
 
