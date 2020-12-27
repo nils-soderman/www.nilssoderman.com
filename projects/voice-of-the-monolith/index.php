@@ -65,6 +65,9 @@ https://github.com/nils-soderman/www.nilssoderman.com
     #menu-item-projects {
         text-decoration:underline;
     }
+    #menu-item-projects::before, #menu-item-projects::after{
+      content: none;
+    }
 
   </style>
 

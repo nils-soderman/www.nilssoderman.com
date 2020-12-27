@@ -1,6 +1,9 @@
 #menu-item-downloads{
     text-decoration: underline;
 }
+#menu-item-downloads::before, #menu-item-downloads::after{
+    content: none;
+}
 
 #content{
     max-width: 854px;

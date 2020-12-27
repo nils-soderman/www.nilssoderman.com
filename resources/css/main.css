@@ -127,12 +127,12 @@ a:active{
 }
 
 .menu-item {
-  text-decoration: none;
+  position: relative;
   font-size: 30px;
   font-family: 'Dosis', sans-serif;
   font-weight: lighter;
   color: #3a3a3a;
-  width:200px;
+  width: 200px;
   margin-left: 20px;
   margin-right: 0px;
   user-select: none;
@@ -146,19 +146,52 @@ a:active{
   text-decoration: underline;
 }
 
+/* - - - - - - - - - -  */
+/*  Animated Menu items */
+/* - - - - - - - - - -  */
 
 .menu-item:hover {
   -webkit-transition: color .15s;
   transition: color .15s;
-  text-decoration: underline;
   color: #4d4d4d;
+  text-decoration: none;
 }
 
 .menu-item:active{
   color: #737373;
 }
 
+.menu-item::before, .menu-item::after {
+  content: "";
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #3a3a3a;
+  opacity: 0;
+}
+.menu-item:before {
+  transform: translateY(-8px);
+  transition: transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s;
+}
+.menu-item:after {
+  transform: translateY(4px);
+  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s;
+}
 
+.menu-item:hover:after, .menu-item:focus:after {
+  transition: transform 0s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s 0.2s;
+}
+
+.menu-item:focus:before, .menu-item:hover:before {
+  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s;
+}
+
+.menu-item:hover:before, .menu-item:hover:after{
+  opacity: 1;
+  transform: translateY(0);
+}
 
 /* - - - - - - - */
 /*     Footer    */
@@ -350,6 +383,10 @@ a:active{
 
   .menu-item:active{
     color: #717368;
+  }
+
+  .menu-item::before, .menu-item::after {
+    background-color:#9fa09a;
   }
 
   .icon{

@@ -57,8 +57,12 @@ https://github.com/nils-soderman/www.nilssoderman.com
       max-height: 720px;
     }
     
-    #menu-item-reel {
+    #menu-item-reel{
         text-decoration: underline;
+    }
+
+    #menu-item-reel::before, #menu-item-reel::after{
+      content: none;
     }
 
   </style>

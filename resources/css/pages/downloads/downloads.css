@@ -1,6 +1,10 @@
 #menu-item-downloads{
     text-decoration: underline;
 }
+#menu-item-downloads::before, #menu-item-downloads::after{
+    content: none;
+}
+
 
 .dl-item{
     clear: both;

@@ -25,12 +25,11 @@ https://github.com/nils-soderman/www.nilssoderman.com
        margin-top: 35px;     
        font-size: 18px;   
     }
-
-
-
-   
    #menu-item-projects {       
        text-decoration:underline;   
+    }
+    #menu-item-projects::before, #menu-item-projects::after{
+      content: none;
     }
    
    #download_txt{       
