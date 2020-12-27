@@ -27,23 +27,28 @@ https://github.com/nils-soderman/www.nilssoderman.com
               <img class="undraggable" id="profile-picture" src="./../resources/images/nils_soderman.png" width="300" height="300" alt="Nils Soderman">
               <div id="contact">
                 <div id="about_email">contact@nilssoderman.com</div>
-                <div id="about_phone"></div>
                 <div id="about_social-media">
-                  <a class="icon" href="https://www.linkedin.com/in/nilssoderman/" target="_blank" title="LinkedIn" rel="noopener"><img class="undraggable" src="./../resources/images/linkedin-icon.png" width="32" height="32" alt="LinkedIn: nilssoderman"></a>
-                  <a class="icon" href="https://github.com/nils-soderman" target="_blank" title="GitHub" rel="noopener"><img class="undraggable" src="./../resources/images/icons/github-icon-32x.png" width="32" height="32" alt="GitHub: nils-soderman"></a>
-                  <a class="icon" href="https://twitter.com/nilssoderman" target="_blank" title="Twitter" rel="noopener"><img class="undraggable" src="./../resources/images/twitter-icon.png" width="32" height="32" alt="Twitter: @nilssoderman"></a>
-                  
+                  <div class="icon-holder">
+                    <a class="icon" href="https://www.linkedin.com/in/nilssoderman/" target="_blank" title="LinkedIn" rel="noopener"><img class="undraggable" src="./../resources/images/linkedin-icon.png" width="32" height="32" alt="LinkedIn: nilssoderman"></a>
+                  </div>
+                  <div class="icon-holder">
+                    <a class="icon" href="https://github.com/nils-soderman" target="_blank" title="GitHub" rel="noopener"><img class="undraggable" src="./../resources/images/icons/github-icon-32x.png" width="32" height="32" alt="GitHub: nils-soderman"></a>
+                  </div>
+                  <div class="icon-holder">
+                    <a class="icon" href="https://twitter.com/nilssoderman" target="_blank" title="Twitter" rel="noopener"><img class="undraggable" src="./../resources/images/twitter-icon.png" width="32" height="32" alt="Twitter: @nilssoderman"></a>
+                  </div>
                 </div>
               </div>
             </div>
 
             <div id="about-text">
               <div id="bio">
-                  <p>Hi, I'm an animator with a love for video games. I've always liked the technical challenges that comes with creating animations for a game, trying to come up with smart solutions on how animations can be implemented into a game engine.</p>
+                  <p>Hi, I'm an animator with a love for video games. I've always liked the technical challenges that comes with creating animations for a game, trying to come up with smart solutions on how to bring the chararacters in engine to life.</p>
               </div>
 
               <div id="work-experience">
                 <h2>Work experience</h2>
+                <div class="line-break"></div>
                 <ul>
 
                   <li>
@@ -63,6 +68,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
 
               <div id="education">
                 <h2>Education</h2>
+                <div class="line-break"></div>
                 <ul>
 
                   <li>
@@ -78,9 +84,9 @@ https://github.com/nils-soderman/www.nilssoderman.com
                   </li>
 
                   <li>
-                    <h3 class="company-title"><a href="https://www.his.se/Utbildning/hitta-utbildning/vara-program/Dataspelsutveckling/Dataspelsutveckling-grafik/" target="_blank" rel="noopener">University of Skövde</a></h3>
+                    <h3 class="company-title"><a href="https://www.his.se/utbildning/dataspelsutveckling/dataspelsutveckling-animation-dsapg/" target="_blank" rel="noopener">University of Skövde</a></h3>
                     <div class="date">(2015 – 2016)</div>
-                    <p class="description">Studied Game development - Graphics. However I only studied here for about half a year before I began studying at AnimationMentor instead.</p>
+                    <p class="description">Studied Game development - Animation. However I only studied here for about half a year before I began studying at AnimationMentor instead.</p>
                   </li>
 
                 </ul>
