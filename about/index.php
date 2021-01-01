@@ -7,8 +7,8 @@ https://github.com/nils-soderman/www.nilssoderman.com
 <head>
   <meta charset="UTF-8">
   <title>Nils Söderman Animator - About Me</title>
-  <meta name="description" content="Nils is an animator working in the video game industry, He is currently working on Hazelight's next game TBA. Previously he has also worked as a developer for Poliigon.">
-  <meta name="keywords" content="nils söderman, nils soderman, animator, animation reel, about, rymdnisse">
+  <meta name="description" content="Nils Söderman is an animator working in the video game industry, he is currently working on Hazelight's next game It Takes Two.">
+  <meta name="keywords" content="nils söderman, nils soderman, animator, animation reel, about, rymdnisse, technical animator, developer, game developer">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link href="./../favicon.ico" rel="shortcut icon" type="image/x-icon">
