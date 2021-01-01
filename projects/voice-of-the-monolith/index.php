@@ -9,7 +9,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
 
   <meta charset="UTF-8">
   <title>Nils Söderman - Voice of the Monolith</title>
-  <meta name="description" content="In Voice of the Monolith, you play as a child gifted with immense strength, which aids you as you explore the small island village where the Monolith now towers over empty ruins.">
+  <meta name="description" content="Explore the small island village where the Monolith now towers over empty ruins. Who you are? and why you exist? is as much of a mystery as the alien artefact.">
   <meta name="keywords" content="nils soderman, future games, game, student project, student game, mystery">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
