@@ -29,6 +29,9 @@ https://github.com/nils-soderman/www.nilssoderman.com
                 <div id="about_email">contact@nilssoderman.com</div>
                 <div id="about_social-media">
                   <div class="icon-holder">
+                    <a class="icon" href="https://www.flickr.com/photos/nilssoderman/" target="_blank" title="Flickr" rel="noopener"><img class="undraggable" src="./../resources/images/icons/flickr-icon-32x.png" width="32" height="32" alt="Flickr: nilssoderman"></a>
+                  </div>
+                  <div class="icon-holder">
                     <a class="icon" href="https://www.linkedin.com/in/nilssoderman/" target="_blank" title="LinkedIn" rel="noopener"><img class="undraggable" src="./../resources/images/linkedin-icon.png" width="32" height="32" alt="LinkedIn: nilssoderman"></a>
                   </div>
                   <div class="icon-holder">
