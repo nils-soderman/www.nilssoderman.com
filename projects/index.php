@@ -27,7 +27,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
       font-weight:normal;
     }
 
-    #posters{
+    .posters{
       display:block;
       margin:auto;
       width: fit-content;
@@ -81,7 +81,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
       background: linear-gradient(to right, #e3e3e3, #e3e3e300 100%);
     }
 
-    #posters-content {
+    .posters-content {
       position:relative;
     }
 
@@ -118,7 +118,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
         height: auto;
       }
 
-      #posters-content {
+      .posters-content {
         margin-top:10px;
       }
       
@@ -162,11 +162,10 @@ https://github.com/nils-soderman/www.nilssoderman.com
     <div id="content">
 
       <h2>Released Titles:</h2>
-      <div id="posters-content">
+      <div class="posters-content">
         <div class="posters-border-fade fade-left"></div>
         <div class="posters-scrollbox" id="released-titles">
-          <div id="posters">
-            <div id="poster-empty-space"></div>
+          <div class="posters">
             <a class="poster" href="./it-takes-two/"><img src="./../resources/images/poster/poster-it-takes-two.jpg" width=256 height=362 alt="It Takes Two - Hazelight"></a>
           </div>
         </div>
@@ -174,11 +173,10 @@ https://github.com/nils-soderman/www.nilssoderman.com
       </div>
 
       <h2>Student Projects:</h2>
-      <div id="posters-content">
+      <div class="posters-content">
         <div class="posters-border-fade fade-left"></div>
         <div class="posters-scrollbox" id="student-projects">
-          <div id="posters">
-            <div id="poster-empty-space"></div>
+          <div class="posters">
             <a class="poster" href="./altiia-and-the-trial-islands/"><img src="./../resources/images/poster/Poster_Altiia-and-the-Trial-Islands.jpg" width=256 height=362 alt="Altiia and the Trial Islands"></a>
             <a class="poster" href="./voice-of-the-monolith/"><img src="./../resources/images/poster/Poster_Voice-of-the-Monolith.jpg" width=256 height=362 alt="Voice of the Monolith"></a>
             <a class="poster" href="./dodge-golf/"><img src="./../resources/images/poster/Poster_Dodge-Golf.jpg" width=256 height=362 alt="Dodge Golf"></a>
