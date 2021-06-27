@@ -10,20 +10,27 @@ https://github.com/nils-soderman/www.nilssoderman.com
   <meta name="description" content="Here are some the games and other projects I've worked on recently. Altiia and the Trial Islands, Voice of the Monolith, Dodge Golf and more.">
   <meta name="keywords" content="game project, future games, future games stockholm, student games">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
   <link href="./../favicon.ico" rel="shortcut icon" type="image/x-icon">
   <link rel="stylesheet" type="text/css" href="./../resources/css/main.min.css">
   
   <style>
-
-    /* Page Content */
-
     #content {
       margin-top: 50px;
       min-height: 450px;
     }
+    
+    h2 {
+      text-align:center;
+      margin-top:50px;
+      font-size: 30px;
+      font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+      font-weight:normal;
+    }
 
     #posters{
+      display:block;
+      margin:auto;
+      width: fit-content;
       margin-bottom: 10px;
       user-select: none;
       -moz-user-select: none;
@@ -32,18 +39,13 @@ https://github.com/nils-soderman/www.nilssoderman.com
       -ms-user-select: none;
     }
 
-    #posters-scrollbox {
+    .posters-scrollbox {
       white-space: nowrap;
       overflow-x: auto;
     }
 
     .poster {
-        margin-right: 3%;
-    }
-
-    #poster-empty-space{
-      width:3%;
-      display:inline-block;
+      margin:15px;
     }
 
     .poster img{
@@ -80,24 +82,23 @@ https://github.com/nils-soderman/www.nilssoderman.com
     }
 
     #posters-content {
-      margin-top:80px;
       position:relative;
     }
 
     /* width */
-    #posters-scrollbox::-webkit-scrollbar {
+    .posters-scrollbox::-webkit-scrollbar {
       margin-top: 15px;
       height: 5px;
     }
 
     /* Handle */
-    #posters-scrollbox::-webkit-scrollbar-thumb {
+    .posters-scrollbox::-webkit-scrollbar-thumb {
       background: #888;
       border-radius: 2px;
     }
 
     /* Handle on hover */
-    #posters-scrollbox::-webkit-scrollbar-thumb:hover {
+    .posters-scrollbox::-webkit-scrollbar-thumb:hover {
       background: #555;
     }
 
@@ -159,12 +160,25 @@ https://github.com/nils-soderman/www.nilssoderman.com
 
 
     <div id="content">
+
+      <h2>Released Titles:</h2>
       <div id="posters-content">
         <div class="posters-border-fade fade-left"></div>
-        <div id="posters-scrollbox">
+        <div class="posters-scrollbox" id="released-titles">
           <div id="posters">
             <div id="poster-empty-space"></div>
             <a class="poster" href="./it-takes-two/"><img src="./../resources/images/poster/poster-it-takes-two.jpg" width=256 height=362 alt="It Takes Two - Hazelight"></a>
+          </div>
+        </div>
+        <div class="posters-border-fade fade-right"></div>
+      </div>
+
+      <h2>Student Projects:</h2>
+      <div id="posters-content">
+        <div class="posters-border-fade fade-left"></div>
+        <div class="posters-scrollbox" id="student-projects">
+          <div id="posters">
+            <div id="poster-empty-space"></div>
             <a class="poster" href="./altiia-and-the-trial-islands/"><img src="./../resources/images/poster/Poster_Altiia-and-the-Trial-Islands.jpg" width=256 height=362 alt="Altiia and the Trial Islands"></a>
             <a class="poster" href="./voice-of-the-monolith/"><img src="./../resources/images/poster/Poster_Voice-of-the-Monolith.jpg" width=256 height=362 alt="Voice of the Monolith"></a>
             <a class="poster" href="./dodge-golf/"><img src="./../resources/images/poster/Poster_Dodge-Golf.jpg" width=256 height=362 alt="Dodge Golf"></a>
@@ -177,44 +191,43 @@ https://github.com/nils-soderman/www.nilssoderman.com
     <?php include('./../resources/includes/footer.html'); ?>
 
     <script>
-    // Make the posters dragable left/right
-    
-    const PosterArea = document.getElementById("posters-scrollbox");
+    const PosterAreas = document.getElementsByClassName("posters-scrollbox");
     var bDragging = false;
     var bMouseDown = false;
     var StartPosX;
     var CurrentScroll;
+    var CurrentScrollBoxId;
 
-    PosterArea.addEventListener('mousedown', (Event) => {
-      bDragging = false;
-      bMouseDown = true;
-      StartPosX = Event.pageX - PosterArea.offsetLeft;
-      CurrentScroll = PosterArea.scrollLeft;
-    });
-    document.addEventListener('mouseup', (Event) => {
-      bMouseDown = false;
-    });
-    PosterArea.addEventListener('click', (Event) => {
-      if(bDragging)
-      {
+    for (let i = 0; i < PosterAreas.length; i++) {
+      const PosterArea = PosterAreas[i];
+      PosterArea.addEventListener('mousedown', (Event) => {
+        bDragging = false;
+        bMouseDown = true;
+        StartPosX = Event.pageX - PosterArea.offsetLeft;
+        CurrentScroll = PosterArea.scrollLeft;
+        CurrentScrollBoxId = PosterArea.id;
+      });
+      document.addEventListener('mouseup', (Event) => {
+        bMouseDown = false;
+      });
+      PosterArea.addEventListener('click', (Event) => {
+        if(bDragging)
+        {
+          Event.preventDefault();
+        }
+        bDragging = false;
+      });
+      document.addEventListener('mousemove', (Event) => {
+        if(!bMouseDown) return;
         Event.preventDefault();
-      }
-      bDragging = false;
-    });
-    document.addEventListener('mousemove', (Event) => {
-      if(!bMouseDown) return;
-      Event.preventDefault();
-      const x = Event.pageX - PosterArea.offsetLeft;
-      const AmountMoved = (x - StartPosX);
-      if (AmountMoved > 10 || AmountMoved < -10){
-        bDragging = true;
-      }
-      if (bDragging){
-        PosterArea.scrollLeft = CurrentScroll - ((x - StartPosX) * 1.5);
-      }
-    });
-    
-    
+        const x = Event.pageX - PosterArea.offsetLeft;
+        const AmountMoved = (x - StartPosX);
+        if ((AmountMoved > 10 || AmountMoved < -10) && CurrentScrollBoxId == PosterArea.id){
+          bDragging = true;
+          PosterArea.scrollLeft = CurrentScroll - ((x - StartPosX) * 1.5);
+        }
+      });
+    };
     </script>
 
 
