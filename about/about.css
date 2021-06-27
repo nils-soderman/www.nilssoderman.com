@@ -87,20 +87,44 @@ h2 {
     margin:0;
 }
 
+.experience-item
+{
+    border-left: 1px solid #989da980;
+    list-style-type: none;
+    padding-left: 10px;
+    margin-left: -30px;
+}
+
 .company-title{
     margin-bottom: 0;
     font-weight: 500;
 }
 
+.titledate{
+    position: relative;
+}
+
 .date{
+    padding-top: 2px;
     opacity: 0.7;
     font-style: italic;
     font-size: 13px;
 }
 
 .description{
-    margin-top: 3px;
+    margin-top: 5px;
+    font-size: 14px;
 }
+
+.job-title {
+    float: left;
+    margin-right: 10px;
+}
+
+#education{
+    margin-top: 30px;
+}
+
 
 @media (max-width: 945px) {
     #bio {

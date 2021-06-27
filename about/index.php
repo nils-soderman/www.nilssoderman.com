@@ -7,7 +7,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
 <head>
   <meta charset="UTF-8">
   <title>Nils Söderman Animator - About Me</title>
-  <meta name="description" content="Nils Söderman is an animator working in the video game industry, he is currently working on Hazelight's next game It Takes Two.">
+  <meta name="description" content="Nils Söderman is a technical animator working in the video game industry, he has previously also worked as an animator on games such as It Takes Two.">
   <meta name="keywords" content="nils söderman, nils soderman, animator, animation reel, about, rymdnisse, technical animator, developer, game developer">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -46,7 +46,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
 
             <div id="about-text">
               <div id="bio">
-                  <p>Hi, I'm an animator with a love for video games. I've always liked the technical challenges that comes with creating animations for a game, trying to come up with smart solutions on how to bring the chararacters in engine to life.</p>
+                  <p>Hi, I'm a technical animator with a love for video games. I've always liked the technical challenges that comes with creating animations for a game, trying to come up with smart solutions on how to bring the chararacters in engine to life.</p>
               </div>
 
               <div id="work-experience">
@@ -54,16 +54,33 @@ https://github.com/nils-soderman/www.nilssoderman.com
                 <div class="line-break"></div>
                 <ul>
 
-                  <li>
+                  <li class="experience-item">
                     <h3 class="company-title"><a href="https://www.hazelight.se" target="_blank" rel="noopener">Hazelight Studios</a></h3>
-                    <div class="date">(2018 - present)</div>
-                    <p class="description">Animator</p>
+                    <div class="titledate">
+                      <div class="job-title">Technical Animator</div>
+                      <div class="date">(2021 - present)</div>
+                    </div>
+                    <p class="description">
+                      Writing tools & realtime solutions for softwares such as MotionBuilder & Unreal Engine. Mostly working with <i>(but not limited to)</i> Python, C++ & AngelScript.
+                    </p>
+
+                    <div class="titledate">
+                      <div class="job-title">Animator</div>
+                      <div class="date">(2018 - 2021)</div>
+                    </div>
+                    <p class="description">Working with hand-key & motion capture for both gameplay & cutscenes. Also did a lot of technical work such as setting up animation logic/systems using both Blueprints & scripting. As well as writing a few pipeline tools.
+                    </p>
                   </li>
 
-                  <li>
+                  <li class="experience-item">
                     <h3 class="company-title"><a href="https://www.poliigon.com" target="_blank" rel="noopener">Poliigon</a></h3>
-                    <div class="date">(2016 - 2019)</div>
-                    <p class="description">Developer - Responsible for writing pipeline scripts/tools for a wide range of different DCCs such as Maya, 3ds Max, Cinema 4D & Blender. As well as general automation tools for Photoshop & Windows.</p>
+                    <div class="titledate">
+                      <div class="job-title">Tools Developer</div>
+                      <div class="date">(2016 - 2019)</div>
+                    </div>
+                    <p class="description">
+                      Responsible for writing pipeline scripts/tools for a wide range of different DCCs such as Maya, 3ds Max, Cinema 4D & Blender. As well as general automation tools for Photoshop & Windows.
+                    </p>
                   </li>
 
                 </ul>
@@ -74,19 +91,19 @@ https://github.com/nils-soderman/www.nilssoderman.com
                 <div class="line-break"></div>
                 <ul>
 
-                  <li>
+                  <li class="experience-item">
                     <h3 class="company-title"><a href="http://futuregames.se" target="_blank" rel="noopener">FutureGames</a></h3>
                     <div class="date">(2017 – 2019)</div>
-                    <p class="description">3D Artist</p>
+                    <p class="description">3D Artist - a more generalist program, got to learn the basics of most art disciplines involved when making a game.</p>
                   </li>
 
-                  <li>
+                  <li class="experience-item">
                     <h3 class="company-title"><a href="https://www.animationmentor.com" target="_blank" rel="noopener">AnimationMentor</a></h3>
                     <div class="date">(2016 – 2017)</div>
                     <p class="description">Classes: Animation Basics, Body Mechanics, Advanced Body Mechanics & Introduction to Acting.</p>
                   </li>
 
-                  <li>
+                  <li class="experience-item">
                     <h3 class="company-title"><a href="https://www.his.se/utbildning/dataspelsutveckling/dataspelsutveckling-animation-dsapg/" target="_blank" rel="noopener">University of Skövde</a></h3>
                     <div class="date">(2015 – 2016)</div>
                     <p class="description">Studied Game development - Animation. However I only studied here for about half a year before I began studying at AnimationMentor instead.</p>
