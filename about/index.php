@@ -60,6 +60,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
                       <div class="job-title">Technical Animator</div>
                       <div class="date">(2021 - present)</div>
                     </div>
+                    <div class="line-break-desc"></div>
                     <p class="description">
                       Writing tools & realtime solutions for softwares such as MotionBuilder & Unreal Engine. Mostly working with <i>(but not limited to)</i> Python, C++ & AngelScript.
                     </p>
@@ -68,7 +69,9 @@ https://github.com/nils-soderman/www.nilssoderman.com
                       <div class="job-title">Animator</div>
                       <div class="date">(2018 - 2021)</div>
                     </div>
-                    <p class="description">Working with hand-key & motion capture for both gameplay & cutscenes. Also did a lot of technical work such as setting up animation logic/systems using both Blueprints & scripting. As well as writing a few pipeline tools.
+                    <div class="line-break-desc"></div>
+                    <p class="description">
+                      Working with hand-key & motion capture for both gameplay & cutscenes. Also did a lot of technical work such as setting up animation logic/systems using both Blueprints & scripting. As well as writing a few pipeline tools.
                     </p>
                   </li>
 
@@ -78,8 +81,9 @@ https://github.com/nils-soderman/www.nilssoderman.com
                       <div class="job-title">Tools Developer</div>
                       <div class="date">(2016 - 2019)</div>
                     </div>
+                    <div class="line-break-desc"></div>
                     <p class="description">
-                      Responsible for writing pipeline scripts/tools for a wide range of different DCCs such as Maya, 3ds Max, Cinema 4D & Blender. As well as general automation tools for Photoshop & Windows.
+                      Responsible for writing pipeline tools for a wide range of different DCCs such as Maya, 3ds Max, Cinema 4D & Blender. As well as some batch automation tools for Photoshop & Windows.
                     </p>
                   </li>
 
@@ -92,21 +96,33 @@ https://github.com/nils-soderman/www.nilssoderman.com
                 <ul>
 
                   <li class="experience-item">
-                    <h3 class="company-title"><a href="http://futuregames.se" target="_blank" rel="noopener">FutureGames</a></h3>
-                    <div class="date">(2017 – 2019)</div>
-                    <p class="description">3D Artist - a more generalist program, got to learn the basics of most art disciplines involved when making a game.</p>
+                    <h3 class="company-title"><a href="http://futuregames.se" target="_blank" rel="noopener">Futuregames</a></h3>
+                    <div class="titledate">
+                      <div class="job-title">Game Artist</div>
+                      <div class="date">(2017 – 2019)</div>
+                    </div>
+                    <div class="line-break-desc"></div>
+                    <p class="description">A generalist program, got to learn the basics of most art disciplines involved when making a game.</p>
                   </li>
 
                   <li class="experience-item">
-                    <h3 class="company-title"><a href="https://www.animationmentor.com" target="_blank" rel="noopener">AnimationMentor</a></h3>
-                    <div class="date">(2016 – 2017)</div>
-                    <p class="description">Classes: Animation Basics, Body Mechanics, Advanced Body Mechanics & Introduction to Acting.</p>
+                    <h3 class="company-title"><a href="https://www.animationmentor.com" target="_blank" rel="noopener">Animation Mentor</a></h3>
+                    <div class="titledate">
+                      <div class="job-title">Character Animation</div>
+                      <div class="date">(2016 – 2017)</div>
+                    </div>
+                    <div class="line-break-desc"></div>
+                    <p class="description">Classes taken: Animation Basics, Body Mechanics, Advanced Body Mechanics & Introduction to Acting.</p>
                   </li>
 
                   <li class="experience-item">
                     <h3 class="company-title"><a href="https://www.his.se/utbildning/dataspelsutveckling/dataspelsutveckling-animation-dsapg/" target="_blank" rel="noopener">University of Skövde</a></h3>
-                    <div class="date">(2015 – 2016)</div>
-                    <p class="description">Studied Game development - Animation. However I only studied here for about half a year before I began studying at AnimationMentor instead.</p>
+                    <div class="titledate">
+                      <div class="job-title">Game development - Animation</div>
+                      <div class="date">(2015 – 2016)</div>
+                    </div>
+                    <div class="line-break-desc"></div>
+                    <p class="description">I only studied here for about half a year before I began studying at AnimationMentor instead.</p>
                   </li>
 
                 </ul>
