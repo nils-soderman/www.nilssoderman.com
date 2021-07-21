@@ -86,15 +86,12 @@ https://github.com/nils-soderman/www.nilssoderman.com
             minecraft animations, thumbnails or renders. The rig contains characters, blocks, mobs, items and more!
             </p>
 
-
-
         <h4 class="dl-title faq-title">What is the BSS Edit?</h4>
             <p class="faq-text">Back in 2017 I handed over future development of this rig pack to Boxscape Studios.<br>
-            Since then they have done an absolutely fantastic job at keeping the rig pack up to date and adding a bunch of cool new things.<br>
-            You can visit them at Boxscape Studios: <a href="https://sites.google.com/view/boxscape-studios/downloads" target="_blank" rel="noopener">Website</a>, <a href="https://twitter.com/BoxscapeStudios" target="_blank" rel="noopener">Twitter</a>
+            Since then they have made numerous updates, adding new things & keeping things up to date. You can visit them at Boxscape Studios: <a href="https://sites.google.com/view/boxscape-studios/downloads" target="_blank" rel="noopener">Website</a>, <a href="https://twitter.com/BoxscapeStudios" target="_blank" rel="noopener">Twitter</a>
             </p>
 
-        <h4 class="dl-title faq-title">Does this rig work with Blender 2.8?</h4>
+        <h4 class="dl-title faq-title">Does this rig work with Blender 2.8/2.9?</h4>
         <p class="faq-text">Yes. Both the Cycles version and the BSS Edit works in Blender 2.8 and above.<br>
         The Internal version will no longer work as the internal render engine has been removed from Blender 2.8.
         </p>
