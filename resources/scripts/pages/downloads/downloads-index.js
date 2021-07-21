@@ -89,6 +89,7 @@ function CreateListItem(Title, Desc, PageID){
     ThumbnailLink.href = "./" + PageID;
     
     const ThumbnailHolder = document.createElement("img");
+    ThumbnailHolder.width = 320;
     ThumbnailHolder.src = "./" + PageID + "/thumbnail.jpg";
     ThumbnailHolder.className = "dl-img"
     ThumbnailHolder.alt = Title;
