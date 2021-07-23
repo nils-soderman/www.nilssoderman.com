@@ -100,7 +100,7 @@
 
 .dl-img{
     float:left;
-    width: fit-content;
+    height: auto;
     transition: 0.1s opacity;
     max-width: 320px;
     border-radius: 1px;
@@ -129,7 +129,6 @@
 
 .item-break{
     width:100%;
-    /*background-color: #ccc;*/
     height: 1px;
     margin-top: 25px;
     margin-bottom: 25px;

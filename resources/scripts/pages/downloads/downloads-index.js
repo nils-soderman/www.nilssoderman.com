@@ -90,6 +90,7 @@ function CreateListItem(Title, Desc, PageID){
     
     const ThumbnailHolder = document.createElement("img");
     ThumbnailHolder.width = 320;
+    ThumbnailHolder.height = 150;
     ThumbnailHolder.src = "./" + PageID + "/thumbnail.jpg";
     ThumbnailHolder.className = "dl-img"
     ThumbnailHolder.alt = Title;
