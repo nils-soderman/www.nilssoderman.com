@@ -1,0 +1,28 @@
+{
+  "sitemap.xml": {
+    "Protocol": "https",
+    "DomainName": "nilssoderman.com",
+    "Root": "./",
+    "IncludeExt": [
+      ".html",
+      ".php"
+    ],
+    "Exclude": [
+      "resources/*",
+      "php/*",
+      "files/*",
+      "error-documents/*"
+    ],
+    "TagsToInclude": [
+      "priority",
+      "lastmod"
+    ],
+    "DefaultChangeFrequency": "monthly",
+    "TabCharacters": "\t",
+    "bIncludeWWW": false,
+    "bRemoveFileExtentions": true,
+    "bUseTrailingSlash": true,
+    "bAutomaticallyUpdateSitemap": true,
+    "bMinimized": false
+  }
+}
