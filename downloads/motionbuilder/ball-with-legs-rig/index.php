@@ -61,10 +61,10 @@ https://github.com/nils-soderman/www.nilssoderman.com
         <div id="legacy-download-buttons-container">
 
             <div class="download-button-wrapper">
-                <a href="./../../../files/motionbuilder/bertil-rig/Bertil_MotionBuilder_Rig.zip" target="_blank" download>
+                <a href="./../../../files/motionbuilder/ball-with-legs-rig/Ball_With_Legs_MotionBuilder_Rig.zip" target="_blank" download>
                     <div class="download-button">
                         <i class="dl-image">get_app</i>
-                        <span class="dl-text">Download Bertil MotionBuilder Rig</span>
+                        <span class="dl-text">Download MotionBuilder Rig</span>
                     </div>
                 </a>
             </div>
