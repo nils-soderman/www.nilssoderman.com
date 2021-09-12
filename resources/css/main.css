@@ -230,7 +230,7 @@ a:active{
   margin-right: 8px;
 }
 
-.icon img{
+.icon img, .icon svg{
   position: absolute;
   top: 0;
   left: 0;
@@ -238,7 +238,7 @@ a:active{
   transition: .2s;
 }
 
-.icon img:hover{
+.icon img:hover, .icon svg:hover{
   opacity: 0.8;
   top:-2px;
   left:-2px;
@@ -246,7 +246,7 @@ a:active{
   height: 36px;
 }
 
-.icon img:active{
+.icon img:active, .icon svg:active{
   -webkit-transition: .05s;
   transition: .05s;
   opacity: 0.5;
@@ -255,7 +255,6 @@ a:active{
   width: 30px;
   height: 30px;
 }
-
 
 
 
