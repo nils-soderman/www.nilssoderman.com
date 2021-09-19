@@ -6,7 +6,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Nils Söderman - Resources</title>
+    <title>Nils Söderman - Photos</title>
     <meta name="description" content="A collection of free resources. Containing Rigs, Scripts, Plugins & more.">
     <meta name="keywords" content="downloads, free, minecraft, blender, rig, software, animation, tool, tools, addon, script">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -28,7 +28,13 @@ https://github.com/nils-soderman/www.nilssoderman.com
         </div>
     </div>
     
-
+    <div id="image-zoom" hidden>
+        <div id="image-display">
+            <img>
+        </div>
+        <div id="darken-background"></div>
+    </div>
+    
 
 
     <?php include('./../resources/includes/footer.html'); ?>

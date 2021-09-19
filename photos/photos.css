@@ -1,5 +1,9 @@
 #main-photo-container{
+    
+    margin: auto;
+    width: 90%;
     margin-top: 50px;
+    max-width: 1280px;
 }
 
 #image-list {
@@ -8,27 +12,34 @@
     gap: 10px;
 }
 
-.photo {
+.photo-container{
     object-fit: cover;
     flex-grow: 1;
-    object-fit: contain;
-    display:block;
-
-    
-    cursor: pointer;
-    transition: all 0.1s ease;
-    background-color:gray; 
+    cursor:zoom-in;
+    transition: all 0.15s ease;
 }
 
-img {
-    flex-grow: 1;
+.photo-container img{ 
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
 }
 
-.childi {
-    
-}
 
-.photo:hover {
+.photo-container:hover {
     -webkit-filter: brightness(80%);
 
+}
+
+#darken-background {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #00000098;
+}
+
+#image-zoom {
+    z-index: 10;
 }
