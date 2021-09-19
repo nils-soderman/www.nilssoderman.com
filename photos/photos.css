@@ -1,0 +1,34 @@
+#main-photo-container{
+    margin-top: 50px;
+}
+
+#image-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.photo {
+    object-fit: cover;
+    flex-grow: 1;
+    object-fit: contain;
+    display:block;
+
+    
+    cursor: pointer;
+    transition: all 0.1s ease;
+    background-color:gray; 
+}
+
+img {
+    flex-grow: 1;
+}
+
+.childi {
+    
+}
+
+.photo:hover {
+    -webkit-filter: brightness(80%);
+
+}
