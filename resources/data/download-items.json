@@ -7,6 +7,12 @@
             "tags": ["Rigs", "Blender"]
         },
         {
+            "title": "MotionBuilder Utils - VS Code Extension",
+            "desc": "Visual Studio Code extension to assist when writing python code for Autodesk MotionBuilder.",
+            "page": "vscode/motionbuilder-utils",
+            "tags": ["VS Code", "MotionBuilder"]
+        },
+        {
             "title": "MotionBuilder Ball With Legs Rig",
             "desc": "A free simple ball with legs type of rig for MotionBuilder, utilizing HumanIK. Perfect for people who are new to MotionBuilder and just wants to get familiar with the layout and try out some simple keyframe animation.",
             "page": "motionbuilder/ball-with-legs-rig",

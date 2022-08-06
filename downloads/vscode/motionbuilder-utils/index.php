@@ -13,7 +13,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
 
     <meta name="og:title" content="MotionBuilder Utils - Visual Studio Code Extension">
     <meta name="og:description" content="Tools to assist when writing Python code for Autodesk MotionBuilder. IntelliSense, debugging, execute code and more.">
-    <meta name="og:image" content="">
+    <meta name="og:image" content="https://nilssoderman.com/downloads/vscode/motionbuilder-utils/vscode-mobu-utils-banner.jpg">
     <meta name="twitter:card" content="summary">
 
     <link href="./favicon.ico" rel="shortcut icon" type="image/x-icon">
@@ -34,8 +34,74 @@ https://github.com/nils-soderman/www.nilssoderman.com
             font-family: 'Catamaran', sans-serif;
             font-weight: 400;
             font-style: normal;
-            font-size:46px;
+            font-size: 55px;
             margin: 0 auto 10px auto;
+            line-height: 40px;
+        }
+
+        #download-buttons {
+            text-align: center;
+        }
+
+        .download-button-wrapper {
+            display: inline-block;
+            margin-left: 20px;
+        }
+
+        .github-button {
+            background-image: linear-gradient(to top, #24292d, #333a40);
+            color: white;
+        }
+        
+        .github-button:hover {
+            background-image: linear-gradient(to top, #272c30, #3d454d);
+            color: white;
+        }
+        
+        .github-button #btn-github-icon {
+            display: inline-block;
+            height: 100%;
+            float: left;
+        }
+
+        .github-button:active {
+            box-shadow: 0 0 5px 1px #0d1f2b inset;
+        }
+
+        .github-button .dl-text {
+            margin-left: 3px;
+        }
+
+        .github-button #btn-github-icon img {
+            padding: 8px;
+        }
+
+        #features-title {
+            font-size: 25px;
+        }
+
+        .features-sub-title {
+            font-size: 18px;
+        }
+
+        #additional-urls {
+            text-align: center;
+        }
+
+        #content {
+            max-width: 800px;
+        }
+        
+        @media (prefers-color-scheme: dark) {
+            .github-button {
+                background-image: linear-gradient(to top, #202c36, #516f88);
+                color: white;
+            }
+        
+            .github-button:hover {
+                background-image: linear-gradient(to top, #202c36, #6187a7);
+                color: white;
+            }    
         }
     </style>
 
@@ -47,9 +113,10 @@ https://github.com/nils-soderman/www.nilssoderman.com
     <div id="content">
         
         <h1>
-            MotionBuilder Utils<br>Visual Studio Code Extension
+            MotionBuilder Utils<br><span style="font-size:32px;">Visual Studio Code Extension</span>
         </h1>
 
+        <br><br>
 
         <div id="download-buttons">
             <div class="download-button-wrapper">
@@ -62,28 +129,35 @@ https://github.com/nils-soderman/www.nilssoderman.com
             </div>
             <div class="download-button-wrapper">
                 <a href="https://github.com/nils-soderman/vscode-motionbuilder-utils" target="_blank">
-                    <div class="download-button">
-                        <i class="dl-image">get_app</i>
+                    <div class="download-button github-button">
+                        <div id="btn-github-icon">
+                            <img src="./../../../resources/images/icons/github-light-32x.png" />
+                        </div>
                         <span class="dl-text">GitHub Repository</span>
                     </div>
                 </a>
             </div>
         </div>
 
-        <a href="https://marketplace.visualstudio.com/items/NilsSoderman.mobu-utils" target="_blank">VS Code Marketplace</a>
+        <br>
 
-        <a href="https://marketplace.visualstudio.com/items/NilsSoderman.mobu-utils/changelog" target="_blank">Changelog</a>
+        <div id="additional-urls">
+            <a href="https://marketplace.visualstudio.com/items/NilsSoderman.mobu-utils" target="_blank">VS Code Marketplace</a>
+            <br>
+            <a href="https://marketplace.visualstudio.com/items/NilsSoderman.mobu-utils/changelog" target="_blank">Changelog</a>
+        </div>
 
-        <br/>
-        <p class="faq-text">Open source tools to assist when writing Python code for Autodesk MotionBuilder.</p>
-        
-        <h2 class="dl-title faq-title">Features:</h2>
+        <br><br>
 
-        <h3 class="dl-title faq-title">Execute Code:</h3>
+        <p class="faq-text" style="margin-bottom:40px">Open source tools to assist when writing Python code for Autodesk MotionBuilder.</p>
+        <h2 class="dl-title" id="features-title">Features:</h2>
+
+        <h3 class="dl-title features-sub-title">Execute Code:</h3>
         <p class="faq-text">Run code in MotionBuilder directly from within the editor.</p>
         <img src="https://github.com/nils-soderman/vscode-motionbuilder-utils/raw/main/media/demo/demo-exec.gif?raw=true" width="800px" alt="Demo of python code being executed inside MotionBuilder from VS Code"/>
-        
-        <h3 class="dl-title faq-title">Intellisense / Auto-Completion:</h3>
+        <br><br><br>
+
+        <h3 class="dl-title features-sub-title">Intellisense / Auto-Completion:</h3>
         <p class="faq-text">This extention comes with improved stub files for the pyfbsdk module.</p>
         <img src="https://github.com/nils-soderman/vscode-motionbuilder-utils/raw/main/media/demo/auto-completion.jpg?raw=true" width="800px"/>
         <ul>
@@ -91,12 +165,14 @@ https://github.com/nils-soderman/www.nilssoderman.com
         <li>Variable type annotations</li>
         <li>Readable descriptions</li>    
         </ul>
+        <br><br><br>
         
-        <h3 class="dl-title faq-title">Debugging:</h3>
+        <h3 class="dl-title features-sub-title">Debugging:</h3>
         <p class="faq-text">Attach VS Code to MotionBuilder to debug your scripts, set breakpoints & step through the code.</p>
         <img src="https://github.com/nils-soderman/vscode-motionbuilder-utils/raw/main/media/demo/demo-debug.gif?raw=true" width="800px"/>
-        
-        <h3 class="dl-title faq-title">Browse the Documentation:</h3>
+        <br><br><br>
+
+        <h3 class="dl-title features-sub-title">Browse the Documentation:</h3>
         <p class="faq-text">Quickly search through the official sdk documentation from within the editor, and open the page in a new web-browser tab.</p>
         <img src="https://github.com/nils-soderman/vscode-motionbuilder-utils/raw/main/media/demo/demo-docs.gif?raw=true" width="800px"/>
     </div>
