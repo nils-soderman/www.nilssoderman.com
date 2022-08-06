@@ -131,7 +131,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
                 <a href="https://github.com/nils-soderman/vscode-motionbuilder-utils" target="_blank">
                     <div class="download-button github-button">
                         <div id="btn-github-icon">
-                            <img src="./../../../resources/images/icons/github-light-32x.png" />
+                            <img src="./../../../resources/images/icons/github-light-32x.png" alt="github-icon"/>
                         </div>
                         <span class="dl-text">GitHub Repository</span>
                     </div>
@@ -154,12 +154,12 @@ https://github.com/nils-soderman/www.nilssoderman.com
 
         <h3 class="dl-title features-sub-title">Execute Code:</h3>
         <p class="faq-text">Run code in MotionBuilder directly from within the editor.</p>
-        <img src="https://github.com/nils-soderman/vscode-motionbuilder-utils/raw/main/media/demo/demo-exec.gif?raw=true" width="800px" alt="Demo of python code being executed inside MotionBuilder from VS Code"/>
+        <img src="https://github.com/nils-soderman/vscode-motionbuilder-utils/raw/main/media/demo/demo-exec.gif?raw=true" width="800" alt="Demo of python code being executed inside MotionBuilder from VS Code"/>
         <br><br><br>
 
         <h3 class="dl-title features-sub-title">Intellisense / Auto-Completion:</h3>
         <p class="faq-text">This extention comes with improved stub files for the pyfbsdk module.</p>
-        <img src="https://github.com/nils-soderman/vscode-motionbuilder-utils/raw/main/media/demo/auto-completion.jpg?raw=true" width="800px"/>
+        <img src="https://github.com/nils-soderman/vscode-motionbuilder-utils/raw/main/media/demo/auto-completion.jpg?raw=true" width="800"/>
         <ul>
         <li>Feature complete (contains all of the functions & classes that can be accessed in the pyfbsdk module)</li>
         <li>Variable type annotations</li>
@@ -169,12 +169,12 @@ https://github.com/nils-soderman/www.nilssoderman.com
         
         <h3 class="dl-title features-sub-title">Debugging:</h3>
         <p class="faq-text">Attach VS Code to MotionBuilder to debug your scripts, set breakpoints & step through the code.</p>
-        <img src="https://github.com/nils-soderman/vscode-motionbuilder-utils/raw/main/media/demo/demo-debug.gif?raw=true" width="800px"/>
+        <img src="https://github.com/nils-soderman/vscode-motionbuilder-utils/raw/main/media/demo/demo-debug.gif?raw=true" width="800"/>
         <br><br><br>
 
         <h3 class="dl-title features-sub-title">Browse the Documentation:</h3>
         <p class="faq-text">Quickly search through the official sdk documentation from within the editor, and open the page in a new web-browser tab.</p>
-        <img src="https://github.com/nils-soderman/vscode-motionbuilder-utils/raw/main/media/demo/demo-docs.gif?raw=true" width="800px"/>
+        <img src="https://github.com/nils-soderman/vscode-motionbuilder-utils/raw/main/media/demo/demo-docs.gif?raw=true" width="800"/>
     </div>
 
     <?php include('./../../../resources/includes/footer.html'); ?>
