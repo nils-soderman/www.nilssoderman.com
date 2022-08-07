@@ -36,7 +36,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
             font-style: normal;
             font-size: 55px;
             margin: 0 auto 10px auto;
-            line-height: 40px;
+            line-height: 50px;
         }
 
         #download-buttons {
@@ -46,6 +46,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
         .download-button-wrapper {
             display: inline-block;
             margin-left: 20px;
+            margin-top: 20px;
         }
 
         .github-button {
@@ -113,7 +114,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
     <div id="content">
         
         <h1>
-            MotionBuilder Utils<br><span style="font-size:32px;">Visual Studio Code Extension</span>
+            MotionBuilder Utils<br><span style="font-size:32px;line-height:18px;">Visual Studio Code Extension</span>
         </h1>
 
         <br><br>
@@ -154,12 +155,12 @@ https://github.com/nils-soderman/www.nilssoderman.com
 
         <h3 class="dl-title features-sub-title">Execute Code:</h3>
         <p class="faq-text">Run code in MotionBuilder directly from within the editor.</p>
-        <img src="https://github.com/nils-soderman/vscode-motionbuilder-utils/raw/main/media/demo/demo-exec.gif?raw=true" width="800" alt="Demo of python code being executed inside MotionBuilder from VS Code"/>
+        <img src="https://github.com/nils-soderman/vscode-motionbuilder-utils/raw/main/media/demo/demo-exec.gif?raw=true" width="100%" alt="Demo of python code being executed inside MotionBuilder from VS Code"/>
         <br><br><br>
 
         <h3 class="dl-title features-sub-title">Intellisense / Auto-Completion:</h3>
         <p class="faq-text">This extention comes with improved stub files for the pyfbsdk module.</p>
-        <img src="https://github.com/nils-soderman/vscode-motionbuilder-utils/raw/main/media/demo/auto-completion.jpg?raw=true" width="800"/>
+        <img src="https://github.com/nils-soderman/vscode-motionbuilder-utils/raw/main/media/demo/auto-completion.jpg?raw=true"  width="100%"/>
         <ul>
         <li>Feature complete (contains all of the functions & classes that can be accessed in the pyfbsdk module)</li>
         <li>Variable type annotations</li>
@@ -169,12 +170,12 @@ https://github.com/nils-soderman/www.nilssoderman.com
         
         <h3 class="dl-title features-sub-title">Debugging:</h3>
         <p class="faq-text">Attach VS Code to MotionBuilder to debug your scripts, set breakpoints & step through the code.</p>
-        <img src="https://github.com/nils-soderman/vscode-motionbuilder-utils/raw/main/media/demo/demo-debug.gif?raw=true" width="800"/>
+        <img src="https://github.com/nils-soderman/vscode-motionbuilder-utils/raw/main/media/demo/demo-debug.gif?raw=true"  width="100%"/>
         <br><br><br>
 
         <h3 class="dl-title features-sub-title">Browse the Documentation:</h3>
         <p class="faq-text">Quickly search through the official sdk documentation from within the editor, and open the page in a new web-browser tab.</p>
-        <img src="https://github.com/nils-soderman/vscode-motionbuilder-utils/raw/main/media/demo/demo-docs.gif?raw=true" width="800"/>
+        <img src="https://github.com/nils-soderman/vscode-motionbuilder-utils/raw/main/media/demo/demo-docs.gif?raw=true"  width="100%"/>
     </div>
 
     <?php include('./../../../resources/includes/footer.html'); ?>
