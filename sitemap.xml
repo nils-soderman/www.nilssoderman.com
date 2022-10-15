@@ -6,29 +6,34 @@
 		<lastmod>2021-08-16</lastmod>
 	</url>
 	<url>
-		<loc>https://nilssoderman.com/downloads/vscode/motionbuilder-utils/</loc>
-		<priority>0.90</priority>
-		<lastmod>2022-08-06</lastmod>
-	</url>
-	<url>
 		<loc>https://nilssoderman.com/downloads/minecraft-blender-rig/</loc>
 		<priority>0.90</priority>
 		<lastmod>2021-09-12</lastmod>
 	</url>
 	<url>
-		<loc>https://nilssoderman.com/projects/</loc>
-		<priority>0.75</priority>
-		<lastmod>2021-06-27</lastmod>
+		<loc>https://nilssoderman.com/downloads/vscode/unreal-engine-python/</loc>
+		<priority>0.90</priority>
+		<lastmod>2022-10-15</lastmod>
 	</url>
 	<url>
-		<loc>https://nilssoderman.com/downloads/</loc>
-		<priority>0.75</priority>
-		<lastmod>2022-09-02</lastmod>
+		<loc>https://nilssoderman.com/downloads/vscode/motionbuilder-utils/</loc>
+		<priority>0.90</priority>
+		<lastmod>2022-08-06</lastmod>
 	</url>
 	<url>
 		<loc>https://nilssoderman.com/about/</loc>
 		<priority>0.75</priority>
 		<lastmod>2021-09-12</lastmod>
+	</url>
+	<url>
+		<loc>https://nilssoderman.com/downloads/</loc>
+		<priority>0.75</priority>
+		<lastmod>2022-10-15</lastmod>
+	</url>
+	<url>
+		<loc>https://nilssoderman.com/projects/</loc>
+		<priority>0.75</priority>
+		<lastmod>2021-06-27</lastmod>
 	</url>
 	<url>
 		<loc>https://nilssoderman.com/downloads/blender/easyfx/</loc>
@@ -41,7 +46,17 @@
 		<lastmod>2021-05-09</lastmod>
 	</url>
 	<url>
-		<loc>https://nilssoderman.com/projects/it-takes-two/</loc>
+		<loc>https://nilssoderman.com/downloads/motionbuilder/ball-with-legs-rig/</loc>
+		<priority>0.50</priority>
+		<lastmod>2021-09-12</lastmod>
+	</url>
+	<url>
+		<loc>https://nilssoderman.com/downloads/motionbuilder/bertil-rig/</loc>
+		<priority>0.50</priority>
+		<lastmod>2021-09-12</lastmod>
+	</url>
+	<url>
+		<loc>https://nilssoderman.com/code/ctxmenu/</loc>
 		<priority>0.50</priority>
 		<lastmod>2021-05-09</lastmod>
 	</url>
@@ -51,19 +66,9 @@
 		<lastmod>2021-05-09</lastmod>
 	</url>
 	<url>
-		<loc>https://nilssoderman.com/code/ctxmenu/</loc>
+		<loc>https://nilssoderman.com/projects/it-takes-two/</loc>
 		<priority>0.50</priority>
 		<lastmod>2021-05-09</lastmod>
-	</url>
-	<url>
-		<loc>https://nilssoderman.com/downloads/motionbuilder/bertil-rig/</loc>
-		<priority>0.50</priority>
-		<lastmod>2021-09-12</lastmod>
-	</url>
-	<url>
-		<loc>https://nilssoderman.com/downloads/motionbuilder/ball-with-legs-rig/</loc>
-		<priority>0.50</priority>
-		<lastmod>2021-09-12</lastmod>
 	</url>
 	<url>
 		<loc>https://nilssoderman.com/projects/altiia-and-the-trial-islands/</loc>
@@ -71,7 +76,7 @@
 		<lastmod>2021-05-09</lastmod>
 	</url>
 	<url>
-		<loc>https://nilssoderman.com/projects/voice-of-the-monolith/</loc>
+		<loc>https://nilssoderman.com/projects/dodge-golf/</loc>
 		<priority>0.30</priority>
 		<lastmod>2021-05-09</lastmod>
 	</url>
@@ -81,17 +86,17 @@
 		<lastmod>2021-05-09</lastmod>
 	</url>
 	<url>
-		<loc>https://nilssoderman.com/projects/dodge-golf/</loc>
+		<loc>https://nilssoderman.com/projects/voice-of-the-monolith/</loc>
 		<priority>0.30</priority>
 		<lastmod>2021-05-09</lastmod>
 	</url>
 	<url>
-		<loc>https://nilssoderman.com/downloads/blender/http-image-jpeg/</loc>
+		<loc>https://nilssoderman.com/downloads/blender/blendshare/</loc>
 		<priority>0.25</priority>
 		<lastmod>2021-05-09</lastmod>
 	</url>
 	<url>
-		<loc>https://nilssoderman.com/downloads/blender/blendshare/</loc>
+		<loc>https://nilssoderman.com/downloads/blender/http-image-jpeg/</loc>
 		<priority>0.25</priority>
 		<lastmod>2021-05-09</lastmod>
 	</url>

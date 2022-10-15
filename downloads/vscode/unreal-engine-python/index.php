@@ -6,14 +6,14 @@ https://github.com/nils-soderman/www.nilssoderman.com
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>MotionBuilder Utils - Visual Studio Code Extension</title>
-    <meta name="description" content="Open source tools to assist when writing Python code for Autodesk MotionBuilder. IntelliSense, debugging, execute code and more.">
-    <meta name="keywords" content="motionbuilder, python, vscode, visual studio code, autodesk, programming, extension">
+    <title>Unreal Engine Python - Visual Studio Code Extension</title>
+    <meta name="description" content="Open source tools to assist when writing Python code for Unreal Engine. Debugging, execute code and more.">
+    <meta name="keywords" content="unreal, engine, python, vscode, visual studio code, autodesk, programming, extension">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta name="og:title" content="MotionBuilder Utils - Visual Studio Code Extension">
-    <meta name="og:description" content="Tools to assist when writing Python code for Autodesk MotionBuilder. IntelliSense, debugging, execute code and more.">
-    <meta name="og:image" content="https://nilssoderman.com/downloads/vscode/motionbuilder-utils/vscode-mobu-utils-banner.jpg">
+    <meta name="og:title" content="Unreal Engine Python - Visual Studio Code Extension">
+    <meta name="og:description" content="Tools to assist when writing Python code for Unreal Engine. Debugging, execute code and more.">
+    <meta name="og:image" content="https://nilssoderman.com/downloads/vscode/unreal-python/vscode-unreal-python-banner.jpg">
     <meta name="twitter:card" content="summary">
 
     <link href="./favicon.ico" rel="shortcut icon" type="image/x-icon">
@@ -114,14 +114,14 @@ https://github.com/nils-soderman/www.nilssoderman.com
     <div id="content">
         
         <h1>
-            MotionBuilder Utils<br><span style="font-size:32px;line-height:18px;">Visual Studio Code Extension</span>
+            Unreal Engine Python<br><span style="font-size:32px;line-height:18px;">Visual Studio Code Extension</span>
         </h1>
 
         <br><br>
 
         <div id="download-buttons">
             <div class="download-button-wrapper">
-                <a href="vscode:extension/NilsSoderman.mobu-utils">
+                <a href="vscode:extension/NilsSoderman.ue-python">
                     <div class="download-button">
                         <i class="dl-image">get_app</i>
                         <span class="dl-text">Install</span>
@@ -129,7 +129,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
                 </a>
             </div>
             <div class="download-button-wrapper">
-                <a href="https://github.com/nils-soderman/vscode-motionbuilder-utils" target="_blank">
+                <a href="https://github.com/nils-soderman/vscode-unreal-python" target="_blank">
                     <div class="download-button github-button">
                         <div id="btn-github-icon">
                             <img src="./../../../resources/images/icons/github-light-32x.png" alt="github-icon"/>
@@ -143,24 +143,24 @@ https://github.com/nils-soderman/www.nilssoderman.com
         <br>
 
         <div id="additional-urls">
-            <a href="https://marketplace.visualstudio.com/items/NilsSoderman.mobu-utils" target="_blank">VS Code Marketplace</a>
+            <a href="https://marketplace.visualstudio.com/items/NilsSoderman.ue-python" target="_blank">VS Code Marketplace</a>
             <br>
-            <a href="https://marketplace.visualstudio.com/items/NilsSoderman.mobu-utils/changelog" target="_blank">Changelog</a>
+            <a href="https://marketplace.visualstudio.com/items/NilsSoderman.ue-python/changelog" target="_blank">Changelog</a>
         </div>
 
         <br><br>
 
-        <p class="faq-text" style="margin-bottom:40px">Open source tools to assist when writing Python code for Autodesk MotionBuilder.</p>
+        <p class="faq-text" style="margin-bottom:40px">Open source tools to assist when writing Python code for Unreal Engine.</p>
         <h2 class="dl-title" id="features-title">Features:</h2>
 
         <h3 class="dl-title features-sub-title">Execute Code:</h3>
-        <p class="faq-text">Run code in MotionBuilder directly from within the editor.</p>
-        <img src="https://github.com/nils-soderman/vscode-motionbuilder-utils/raw/main/media/demo/demo-exec.gif?raw=true" width="100%" alt="Demo of python code being executed inside MotionBuilder from VS Code"/>
+        <p class="faq-text">Run code in Unreal Engine directly from within the editor</p>
+        <img src="https://github.com/nils-soderman/vscode-unreal-python/raw/main/media/demo/demo-exec.gif?raw=true" width="100%" alt="Demo of python code being executed inside of Unreal Engine from VS Code"/>
         <br><br><br>
 
-        <h3 class="dl-title features-sub-title">Intellisense / Auto-Completion:</h3>
-        <p class="faq-text">This extention comes with improved stub files for the pyfbsdk module.</p>
-        <img src="https://github.com/nils-soderman/vscode-motionbuilder-utils/raw/main/media/demo/auto-completion.jpg?raw=true"  width="100%"/>
+        <h3 class="dl-title features-sub-title">Setup Code Completion:</h3>
+        <p class="faq-text">Setup code completion for the unreal module based on the current project.</p>
+        <img src="https://github.com/nils-soderman/vscode-unreal-python/raw/main/media/demo/demo-codecompletion.jpg?raw=true"  width="100%"/>
         <ul>
         <li>Feature complete (contains all of the functions & classes that can be accessed in the pyfbsdk module)</li>
         <li>Variable type annotations</li>
@@ -169,13 +169,8 @@ https://github.com/nils-soderman/www.nilssoderman.com
         <br><br><br>
         
         <h3 class="dl-title features-sub-title">Debugging:</h3>
-        <p class="faq-text">Attach VS Code to MotionBuilder to debug your scripts, set breakpoints & step through the code.</p>
-        <img src="https://github.com/nils-soderman/vscode-motionbuilder-utils/raw/main/media/demo/demo-debug.gif?raw=true"  width="100%"/>
-        <br><br><br>
-
-        <h3 class="dl-title features-sub-title">Browse the Documentation:</h3>
-        <p class="faq-text">Quickly search through the official sdk documentation from within the editor, and open the page in a new web-browser tab.</p>
-        <img src="https://github.com/nils-soderman/vscode-motionbuilder-utils/raw/main/media/demo/demo-docs.gif?raw=true"  width="100%"/>
+        <p class="faq-text">Attach VS Code to Unreal Engine to debug your scripts, set breakpoints and step through the code.</p>
+        <img src="https://github.com/nils-soderman/vscode-unreal-python/raw/main/media/demo/demo-attach.gif?raw=true"  width="100%"/>
     </div>
 
     <?php include('./../../../resources/includes/footer.html'); ?>

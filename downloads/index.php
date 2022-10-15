@@ -28,7 +28,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
         <input id="search-filter" oninput="Filter()" placeholder="Search...">
         <h4>Categories:</h4>
         <div id="tags">
-        <input id="tag-all" type="radio" name="tag-filter" value="All" class="tag-input">
+        <input id="tag-all" type="radio" name="tag-filter" value="All" class="tag-input" checked="checked">
         <label for="tag-all" class="tag-label">All</label>
         <input id="tag-blender" type="radio" name="tag-filter" value="Blender" class="tag-input">
         <label for="tag-blender" class="tag-label">Blender</label>
@@ -42,7 +42,9 @@ https://github.com/nils-soderman/www.nilssoderman.com
     </div>
 
     <div id="dl-items">
-      <div class="dl-item">
+    <div id="no-results" hidden>No search results found.</div>
+
+      <div class="dl-item" tags="Rigs,Blender">
         <a href="./minecraft-blender-rig">
                 <img width="320" height="150" src="./minecraft-blender-rig/thumbnail.jpg" class="dl-img" alt="Minecraft Blender Rig">
               </a>
@@ -54,7 +56,18 @@ https://github.com/nils-soderman/www.nilssoderman.com
                   Mobs from the game, as well as a character rig.</p>
                 </div>
         </div>
-        <div class="dl-item">
+        <div class="dl-item" tags="VS Code,Unreal Engine">
+            <a href="./vscode/unreal-engine-python">
+            <img width="320" height="150" src="./vscode/unreal-engine-python/thumbnail.jpg" class="dl-img"
+                    alt="Unreal Engine Python - VS Code Extension"></a>
+            <div class="dl-text">
+                <a href="./vscode/unreal-engine-python">
+                    <h2 class="dl-title">Unreal Engine Python - VS Code Extension</h2>
+                </a>
+                <p class="dl-description">Visual Studio Code extension to assist when writing python code for Unreal Engine. Setup code completion, debugging, executing code and more.</p>
+            </div>
+        </div>
+        <div class="dl-item" tags="VS Code,MotionBuilder">
             <a href="./vscode/motionbuilder-utils">
             <img width="320" height="150" src="./vscode/motionbuilder-utils/thumbnail.jpg" class="dl-img"
                     alt="MotionBuilder Utils - VS Code Extension"></a>
@@ -66,7 +79,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
                     MotionBuilder.</p>
             </div>
         </div>
-        <div class="dl-item">
+        <div class="dl-item" tags="Rigs,MotionBuilder">
             <a href="./motionbuilder/ball-with-legs-rig">
             <img width="320" height="150" src="./motionbuilder/ball-with-legs-rig/thumbnail.jpg" class="dl-img" alt="MotionBuilder Ball With Legs Rig"></a>
             <div class="dl-text">
@@ -78,7 +91,7 @@ https://github.com/nils-soderman/www.nilssoderman.com
                     try out some simple keyframe animation.</p>
                   </div>
         </div>
-        <div class="dl-item">
+        <div class="dl-item" tags="Blender">
             <a href="./blender/easyfx">
             <img width="320" height="150" src="./blender/easyfx/thumbnail.jpg" class="dl-img" alt="EasyFX"></a>
             <div class="dl-text">

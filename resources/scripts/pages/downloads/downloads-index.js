@@ -43,12 +43,60 @@ function Filter() {
             if (Item.Data.desc.toLowerCase().includes(Keyword))
                 continue;
             Item.Node.hidden = true;
+
             return;
         };
-        
+
         Item.Node.hidden = false;
         n++;
     });
 
     NO_RESULTS_HOLDER.hidden = n != 0;
 }
+
+
+function CollectElements() {
+    let Elements = []
+    for (let Element of document.getElementsByClassName("dl-item")) {
+        NewItem = {}
+        NewItem.Node = Element;
+
+        let Title = ""
+        let Desc = ""
+
+        const TitleElements = Element.getElementsByClassName("dl-title");
+        if (TitleElements) {
+            Title = TitleElements[0].innerHTML;
+        }
+
+        const DescElements = Element.getElementsByClassName("dl-description");
+        if (DescElements) {
+            Desc = DescElements[0].innerHTML;
+        }
+
+        let Tags = Element.getAttribute("tags");
+        if (Tags) {
+            Tags = Tags.split(",");
+        }
+        else {
+            Tags = []
+        }
+
+        NewItem.Data = { title: Title, desc: Desc, tags: Tags }
+
+        Elements.push(NewItem)
+    }
+
+    return Elements;
+}
+
+
+function Initialize() {
+    DOWNLOAD_ITEMS = CollectElements();
+
+    for (const Input of TAGS_HOLDER.getElementsByTagName("input")) {
+        Input.onchange = Filter;
+    }
+
+}
+Initialize();
