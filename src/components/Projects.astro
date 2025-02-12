@@ -1,0 +1,114 @@
+---
+import projectData from "../assets/projects/projects.json";
+import Poster from "./elements/Poster.astro";
+---
+
+<div id="projects">
+	<div class="center-content">
+		{
+			projectData.posters.map((poster) => (
+				<Poster
+					title={poster.title}
+					image={poster.image}
+					url={poster.url}
+				/>
+			))
+		}
+	</div>
+</div>
+
+<div id="videoOverlay" class="overlay">
+	<div class="overlay-content">
+		<div class="iframe-wrapper">
+			<iframe
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+				allowfullscreen></iframe>
+		</div>
+	</div>
+</div>
+
+<style>
+	#projects {
+		max-width: 100%;
+		overflow-x: auto;
+		padding-bottom: 10px;
+	}
+	.center-content {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: row;
+		flex-wrap: unset;
+		gap: 3%; /* Optional: Adds space between items */
+	}
+	.overlay {
+		display: none;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.8);
+		justify-content: center;
+		align-items: center;
+		z-index: 1000;
+	}
+	.overlay.active {
+		display: flex;
+	}
+	.overlay-content {
+		position: relative;
+		width: 80%;
+		height: auto;
+	}
+	.iframe-wrapper {
+		position: relative;
+		width: 100%;
+		padding-top: 56.25%; /* 16:9 Aspect Ratio */
+	}
+	iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		border: none;
+		box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+		background-color: rgb(0, 0, 0);
+		border-radius: 2px;
+	}
+</style>
+
+<script>
+	const posters = Array.from(document.getElementsByClassName("poster"));
+	posters.forEach((poster) => {
+		poster.addEventListener("click", (e) => {
+			const videoOverlay = document.getElementById("videoOverlay");
+			if (!videoOverlay) return;
+
+			const iframe = videoOverlay.querySelector("iframe");
+			if (!iframe) return;
+
+			const target = e.currentTarget as HTMLElement;
+			const url = target.dataset.url;
+			if (!url) return;
+
+			iframe.src = url;
+
+			videoOverlay.classList.add("active");
+		});
+	});
+
+	// Close the video overlay when clicking outside the iframe
+	const videoOverlay = document.getElementById("videoOverlay");
+	videoOverlay?.addEventListener("click", (e) => {
+		if (e.target === videoOverlay) {
+			videoOverlay.classList.remove("active");
+
+			const iframe = videoOverlay.querySelector("iframe");
+			if (iframe) {
+				iframe.src = "";
+			}
+		}
+	});
+</script>

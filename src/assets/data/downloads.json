@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Minecraft Blender Rig",
+        "description": "A free Minecraft rig pack for Blender. Containing most Blocks, Items & Mobs from the game, as well as a character rig.",
+        "image": "/src/assets/images/downloads/minecraft-blender-rig-thumbnail.jpg",
+        "page": "downloads/minecraft-blender-rig"
+    },
+    {
+        "title": "MotionBuilder Ball with Legs Rig",
+        "description": "A simple rig ball with legs type of rig for MotionBuilder, utilizing HumanIK.",
+        "image": "/src/assets/images/downloads/motionbuilder-ball-with-legs.jpg",
+        "page": "downloads/motionbuilder/ball-with-legs-rig"
+    }
+]

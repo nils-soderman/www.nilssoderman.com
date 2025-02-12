@@ -1,0 +1,34 @@
+---
+import DownloadItem from "../components/elements/DownloadItem.astro";
+import Layout from "../layouts/Layout.astro";
+
+import DownloadItems from "../assets/data/downloads.json";
+
+const images = import.meta.glob<{ default: ImageMetadata }>(
+    "/src/assets/projects/posters/*.jpg",
+);
+
+const title = "Downloads";
+---
+
+<Layout {title}>
+    <div class="items-container">
+        <div class="items">
+            {DownloadItems.map((data) => <DownloadItem {...data} />)}
+        </div>
+    </div>
+</Layout>
+
+<style>
+    .items-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4rem;
+    }
+    .items {
+        max-width: 800px;
+        display: flex;
+        flex-direction: column;
+    }
+</style>

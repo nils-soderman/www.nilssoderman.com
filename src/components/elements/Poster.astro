@@ -1,0 +1,48 @@
+---
+import type { ImageMetadata } from "astro";
+import { Image } from "astro:assets";
+
+const { title, image, url } = Astro.props;
+
+// Load the image dynamically
+const images = import.meta.glob<{ default: ImageMetadata }>(
+    "/src/assets/projects/posters/*.jpg",
+);
+if (!images[image])
+    throw new Error(
+        `"${image}" does not exist in glob: "src/assets/*.{jpeg,jpg,png,gif}"`,
+    );
+---
+
+<div class="poster" data-url={url}>
+    <Image src={images[image]()} alt={title} width={256} loading="eager"/>
+</div>
+
+<style>
+    .poster img {
+        cursor: pointer;
+        transition:
+            transform 0.12s ease-in-out,
+            opacity 0.06s ease-in-out,
+            box-shadow 0.12s ease-in-out;
+    }
+
+    .poster img {
+        border-radius: 1px;
+    }
+
+    .poster:hover img {
+        transform: scale(1.01);
+        opacity: 0.9;
+        transition:
+            transform 0.08s ease-in-out,
+            box-shadow 0.08s ease-in-out;
+        box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .poster:active img {
+        transition: transform 0.02s ease-in-out;
+        transform: scale(0.98);
+        opacity: 0.6;
+    }
+</style>

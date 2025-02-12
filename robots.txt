@@ -1,5 +1,0 @@
-Sitemap: https://nilssoderman.com/sitemap.xml
-
-User-agent: *
-Disallow: /error-documents/404.php
-Disallow: /error-documents/403.php

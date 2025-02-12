@@ -1,0 +1,93 @@
+---
+import { Image } from "astro:assets";
+import Layout from "../../layouts/Layout.astro";
+import DownloadButton from "../../components/DownloadButton.astro";
+
+import LogoImage from "../../assets/images/downloads/minecraft-blender-rig-logo.png";
+import PreviewImage from "../../assets/images/downloads/minecraft-blender-rig.jpg";
+---
+
+<Layout titlePrefix="Minecraft Blender Rig Download" title="Rymdnisse">
+    <div class="image-container">
+        <Image src={LogoImage} alt="Minecraft Blender Rig" loading="eager" />
+        <Image
+            src={PreviewImage}
+            alt="Minecraft Blender Rig Pack"
+            loading="eager"
+            id="img-preview"
+        />
+    </div>
+
+    <h2>Free Download</h2>
+
+    <h3>Legacy Versions</h3>
+    <div id="legacy-versions">
+        <DownloadButton
+            text="Download Cycles Minecraft Rig"
+            url="/files/minecraft/Cycles_Minecraft_Rig.zip"
+        />
+        <DownloadButton
+            text="Download Internal Minecraft Rig"
+            url="/files/minecraft/Blender_Minecraft_Rig.zip"
+        />
+    </div>
+
+    <br />
+
+    <h3>BSS Edit</h3>
+    <DownloadButton
+        text="Download Cycles Minecraft Rig - BSS Edit"
+        url="https://www.dropbox.com/s/egyv3ewhfa6lmug/Cycles_Minecraft_Rig%20BSS%20Edit%20V6.5.zip?dl=1"
+    />
+
+    <br />
+
+    <h4>Description</h4>
+    <p>
+        In this rig you'll find a complete set with all of the things you'll
+        need to get started creating your own minecraft animations, thumbnails
+        or renders. The rig contains characters, blocks, mobs, items and more!
+    </p>
+
+    <h4>What is the BSS Edit?</h4>
+    <p>
+        Back in 2017 I personally stopped working on this rig. However people
+        over at Boxscape Studios have picked up the torch and continued the
+        development. Since then they have made numerous updates, adding new
+        things & keeping things up to date. You can visit their
+        <a
+            href="https://sites.google.com/view/boxscape-studios/downloads"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            website here</a
+        >.
+    </p>
+    <br />
+    <br />
+    <br />
+</Layout>
+
+<style>
+    #legacy-versions {
+        display: flex;
+        gap: 20px;
+        justify-content: left;
+    }
+
+    .image-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    #img-preview {
+        border: 1px solid black;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+</style>

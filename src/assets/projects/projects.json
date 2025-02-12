@@ -1,0 +1,19 @@
+{
+    "posters": [
+        {
+            "title": "Split Fiction",
+            "image": "/src/assets/projects/posters/split-fiction.jpg",
+            "url": "https://www.youtube-nocookie.com/embed/fcwngWPXQtg?si=KH85-oVxPkJEdv2l"
+        },
+        {
+            "title": "It Takes Two",
+            "image": "/src/assets/projects/posters/it-takes-two.jpg",
+            "url": "https://www.youtube-nocookie.com/embed/Se1gMMDxImY?si=HjJuqoHQUl5HcbGJ"
+        },
+        {
+            "title": "Animation Student Demo Reel 2018",
+            "image": "/src/assets/projects/posters/student-reel.jpg",
+            "url": "https://player.vimeo.com/video/275416541?h=8d2fb89a6e?dnt=1"
+        }
+    ]
+}

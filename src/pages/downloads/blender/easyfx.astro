@@ -1,0 +1,72 @@
+---
+import { Image } from "astro:assets";
+import Layout from "../../../layouts/Layout.astro";
+import DownloadButton from "../../../components/DownloadButton.astro";
+
+import PreviewImage from "/src/assets/images/downloads/motionbuilder-rig-ball-with-legs.jpg";
+---
+
+<Layout title="EasyFX Blender Addon">
+    <h1>EasyFX - Blender Addon</h1>
+
+    <div class="iframe-wrapper">
+        <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube-nocookie.com/embed/6CNl46d7Pxw?si=sLSgrQJcZv_hG-PQ"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen></iframe>
+    </div>
+
+    <h2>Download</h2>
+    <div id="download-btn">
+        <DownloadButton
+            text="Download 2.8 Version"
+            url="https://github.com/DoubleZZ/EasyFX-2.8/archive/master.zip"
+        />
+    </div>
+
+    <p>
+        This port for Blender 2.8x was created by DoubleZZ, you can find the <a
+            href="https://github.com/DoubleZZ/EasyFX-2.8"
+            target="_blank"
+            rel="noopener noreferrer"
+            >github repository here.
+        </a>
+    </p>
+
+    <h4>What does this add-on do?</h4>
+    <p>
+        EasyFX allows you to easily add effects to your renders & animations
+        directly from the image editor. The add-on will automatically build your
+        compositing node tree.
+    </p>
+
+    <br />
+    <br />
+    <br />
+</Layout>
+
+<style>
+    h1 {
+        text-align: center;
+    }
+
+    .iframe-wrapper {
+        position: relative;
+        width: 100%;
+        padding-bottom: 56.25%; /* 16:9 aspect ratio */
+        height: 0;
+    }
+
+    .iframe-wrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+</style>

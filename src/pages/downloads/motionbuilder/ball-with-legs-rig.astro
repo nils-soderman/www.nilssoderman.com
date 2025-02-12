@@ -1,0 +1,67 @@
+---
+import { Image } from "astro:assets";
+import Layout from "../../../layouts/Layout.astro";
+import DownloadButton from "../../../components/DownloadButton.astro";
+
+import PreviewImage from "/src/assets/images/downloads/motionbuilder-rig-ball-with-legs.jpg";
+---
+
+<Layout title="Ball With Legs MotionBuilder Rig">
+    <h1>Ball With Legs MotionBuilder Rig</h1>
+
+    <div class="image-container">
+        <Image
+            src={PreviewImage}
+            alt="Minecraft Blender Rig Pack"
+            loading="eager"
+            id="img-preview"
+        />
+    </div>
+
+    <h2>Download</h2>
+    <div id="legacy-versions">
+        <DownloadButton
+            text="Download MotionBuilder Rig"
+            url="/files/motionbuilder/mobu-rig-ball-with-legs.zip"
+        />
+    </div>
+
+    <br />
+
+    <h4>Description</h4>
+    <p>
+        A free simple ball with legs type of rig for MotionBuilder, utilizing
+        HumanIK. Perfect for people who are new to MotionBuilder and just wants
+        to get familiar with the layout and try out some simple keyframe
+        animation. This rig can also be useful when developing tools in case you
+        need something simple to just put down some keyframes on.
+    </p>
+
+    <br />
+    <br />
+    <br />
+</Layout>
+
+<style>
+    #legacy-versions {
+        display: flex;
+        gap: 20px;
+        justify-content: left;
+    }
+
+    .image-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    #img-preview {
+        border: 1px solid black;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+</style>

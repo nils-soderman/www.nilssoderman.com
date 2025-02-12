@@ -1,0 +1,17 @@
+[
+    {
+        "name": "GitHub",
+        "url": "https://github.com/nils-soderman",
+        "icon": "/icons/github-mark.svg"
+    },
+    {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/nilssoderman/",
+        "icon": "/icons/linkedIn.png"
+    },
+    {
+        "name": "Photography",
+        "url": "https://unsplash.com/@nilssoderman",
+        "icon": "/icons/unsplash.svg"
+    }
+]

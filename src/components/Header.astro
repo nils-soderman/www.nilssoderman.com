@@ -1,0 +1,103 @@
+---
+const currentPath = Astro.url.pathname;
+
+const MenuItems = [
+    { name: "Home", url: "/" },
+    { name: "Downloads", url: "/downloads" },
+];
+---
+
+<header>
+    <div class="header-content">
+        <a href="/" id="header-link">
+            <h1>Nils Söderman</h1>
+        </a>
+        <nav>
+            <ul>
+                {
+                    MenuItems.map((item) => (
+                        <li>
+                            <a
+                                href={item.url}
+                                class={
+                                    (item.url === "/" && currentPath === "/") ||
+                                    (item.url !== "/" &&
+                                        currentPath.startsWith(item.url))
+                                        ? "active"
+                                        : ""
+                                }
+                            >
+                                {item.name}
+                            </a>
+                        </li>
+                    ))
+                }
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<style>
+    header {
+        font-family: "Roboto", sans-serif;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 6px;
+        margin-bottom: 50px;
+        color: #3a3a3a;
+        user-select: none;
+    }
+
+    .header-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    h1 {
+        white-space: nowrap;
+        font-family: "Dosis", sans-serif;
+        font-size: 3.75rem;
+        font-style: normal;
+        font-weight: normal;
+        margin-bottom: 2px;
+    }
+
+    nav ul {
+        font-family: "Dosis", sans-serif;
+        font-size: 2rem;
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin-bottom: 5px;
+    }
+
+    nav li {
+        margin-left: 20px;
+    }
+
+    a {
+        color: #3a3a3a;
+    }
+    
+    a:hover {
+        text-decoration: none;
+        color: #444444;
+    }
+
+    nav a:hover {
+        text-decoration: underline;
+        opacity: 0.8;
+    }
+
+    .active {
+        text-decoration: underline;
+    }
+
+    /* Mobile styles */
+    @media (max-width: 768px) {
+        .header-content {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+</style>

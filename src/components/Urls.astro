@@ -1,0 +1,60 @@
+---
+import { Image } from 'astro:assets';
+import urlData from "../assets/data/social-links.json";
+---
+
+<div class="center-content">
+    {
+        urlData.map((url) => (
+            <div class="url-card">
+                <a href={url.url} target="_blank" rel="noopener noreferrer" class="url-link">
+                    <Image src={url.icon} alt={url.name} width={32} height={32} loading="eager"></Image>
+                    <span class="url-name">{url.name}</span>
+                </a>
+            </div>
+        ))
+    }
+</div>
+
+<style>
+    .center-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+
+    .url-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+        cursor: pointer;
+        transition: opacity 0.1s;
+        width: 80px;
+    }
+    
+    .url-card:hover {
+        opacity: 0.6;
+    }
+    
+    .url-card:active {
+        opacity: 0.3;
+        transition: opacity 0.05s;
+    }
+
+    .url-link {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    .url-name {
+        margin-top: 6px;
+        color: #3a3a3a;
+    }
+</style>

@@ -1,0 +1,52 @@
+---
+import { Image } from "astro:assets";
+const { text, url } = Astro.props;
+
+import DownloadIcon from "/public/icons/download-arrow.svg";
+---
+
+<div class="download-button">
+    <a href={url} rel="noopener noreferrer">
+        <Image src={DownloadIcon} alt="Download Icon" width="32" />
+        <span>{text}</span>
+    </a>
+</div>
+
+<style>
+    .download-button {
+        display: inline-block;
+        background-color: #3a3a3a;
+        white-space: nowrap;
+        border-radius: 3px;
+        transition: background-color 0.2s;
+    }
+
+    .download-button a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgb(214, 214, 214);
+        text-decoration: none;
+        font-size: 1.1rem;
+        font-weight: 500;
+        padding: 0.8rem 1.1rem 0.8rem 1.1rem;
+        user-select: none;
+    }
+
+    .download-button span {
+        margin-left: 0.5rem;
+    }
+
+    .download-button:hover {
+        background-color: #2a2a2a;
+    }
+
+    .download-button:active {
+        background-color: #5a5a5a;
+        transition: background-color 0.1s;
+    }
+
+    .download-button img {
+        opacity: 0.8;
+    }
+</style>

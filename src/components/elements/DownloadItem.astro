@@ -1,0 +1,81 @@
+---
+import type { ImageMetadata } from "astro";
+import { Image } from "astro:assets";
+
+const { title, image, description, page } = Astro.props;
+
+// Load the image dynamically
+const images = import.meta.glob<{ default: ImageMetadata }>(
+    "/src/assets/images/downloads/*.jpg",
+);
+
+if (!images[image])
+    throw new Error(
+        `"${image}" does not exist in glob: "src/assets/*.{jpeg,jpg,png,gif}"`,
+    );
+---
+
+<div class="dl-item">
+    <a href={page}>
+        <Image src={images[image]()} alt={title} width={320} loading="eager" />
+    </a>
+    <div class="dl-item-info">
+        <a href={page}><h3>{title}</h3></a>
+        <p>{description}</p>
+    </div>
+</div>
+
+<style>
+    .dl-item {
+        max-width: 1200px;
+        display: flex;
+        align-items: flex-start;
+        gap: 1rem;
+        margin-bottom: 3rem;
+    }
+
+    .dl-item img {
+        border-radius: 0.1rem;
+        transition: opacity 0.1s;
+    }
+
+    .dl-item img:hover {
+        opacity: 0.7;
+    }
+
+    .dl-item img:active {
+        opacity: 0.5;
+    }
+
+    .dl-item-info {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .dl-item-info a {
+        color: #314c96;
+        text-decoration: none;
+        transition: all 0.1s;
+    }
+
+    .dl-item-info a:hover {
+        color: #627ecc;
+        text-decoration: underline;
+    }
+
+    .dl-item-info a:active {
+        color: #839ce7;
+    }
+
+    h3 {
+        margin: 0;
+        align-self: flex-start;
+        font-size: 1.4rem;
+    }
+
+    .dl-item-info p {
+        padding: 0;
+        margin: 0;
+    }
+</style>
