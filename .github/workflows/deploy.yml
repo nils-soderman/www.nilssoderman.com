@@ -1,0 +1,31 @@
+on: push
+
+name: Deploy website on push
+
+jobs:
+  web-deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: Get latest code
+      uses: actions/checkout@v4
+
+    - name: Use Node.js 20
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+      
+    - name: Build Project
+      run: |
+        npm ci
+        npm run build
+    
+    - name: Deploy to Server
+      uses: wlixcc/SFTP-Deploy-Action@v1.2.5
+      with:
+        username:  ${{ secrets.USERNAME }}
+        server:  ${{ secrets.SERVER }}
+        password: ${{ secrets.PASSWORD }}
+        local_path: './dist/*'
+        remote_path: '/var/www/app'
+        sftpArgs: '-o ConnectTimeout=5'
