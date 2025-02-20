@@ -1,6 +1,6 @@
 on:
   push:
-  paths:
+    paths:
       - 'src/**'
       - 'public/**'
   workflow_dispatch:
