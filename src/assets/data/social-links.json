@@ -2,16 +2,16 @@
     {
         "name": "GitHub",
         "url": "https://github.com/nils-soderman",
-        "icon": "/icons/github-mark.svg"
+        "icon": "/icon/github-mark.svg"
     },
     {
         "name": "LinkedIn",
         "url": "https://www.linkedin.com/in/nilssoderman/",
-        "icon": "/icons/linkedIn.png"
+        "icon": "/icon/linkedIn.png"
     },
     {
         "name": "Photography",
         "url": "https://unsplash.com/@nilssoderman",
-        "icon": "/icons/unsplash.svg"
+        "icon": "/icon/unsplash.svg"
     }
 ]
