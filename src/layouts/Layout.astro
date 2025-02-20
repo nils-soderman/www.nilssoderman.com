@@ -1,5 +1,5 @@
 ---
-const { title, titlePrefix = "Nils Söderman", small = true } = Astro.props;
+const { title, titlePrefix = "Nils Söderman", description = "" } = Astro.props;
 import Header from "../components/Header.astro";
 
 import favicon from "/favicon.ico";
@@ -11,10 +11,12 @@ const fullTitle = [titlePrefix, title].filter(Boolean).join(" - ");
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link href={favicon} rel="icon" type="image/x-icon" />
 		<meta name="generator" content={Astro.generator} />
+
 		<title>{fullTitle}</title>
+		<meta name="description" content={description} />
 
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -25,7 +27,7 @@ const fullTitle = [titlePrefix, title].filter(Boolean).join(" - ");
 	</head>
 	<body>
 		<Header />
-		<div class={small ? "small" : ""}>
+		<div class="content">
 			<slot />
 		</div>
 	</body>
@@ -72,7 +74,7 @@ const fullTitle = [titlePrefix, title].filter(Boolean).join(" - ");
 		user-select: none;
 	}
 
-	.small {
+	.content {
 		max-width: 854px;
 		margin: 0 auto;
 	}

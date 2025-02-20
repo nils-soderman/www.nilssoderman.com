@@ -78,4 +78,21 @@ if (!images[image])
         padding: 0;
         margin: 0;
     }
+
+    @media (max-width: 768px) {
+        .dl-item {
+            flex-direction: column;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .dl-item-info {
+            align-items: center;
+            text-align: center;
+        }
+
+        h3 {
+            font-size: 1.2rem;
+        }
+    }
 </style>

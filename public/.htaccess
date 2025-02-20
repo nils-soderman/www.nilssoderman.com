@@ -1,7 +1,5 @@
 RewriteEngine on
 
-RewriteCond %{REQUEST_FILENAME}\.php -f
-RewriteRule ^(.*)$ $1.php
 RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html
 RewriteCond %{HTTPS} off
@@ -13,11 +11,11 @@ ErrorDocument 403 /error-documents/403.php
 <ifModule mod_expires.c>  
     ExpiresActive On
     AddType image/x-icon ico
-    ExpiresByType image/x-icon "access plus 6 months"
-    ExpiresByType image/png "access plus 1 month"
-    ExpiresByType image/jpeg "access plus 1 month"
-    ExpiresByType image/gif "access plus 1 month"
+    ExpiresByType image/x-icon "access plus 3 months"
+    ExpiresByType image/png "access plus 2 week"
+    ExpiresByType image/jpeg "access plus 2 week"
+    ExpiresByType image/gif "access plus 2 week"
     ExpiresByType text/css "access plus 2 week"
-    ExpiresByType application/javascript "access plus 1 week"
-    ExpiresByType application/json "access plus 1 week"
+    ExpiresByType application/javascript "access plus 2 week"
+    ExpiresByType application/json "access plus 2 week"
 </ifModule>

@@ -11,7 +11,10 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
 const title = "Downloads";
 ---
 
-<Layout {title}>
+<Layout
+    {title}
+    description="A collection of various free downloads, including rigs for Blender, MotionBuilder and more."
+>
     <div class="items-container">
         <div class="items">
             {DownloadItems.map((data) => <DownloadItem {...data} />)}

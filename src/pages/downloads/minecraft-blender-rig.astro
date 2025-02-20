@@ -7,7 +7,11 @@ import LogoImage from "../../assets/images/downloads/minecraft-blender-rig-logo.
 import PreviewImage from "../../assets/images/downloads/minecraft-blender-rig.jpg";
 ---
 
-<Layout titlePrefix="Minecraft Blender Rig Download" title="Rymdnisse">
+<Layout
+    titlePrefix="Minecraft Blender Rig Download"
+    title="Rymdnisse"
+    description="Free Minecraft rig pack for Blender containing Blocks, Items, Mobs and a Character rig fully ready to be animated."
+>
     <div class="image-container">
         <Image src={LogoImage} alt="Minecraft Blender Rig" loading="eager" />
         <Image
@@ -73,6 +77,7 @@ import PreviewImage from "../../assets/images/downloads/minecraft-blender-rig.jp
         display: flex;
         gap: 20px;
         justify-content: left;
+        flex-wrap: wrap;
     }
 
     .image-container {
