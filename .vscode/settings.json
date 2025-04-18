@@ -1,0 +1,9 @@
+{
+    "files.exclude": {
+        ".astro": true,
+        "node_modules": true,
+        ".vscode": true,
+        "LICENSE": true,
+        "package-lock.json": true
+    }
+}
